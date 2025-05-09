@@ -1,6 +1,6 @@
 import os
 from scripts import VerletzungCrawler, SpielDatenLoader, Analyse
-from scripts.daten import speichere_csv, VERLETZUNGEN_CSV, SPIELE_CSV
+from scripts.Daten import speichere_csv, VERLETZUNGEN_CSV, SPIELE_CSV
 
 def main():
     # Ordner sicherstellen
