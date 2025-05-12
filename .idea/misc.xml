@@ -4,5 +4,5 @@
     <option name="sdkName" value="Python 3.9 virtualenv at C:\HTW Stuff\4. Semester\verletzungsanalyse\.venv" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 virtualenv at C:\HTW Stuff\4. Semester\verletzungsanalyse\.venv" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Verletzungsanalyse)" project-jdk-type="Python SDK" />
 </project>
