@@ -8,6 +8,13 @@ class Analyse:
         self.verletzungen_df = verletzungen_df
 
     def einfache_analyse(self):
+
+        self.spiele_df["Ergebnis"] = self.spiele_df["Ergebnis"].map({
+            "H": "S",  # Sieg
+            "A": "N",  # Niederlage
+            "D": "U"  # Unentschieden
+        })
+
         print("\n📊 --- SPIELDATEN ---")
         print(self.spiele_df.head())
 
