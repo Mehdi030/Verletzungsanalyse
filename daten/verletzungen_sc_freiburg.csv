@@ -1,4 +1,56 @@
-Saison,Verletzung,von,bis,Spiele_verpasst,Spieler,Team
-22/23,Achillessehnenriss,01.07.2022,19.03.2023,262 Tage,Vincenzo Grifo,SC Freiburg
-20/21,Syndesmosebandriss,07.10.2020,31.12.2020,86 Tage,Vincenzo Grifo,SC Freiburg
-18/19,unbekannte Verletzung,19.08.2018,02.09.2018,15 Tage,Vincenzo Grifo,SC Freiburg
+Saison,Verletzung,von,bis,Spiele_verpasst,Quelle,Spieler,Team
+24/25,Infekt,06.01.2025,16.01.2025,11 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+23/24,Knieverletzung,22.03.2024,01.06.2024,72 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+23/24,Leistenoperation,18.01.2024,11.03.2024,54 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+23/24,Adduktorenbeschwerden,12.12.2023,10.01.2024,30 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+22/23,Krank,05.05.2023,08.05.2023,4 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+22/23,Oberschenkelverletzung,11.03.2023,06.04.2023,27 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+21/22,Grippaler Infekt,26.05.2022,15.06.2022,21 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+21/22,Corona-Virus,10.03.2022,28.03.2022,19 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+21/22,Zahn-OP,04.10.2021,11.10.2021,8 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+19/20,Schulterverletzung,05.12.2019,30.12.2019,26 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+19/20,Schleudertrauma,03.10.2019,07.10.2019,5 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+18/19,Gehirnerschütterung,14.03.2019,13.05.2019,61 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+18/19,Krank,29.11.2018,03.12.2018,5 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+17/18,Trainingsrückstand,18.01.2018,08.02.2018,22 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+17/18,Außenbandanriss Knie,11.12.2017,18.01.2018,39 Tage,Transfermarkt,Philipp Lienhart,SC Freiburg
+24/25,Infekt,08.02.2025,17.02.2025,10 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+23/24,Zehenbruch,10.11.2023,06.12.2023,27 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+22/23,Krank,29.03.2023,03.04.2023,6 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+22/23,Muskelfaserriss,01.08.2022,01.09.2022,32 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+21/22,muskuläre Probleme,10.03.2022,24.03.2022,15 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+19/20,Trainingsrückstand,30.04.2020,25.05.2020,26 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+19/20,Knie-OP,14.10.2019,30.04.2020,200 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+18/19,Sprunggelenksverletzung,07.03.2019,01.07.2019,117 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+18/19,Muskelfaserriss,29.10.2018,26.11.2018,29 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+17/18,Knieprellung,20.07.2017,27.07.2017,8 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+16/17,Grippaler Infekt,20.04.2017,24.04.2017,5 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+16/17,Wadenverhärtung,19.12.2016,02.01.2017,15 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+16/17,Leistenzerrung,26.09.2016,24.10.2016,29 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+15/16,Patellasehnenprobleme,09.07.2015,29.08.2016,418 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+14/15,Mittelfußbruch,07.07.2014,31.07.2014,25 Tage,Transfermarkt,Lukas Kübler,SC Freiburg
+1,Erling HaalandMittelstürmer,,Erling Haaland,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+2,Vinicius JuniorLinksaußen,,Vinicius Junior,Linksaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+3,Lamine YamalRechtsaußen,,Lamine Yamal,Rechtsaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+4,Jude BellinghamOffensives Mittelfeld,,Jude Bellingham,Offensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+5,Kylian MbappéMittelstürmer,,Kylian Mbappé,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+6,Bukayo SakaRechtsaußen,,Bukayo Saka,Rechtsaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+7,Florian WirtzOffensives Mittelfeld,,Florian Wirtz,Offensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+8,Jamal MusialaOffensives Mittelfeld,,Jamal Musiala,Offensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+9,Cole PalmerOffensives Mittelfeld,,Cole Palmer,Offensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+10,Phil FodenRechtsaußen,,Phil Foden,Rechtsaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+11,Federico ValverdeZentrales Mittelfeld,,Federico Valverde,Zentrales Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+12,RodriDefensives Mittelfeld,,Rodri,Defensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+13,PedriZentrales Mittelfeld,,Pedri,Zentrales Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+14,Declan RiceZentrales Mittelfeld,,Declan Rice,Zentrales Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+15,RodrygoRechtsaußen,,Rodrygo,Rechtsaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+16,Alexander IsakMittelstürmer,,Alexander Isak,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+17,Martin ØdegaardOffensives Mittelfeld,,Martin Ødegaard,Offensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+18,Lautaro MartínezMittelstürmer,,Lautaro Martínez,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+19,Julián AlvarezMittelstürmer,,Julián Alvarez,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+20,Alexis Mac AllisterZentrales Mittelfeld,,Alexis Mac Allister,Zentrales Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+21,Harry KaneMittelstürmer,,Harry Kane,Mittelstürmer,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+22,Luis DíazLinksaußen,,Luis Díaz,Linksaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+23,Moisés CaicedoDefensives Mittelfeld,,Moisés Caicedo,Defensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+24,Michael OliseRechtsaußen,,Michael Olise,Rechtsaußen,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg
+25,Bruno GuimarãesDefensives Mittelfeld,,Bruno Guimarães,Defensives Mittelfeld,Transfermarkt,Daniel-Kofi Kyereh,SC Freiburg

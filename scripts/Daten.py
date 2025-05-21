@@ -23,8 +23,6 @@ def speichere_csv(df, pfad):
     """Speichert ein DataFrame als CSV."""
     os.makedirs(os.path.dirname(pfad), exist_ok=True)
     df.to_csv(pfad, index=False)
-    print(f"💾 Gespeichert: {pfad}")
-
 
 def konvertiere_datum(text: str) -> datetime:
     """Konvertiert Datum im Format TT.MM.JJJJ zu datetime."""

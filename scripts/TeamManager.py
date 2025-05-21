@@ -4,16 +4,6 @@ from scripts.MultiSourceCrawler import MultiSourceCrawler
 
 class TeamManager:
     def __init__(self, teamname: str, spieler_info: dict):
-        """
-        spieler_info: dict mit Format:
-        {
-            "Spielername": {
-                "transfermarkt_id": ...,
-                "fbref_url": ...,
-                "sofascore_id": ...
-            }
-        }
-        """
         self.teamname = teamname
         self.spieler_info = spieler_info
 
@@ -29,20 +19,18 @@ class TeamManager:
         for name, info in self.spieler_info.items():
             print(f"🔍 Crawle {name}...")
 
-            tm_url = None
-            if info.get("transfermarkt_id"):
-                urlname = self.normalize_name_for_url(name)
-                tm_url = f"https://www.transfermarkt.de/{urlname}/verletzungen/spieler/{info['transfermarkt_id']}"
-                print(f"🔗 Transfermarkt URL: {tm_url}")
-
             crawler = MultiSourceCrawler(
                 name=name,
-                transfermarkt_url=tm_url,
-                fbref_url=info.get("fbref_url"),
-                sofascore_id=info.get("sofascore_id")
+                transfermarkt_id=info.get("transfermarkt_id"),
+                fbref_url=info.get("fbref_url")
             )
 
-            df = crawler.scrape_all()
+            # 🎯 NEU: beide Quellen als Tuple entgegennehmen
+            df_tm, df_fbref = crawler.scrape_all()
+
+            # 🎯 NEU: Kombiniere die beiden DataFrames
+            df = pd.concat([df_tm, df_fbref], ignore_index=True)
+
             if df.empty:
                 print(f"⚠️ Keine Daten für {name}")
                 continue

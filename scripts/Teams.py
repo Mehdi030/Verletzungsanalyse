@@ -2,171 +2,141 @@ Teams = {
     "FC Bayern": {
         "Leon Goretzka": {
             "transfermarkt_id": 153084,
-            "fbref_url": None,
-            "sofascore_id": 316902
+            "understat_name": "Leon Goretzka"
         },
         "Manuel Neuer": {
             "transfermarkt_id": 17259,
-            "fbref_url": None,
-            "sofascore_id": 3040
+            "understat_name": "Manuel Neuer"
         },
         "Thomas Müller": {
             "transfermarkt_id": 58358,
-            "fbref_url": None,
-            "sofascore_id": 3585
+            "understat_name": "Thomas Muller"
         }
     },
     "Borussia Dortmund": {
         "Marco Reus": {
             "transfermarkt_id": 35207,
-            "fbref_url": None,
-            "sofascore_id": 2373
+            "understat_name": "Marco Reus"
         },
         "Julian Brandt": {
             "transfermarkt_id": 187492,
-            "fbref_url": None,
-            "sofascore_id": 271526
+            "understat_name": "Julian Brandt"
         },
         "Mats Hummels": {
             "transfermarkt_id": 39728,
-            "fbref_url": None,
-            "sofascore_id": 3000
+            "understat_name": "Mats Hummels"
         }
     },
     "RB Leipzig": {
         "Timo Werner": {
             "transfermarkt_id": 170527,
-            "fbref_url": None,
-            "sofascore_id": 289350
+            "understat_name": "Timo Werner"
         },
         "Amadou Haidara": {
             "transfermarkt_id": 423779,
-            "fbref_url": None,
-            "sofascore_id": 446058
+            "understat_name": "Amadou Haidara"
         },
         "Peter Gulacsi": {
             "transfermarkt_id": 46611,
-            "fbref_url": None,
-            "sofascore_id": 16722
+            "understat_name": "Peter Gulacsi"
         }
     },
     "SC Freiburg": {
         "Philipp Lienhart": {
             "transfermarkt_id": 225657,
-            "fbref_url": None,
-            "sofascore_id": 361194
+            "understat_name": "Philipp Lienhart"
         },
         "Lukas Kübler": {
             "transfermarkt_id": 93604,
-            "fbref_url": None,
-            "sofascore_id": 23226
+            "understat_name": "Lukas Kubler"
         },
         "Daniel-Kofi Kyereh": {
             "transfermarkt_id": 397688,
-            "fbref_url": None,
-            "sofascore_id": 396787
+            "understat_name": "Daniel-Kofi Kyereh"
         }
     },
     "VfL Wolfsburg": {
         "Maximilian Arnold": {
             "transfermarkt_id": 111630,
-            "fbref_url": None,
-            "sofascore_id": 19990
+            "understat_name": "Maximilian Arnold"
         },
         "Patrick Wimmer": {
             "transfermarkt_id": 573160,
-            "fbref_url": None,
-            "sofascore_id": 543726
+            "understat_name": "Patrick Wimmer"
         },
         "Lukas Nmecha": {
             "transfermarkt_id": 230878,
-            "fbref_url": None,
-            "sofascore_id": 386139
+            "understat_name": "Lukas Nmecha"
         }
     },
     "Bayer Leverkusen": {
         "Florian Wirtz": {
             "transfermarkt_id": 576023,
-            "fbref_url": None,
-            "sofascore_id": 523885
+            "understat_name": "Florian Wirtz"
         },
         "Patrik Schick": {
             "transfermarkt_id": 232492,
-            "fbref_url": None,
-            "sofascore_id": 276710
+            "understat_name": "Patrik Schick"
         },
         "Exequiel Palacios": {
             "transfermarkt_id": 480134,
-            "fbref_url": None,
-            "sofascore_id": 364968
+            "understat_name": "Exequiel Palacios"
         }
     },
     "Eintracht Frankfurt": {
         "Mario Götze": {
             "transfermarkt_id": 46743,
-            "fbref_url": None,
-            "sofascore_id": 15887
+            "understat_name": "Mario Gotze"
         },
         "Sebastian Rode": {
             "transfermarkt_id": 61865,
-            "fbref_url": None,
-            "sofascore_id": 10045
+            "understat_name": "Sebastian Rode"
         },
         "Kristijan Jakic": {
             "transfermarkt_id": 405217,
-            "fbref_url": None,
-            "sofascore_id": 523711
+            "understat_name": "Kristijan Jakic"
         }
     },
     "1. FC Union Berlin": {
         "Robin Gosens": {
             "transfermarkt_id": 234509,
-            "fbref_url": None,
-            "sofascore_id": 305637
+            "understat_name": "Robin Gosens"
         },
         "Sheraldo Becker": {
             "transfermarkt_id": 282219,
-            "fbref_url": None,
-            "sofascore_id": 283514
+            "understat_name": "Sheraldo Becker"
         },
         "Josip Juranovic": {
             "transfermarkt_id": 319121,
-            "fbref_url": None,
-            "sofascore_id": 263176
+            "understat_name": "Josip Juranovic"
         }
     },
     "TSG Hoffenheim": {
         "Andrej Kramaric": {
             "transfermarkt_id": 67442,
-            "fbref_url": None,
-            "sofascore_id": 2331
+            "understat_name": "Andrej Kramaric"
         },
         "Marius Bülter": {
             "transfermarkt_id": 277021,
-            "fbref_url": None,
-            "sofascore_id": 411924
+            "understat_name": "Marius Bulter"
         },
         "Dennis Geiger": {
             "transfermarkt_id": 333419,
-            "fbref_url": None,
-            "sofascore_id": 385337
+            "understat_name": "Dennis Geiger"
         }
     },
     "Borussia Mönchengladbach": {
         "Christoph Kramer": {
             "transfermarkt_id": 81902,
-            "fbref_url": None,
-            "sofascore_id": 11159
+            "understat_name": "Christoph Kramer"
         },
         "Jonas Hofmann": {
             "transfermarkt_id": 117050,
-            "fbref_url": None,
-            "sofascore_id": 19941
+            "understat_name": "Jonas Hofmann"
         },
         "Florian Neuhaus": {
             "transfermarkt_id": 298506,
-            "fbref_url": None,
-            "sofascore_id": 436253
+            "understat_name": "Florian Neuhaus"
         }
     }
 }
