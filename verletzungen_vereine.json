@@ -1,0 +1,74 @@
+{
+    "FC Bayern München": {
+        "verletzungen": "https://www.transfermarkt.de/fc-bayern-munchen/sperrenundverletzungen/verein/27/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/fc-bayern-munchen/ausfallzeiten/verein/27?reldata=L1%262024"
+    },
+    "Borussia Dortmund": {
+        "verletzungen": "https://www.transfermarkt.de/borussia-dortmund/sperrenundverletzungen/verein/16/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/borussia-dortmund/ausfallzeiten/verein/16?reldata=L1%262024"
+    },
+    "RB Leipzig": {
+        "verletzungen": "https://www.transfermarkt.de/rb-leipzig/sperrenundverletzungen/verein/23826/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/rb-leipzig/ausfallzeiten/verein/23826?reldata=L1%262024"
+    },
+    "Bayer Leverkusen": {
+        "verletzungen": "https://www.transfermarkt.de/bayer-04-leverkusen/sperrenundverletzungen/verein/15/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/bayer-04-leverkusen/ausfallzeiten/verein/15?reldata=L1%262024"
+    },
+    "VfB Stuttgart": {
+        "verletzungen": "https://www.transfermarkt.de/vfb-stuttgart/sperrenundverletzungen/verein/79/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/vfb-stuttgart/ausfallzeiten/verein/79?reldata=L1%262024"
+    },
+    "Eintracht Frankfurt": {
+        "verletzungen": "https://www.transfermarkt.de/eintracht-frankfurt/sperrenundverletzungen/verein/24/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/eintracht-frankfurt/ausfallzeiten/verein/24?reldata=L1%262024"
+    },
+    "SC Freiburg": {
+        "verletzungen": "https://www.transfermarkt.de/sc-freiburg/sperrenundverletzungen/verein/60/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/sc-freiburg/ausfallzeiten/verein/60?reldata=L1%262024"
+    },
+    "1. FC Union Berlin": {
+        "verletzungen": "https://www.transfermarkt.de/1-fc-union-berlin/sperrenundverletzungen/verein/89/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/1-fc-union-berlin/ausfallzeiten/verein/89?reldata=L1%262024"
+    },
+    "TSG Hoffenheim": {
+        "verletzungen": "https://www.transfermarkt.de/tsg-1899-hoffenheim/sperrenundverletzungen/verein/533/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/tsg-1899-hoffenheim/ausfallzeiten/verein/533?reldata=L1%262024"
+    },
+    "Werder Bremen": {
+        "verletzungen": "https://www.transfermarkt.de/sv-werder-bremen/sperrenundverletzungen/verein/86/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/sv-werder-bremen/ausfallzeiten/verein/86?reldata=L1%262024"
+    },
+    "VfL Wolfsburg": {
+        "verletzungen": "https://www.transfermarkt.de/vfl-wolfsburg/sperrenundverletzungen/verein/82/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/vfl-wolfsburg/ausfallzeiten/verein/82?reldata=L1%262024"
+    },
+    "1. FSV Mainz 05": {
+        "verletzungen": "https://www.transfermarkt.de/1-fsv-mainz-05/sperrenundverletzungen/verein/39/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/1-fsv-mainz-05/ausfallzeiten/verein/39?reldata=L1%262024"
+    },
+    "Borussia Mönchengladbach": {
+        "verletzungen": "https://www.transfermarkt.de/borussia-monchengladbach/sperrenundverletzungen/verein/18/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/borussia-monchengladbach/ausfallzeiten/verein/18?reldata=L1%262024"
+    },
+    "FC Augsburg": {
+        "verletzungen": "https://www.transfermarkt.de/fc-augsburg/sperrenundverletzungen/verein/167/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/fc-augsburg/ausfallzeiten/verein/167?reldata=L1%262024"
+    },
+    "1. FC Heidenheim": {
+        "verletzungen": "https://www.transfermarkt.de/1-fc-heidenheim-1846/sperrenundverletzungen/verein/2036/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/1-fc-heidenheim-1846/ausfallzeiten/verein/2036?reldata=L1%262024"
+    },
+    "Hamburger SV": {
+        "verletzungen": "https://www.transfermarkt.de/hamburger-sv/sperrenundverletzungen/verein/41/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/hamburger-sv/ausfallzeiten/verein/41?reldata=L2%262024"
+    },
+    "FC St. Pauli": {
+        "verletzungen": "https://www.transfermarkt.de/fc-st-pauli/sperrenundverletzungen/verein/35/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/fc-st-pauli/ausfallzeiten/verein/35?reldata=L1%262024"
+    },
+    "1. FC Köln": {
+        "verletzungen": "https://www.transfermarkt.de/1-fc-koln/sperrenundverletzungen/verein/3/plus/1",
+        "ausfallzeiten": "https://www.transfermarkt.de/1-fc-koln/ausfallzeiten/verein/3?reldata=L2%262024"
+    }
+}

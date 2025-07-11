@@ -1,0 +1,2563 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    
+<script type="text/javascript" data-description="sourcepoint stub code">
+    !function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+</script>
+<script data-description="sourcepoint configuration">
+window._sp_ = {
+    config: {"accountId":1254,"propertyId":7324,"gdpr":{"consentLanguage":"de","targetingParams":{"acps":"false"}},"baseEndpoint":"https://cdn.privacy-mgmt.com","isSPA":true,"cpPropertyId":"003ad223"}}
+</script>
+<script src="https://cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js" async></script>
+
+<script type="text/javascript" data-description="contentpass integration">
+    (function() {
+        var cpBaseUrl = 'https://cp.transfermarkt.de';
+        var cpController = cpBaseUrl + '/now.js';
+        var cpPropertyId = '003ad223';
+
+        !function(C,o,n,t,P,a,s){C['CPObject']=n;C[n]||(C[n]=function(){
+        (C[n].q=C[n].q||[]).push(arguments)});C[n].l=+new Date;a=o.createElement(t);
+        s=o.getElementsByTagName(t)[0];a.src=P;s.parentNode.insertBefore(a,s)}
+        (window,document,'cp','script',cpController);
+
+        !function(C,o,n,t,P){if(!C[n].patched){cp('extension','authenticate');P=C[n].q.push;
+        C[n].q.push=function(a){if(a[0]==='authenticate'){if((o['cookie']||'').indexOf('_cpauthhint=')===-1&&
+        !(C['localStorage']||{})['_cpuser']&&C.location.href.toLowerCase().indexOf('cpauthenticated')===-1){
+        t={isLoggedIn:function(){return false;},hasValidSubscription:function(){return false;}};
+        (typeof a[1]==='function'&&a[1](null,t));C[n].afp=true;P.apply(C[n].q,[['authenticate',null]]);
+        return t;}}P.apply(C[n].q,[a]);}}}
+        (window,document,'cp',false);
+
+        cp('create', cpPropertyId, {
+        baseUrl: cpBaseUrl
+        });
+
+        cp('render', {
+        onFullConsent: function() {
+            console.log('[DEMO] onFullConsent');
+        }
+        })
+    })()
+</script>
+
+<script type="text/javascript" data-description="contentpass sourcepoint fast path">
+(function () {
+    cp('authenticate', function(err, user) {
+        if (err || (!user.isLoggedIn() && !user.hasValidSubscription())) {
+        // console.log('[SPCP] Taking fast path');
+        (function spExecMsg() {
+            if (window._sp_ && window._sp_.executeMessaging) {
+            if (!window._sp_.config.isSPA) {
+                // console.warn('[SPCP] Sourcepoint not in SPA mode!');
+            } else if (window._sp_.version) {
+                // console.log('[SPCP] Sourcepoint already running');
+            } else {
+                // console.log('[SPCP] Starting Sourcepoint');
+                window._sp_.executeMessaging();
+            }
+            } else {
+            // console.log('[SPCP] Sourcepoint not loaded yet. Retrying.');
+            setTimeout(spExecMsg, 10);
+            }
+        })();
+        }
+    });
+    })();
+</script>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" sizes="192x192" href="/android-chrome-192x192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
+<meta name="keywords" content="Bundesliga,Deutschland" />
+<meta name="description" content="Bundesliga auf Transfermarkt mit ➤ Tabelle ➤ Ergebnissen ➤ Spielplan ➤ Liveticker ➤ Marktwerten ➤ Vereine ➤ Transfers ➤ Statistiken" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://tmssl.akamaized.net/images/tm_logo.png" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Bundesliga 25/26" />
+<meta property="og:url" content="https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="de" rel="alternate" href="https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="de-LU" rel="alternate" href="https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="de-AT" rel="alternate" href="https://www.transfermarkt.at/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="de-CH" rel="alternate" href="https://www.transfermarkt.ch/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="tr" rel="alternate" href="https://www.transfermarkt.com.tr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="it-CH" rel="alternate" href="https://www.transfermarkt.it/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="it" rel="alternate" href="https://www.transfermarkt.it/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="pl" rel="alternate" href="https://www.transfermarkt.pl/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-GB" rel="alternate" href="https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-IE" rel="alternate" href="https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-ES" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-CL" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-VE" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-EC" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-CU" rel="alternate" href="https://www.transfermarkt.es/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="nl" rel="alternate" href="https://www.transfermarkt.nl/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="pt" rel="alternate" href="https://www.transfermarkt.pt/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="ru" rel="alternate" href="https://www.transfermarkt.world/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr-CH" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr-CA" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr-CI" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr-LU" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="fr-BE" rel="alternate" href="https://www.transfermarkt.fr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="pt-BR" rel="alternate" href="https://www.transfermarkt.com.br/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-US" rel="alternate" href="https://www.transfermarkt.us/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-CA" rel="alternate" href="https://www.transfermarkt.us/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-IN" rel="alternate" href="https://www.transfermarkt.co.in/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en-ZA" rel="alternate" href="https://www.transfermarkt.co.za/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="x-default" rel="alternate" href="https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="en" rel="alternate" href="https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="nl-BE" rel="alternate" href="https://www.transfermarkt.be/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="ro" rel="alternate" href="https://www.transfermarkt.ro/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="el-GR" rel="alternate" href="https://www.transfermarkt.gr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="ko-KR" rel="alternate" href="https://www.transfermarkt.co.kr/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-AR" rel="alternate" href="https://www.transfermarkt.com.ar/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-MX" rel="alternate" href="https://www.transfermarkt.mx/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-CO" rel="alternate" href="https://www.transfermarkt.co/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="es-PE" rel="alternate" href="https://www.transfermarkt.pe/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="ms" rel="alternate" href="https://www.transfermarkt.my/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="ja" rel="alternate" href="https://www.transfermarkt.jp/bundesliga/startseite/wettbewerb/L1" />
+<link hreflang="id" rel="alternate" href="https://www.transfermarkt.co.id/bundesliga/startseite/wettbewerb/L1" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-main.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/main_desktop.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-discover.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-button-list.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-link-list.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-print.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-competition.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-statistics.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-chosen.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/main.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-club-profile.min.css?lm=1751538208" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/spieltagsbox.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/livespieltag.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/jquery-ui-custom.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/jquery.bxslider.min.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/jquery.custom.bxslider.css?lm=1751537474" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-popularity.min.css?lm=1751538208" />
+<style type="text/css">
+/*<![CDATA[*/
+@keyframes heim {
+    0%   {width: 0%;}
+    100% {width: 0%}
+}
+@keyframes gast {
+    0%   {width: 0%;}
+    100% {width: 0%}
+}
+.fav-voting__home {
+    animation-name: heim;
+    animation-duration: 4s;
+}
+.fav-voting__visitor {
+    animation-name: gast;
+    animation-duration: 4s;
+}
+/*]]>*/
+</style>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/vendor/jquery.min.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/assets/b7c5571cf8957553f95f6d9069eaed67/jquery.ba-bbq.min.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/jquery.bxslider.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/ads/tisoomi.de.min.js?lm=1751542203"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/wettbewerb.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/jquery-ui-1.10.4.custom.min.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/wettbewerbGeruechte.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/main.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.ajaxaddition.jquery.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/functions.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/main_desktop.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.jquery.js?lm=1751537474"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+console.info("%c [TM-ADs] Initialize Ads on domain .de (wettbewerb/startseite)", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Tisoomi is active -> add Tisoomi script", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Set zone to profile for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot inreadSpecial (posterad/inreadSpecial) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format inreadSpecial", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot rectangle1 (rectangle/mrec) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format rectangle1", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot skyscraper-left-bound (sky2/skyscraper2) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format skyscraper-left-bound", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot skyscraper (sky/skyscraper) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format skyscraper", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot billboard (banner/superbanner) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format billboard", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot fullsize_contentad (pubperform/fullsize_contentad) for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Wrap ad container with Tisoomi for format fullsize_contentad", "background: #282828; color: #bada55")
+    var oddsServe = function(placement,competition,match,node) {
+        if (!node){
+            var s=document.readyState==='loading'?document.getElementsByTagName('script'):[];
+            node=s.length?s[s.length-1].parentNode:null;
+        }
+        oddsServe.queue.push({contentUnitId:placement,competition:competition,match:match,node:node});
+    }
+    
+    oddsServe.onInit=function(callbacks){
+        if (typeof window.__tcfapi === 'function') {
+            __tcfapi('addEventListener', 2, function(tcdata, success) {
+                let tcf20compatibleString;
+                if(success) {
+                    if (tcdata.eventStatus === 'useractioncomplete') {
+                        tcf20compatibleString = tcdata.tcString;
+                    } else if (tcdata.eventStatus === 'tcloaded') {
+                        tcf20compatibleString = tcdata.tcString;
+                    }
+                    callbacks.setGdprOptions({
+                        gdpr:1,
+                        gdpr_pd:1,
+                        gdpr_consent:tcf20compatibleString,
+                    });
+                }
+            });
+        } else {
+            console.warn('E2: __tcfapi not found');
+        }
+    };
+    oddsServe.options={gdpr_wait:true};
+    oddsServe.queue=[];
+console.info("%c [TM-ADs] Add adslot configuration for inreadSpecial | rectangle1 | skyscraper-left-bound | skyscraper | billboard | fullsize_contentad", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Adslots without configuration: content_spezial | PerformPlayer | rectangle2 | superbanner | skyscraperbtf | richmedia | 1by1px", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Register slots with JS vendor lib", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Add contentGroup1 with value statistik", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Add contentGroup2 with value wettbewerb", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Add contentGroup3 with value startseite", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Add contentGroup4 with value L1", "background: #282828; color: #bada55")
+window.SDG = window.SDG || {};
+window.SDG.cmd = window.SDG.cmd || [];
+window.SDG.cmd.push(() => {
+  SDG.Publisher.setZone("profile");
+  SDG.Publisher.addKeyValue("contentGroup1", "statistik");
+  SDG.Publisher.addKeyValue("contentGroup2", "wettbewerb");
+  SDG.Publisher.addKeyValue("contentGroup3", "startseite");
+  SDG.Publisher.addKeyValue("contentGroup4", "L1");
+  SDG.Publisher.addKeyValue("wettbewerb_id", "L1");
+  SDG.Publisher.registerSlot("banner", "superbanner")
+    .configure({
+      reserveSpace: true,
+      showLoadingAnimation: true,
+      fixedHeight: 250,
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
+  SDG.Publisher.registerSlot("rectangle", "mrec")
+    .configure({
+      reserveSpace: true,
+      fixedHeight: 250,
+      showLoadingAnimation: true,
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
+  SDG.Publisher.registerSlot("sky2", "skyscraper2")
+    .configure({
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
+  SDG.Publisher.registerSlot("sky", "skyscraper")
+    .configure({
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
+  SDG.Publisher.registerSlot("pubperform", "fullsize_contentad")
+    .configure({
+      lazyLoad: true,
+      showAdvertLabel: false,
+      centerAds: true,
+    })
+    .load();
+  SDG.Publisher.registerSlot("posterad", "inreadSpecial")
+    .configure({
+      lazyLoad: true,
+      showAdvertLabel: false,
+      centerAds: true,
+      reserveSpace: true,
+      fixedHeight: 450,
+    })
+    .load();
+ SDG.Publisher.finalizeSlots();
+});
+
+console.info("%c [TM-ADs] Render ad slots js for stroeer", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Added external ad script https://cdn.stroeerdigitalgroup.de/metatag/live/transfermarkt.de/metaTag.min.js for stroeer on wettbewerbe_1_liga", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Skipped external script https://imagesrv.adition.com/js/srp.js for adition on wettbewerbe_1_liga", "background: #282828; color: #bada55")
+/*]]>*/
+</script>
+<title>Bundesliga 25/26 | Transfermarkt</title>
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152.png">
+    
+<script type="text/javascript">
+   tmData = {
+       loggedIn : "0",
+       tmTraffic: "0",
+   };
+</script>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let utmVars = {
+        eVar1: urlParams.get('utm_campaign'),
+        eVar6: urlParams.get('utm_source'),
+        eVar24: urlParams.get('utm_medium')
+    };
+    Object.keys(utmVars).forEach((k) => utmVars[k] == null && delete utmVars[k]);
+
+    window.tmAnalyticsDataLayer = window.tmAnalyticsDataLayer || [];
+    window.tmAnalytics = {
+        dimensions: {
+            eVar11: 'Bundesliga (L1)',
+			eVar12: 'Germany',
+			eVar10: 'https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1',
+			...utmVars,
+            evar19: window.location.href,
+            eVar35 : '',
+			eVar37 : '',
+    },
+    properties: {
+        prop2: 'statistik',
+		prop3: 'wettbewerb',
+		prop4: 'startseite',
+		prop5: 'L1',
+		prop14: 'statistik_wettbewerb_startseite_L1',
+		prop9: window.location.hostname,
+        prop10: window.location.href,
+        prop1 : 'false',
+    },
+    pageDetails: {
+        pageViews: {
+            value: 1
+        },
+        isErrorPage: 'false',
+            isHomepage: 'false',
+            name: 'Bundesliga 25/26 | Transfermarkt',
+            URL: window.location.href,
+            server: 'prod-tm-web-server-11229'
+    },
+    };
+
+function tmEventForLink(category, aTag, label) {
+    const url = new URL(aTag.href);
+    const link = url.pathname + url.search;
+    tmEvent(category, link, label);
+}
+
+function tmEvent(category, action, label, detail = '') {
+    if (typeof gtag === 'function') {
+        gtag('event',
+            action,
+            {
+                'event_category': category,
+                'event_label': label
+            }
+        );
+    }
+
+    tmAnalyticsDataLayer.push({
+        event: 'tmEvent',
+        tmEvent: {
+            customDimensions: {
+                eVars: {
+                    ...tmAnalytics.dimensions
+                },
+                props: {
+                    prop6: category,
+                    prop7: action,
+                    prop8: label,
+                    prop17: detail,
+                    ...tmAnalytics.properties
+                }
+            },
+            event1to100: {
+                event7: {
+                    value: 1
+                },
+                event8: null,
+            },
+            session: {
+                web: {
+                    webInteraction: {
+                        linkClicks: {
+                            value: 1
+                        }
+                    },
+                    webPageDetails: {
+                        ...tmAnalytics.pageDetails,
+                        ...{
+                            pageViews: {
+                                value: null
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    });
+    tmAnalyticsDataLayer.push(function (dl) {
+        const state = dl.getState();
+    });
+}
+function tmTrackingAndAds() {
+    if (typeof gtag === 'function') {
+        gtag("event", "page_view", {
+            page_path: "/jsContent" + window.location.pathname
+        });
+    }
+
+    tmAnalyticsDataLayer.push({
+        event: 'tmTrackingAndAds',
+        tmTrackingAndAds: {
+            customDimensions: {
+                eVars: tmAnalytics.dimensions,
+                props: tmAnalytics.properties
+            },
+            event1to100: {
+                event7: null,
+                event8: {
+                    value: 1
+                }
+            },
+            session: {
+                web: {
+                    webInteraction: {
+                        linkClicks: {
+                            value: null
+                        }
+                    },
+                    webPageDetails: {
+                        ...tmAnalytics.pageDetails,
+                        ...{
+                            pageViews: {
+                                value: 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    });
+    tmAnalyticsDataLayer.push(function (dl) {
+        const state = dl.getState();
+    });
+}
+function tmTiming(value, name, event_category, event_label) {
+    console.log('tmTiming', value, name, event_category, event_label);
+}
+
+        !function(e,a,n,t){var i=e.head;if(i){
+            if (a) return;
+            var o=e.createElement("style");
+            o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+        (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+
+            !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+                []).push(o),n[o]=function(){var u=arguments;return new Promise(
+                function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+            (window,["alloy"]);
+</script>
+<tm-consent
+    type="adobe"
+    no-checkbox
+    embed="PHNjcmlwdCBhc3luYyBzcmM9Imh0dHBzOi8vYXNzZXRzLmFkb2JlZHRtLmNvbS83Y2FkY2E5NWRkOWEvY2Q0YWI4ODRkMjMxL2xhdW5jaC0wMTI3MmI0MDBjNjUubWluLmpzIj48L3NjcmlwdD4=">
+</tm-consent>
+
+    <script type="text/javascript" src="https://tmssl.akamaized.net//ads/ads.js"></script>
+    <script type="text/javascript">
+        window.tmGaId = "UA-3816204-13";
+
+        function sendIvwData() {}
+    </script>
+            <link rel="canonical" href="https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1">
+    </head>
+
+<body class="desktop " itemscope itemtype="http://schema.org/WebPage" data-tm-tld="de" data-cmp-layer-id="731291" data-db-name="de-der-titan">
+                <div id="werbung_superbanner_wrapper">
+                            </div>
+        
+                <tm-domain-note></tm-domain-note>
+        <div id="main">
+                    <button id="back-to-top" title="Nach oben">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.795" height="10.009" viewBox="0 0 17.795 10.009">
+                    <path id="angle-up" d="M20.683,17.01a1.112,1.112,0,0,1-.786-.326l-7-7-7,7a1.112,1.112,0,1,1-1.573-1.573l7.785-7.785a1.112,1.112,0,0,1,1.573,0l7.785,7.785a1.112,1.112,0,0,1-.786,1.9Z" transform="translate(-4 -7)" fill="#fff"/>
+                </svg>
+            </button>
+            <div class="werbung-skyscraper-left-bound-container">
+                
+<div class="werbung ad-placement-note werbung-skyscraper-left-bound" data-ad-placement-note="Werbung">
+  <div id="skyscraper2"></div>
+</div>
+
+
+            </div>
+            <div class="werbung-skyscraper-container">
+                <script type="text/javascript">//H3IXPRY("skyscraper")</script>
+<div class="werbung ad-placement-note werbung-skyscraper" data-ad-placement-note="Werbung">
+  <div id="skyscraper"></div>
+</div>
+
+<span class="H3IXPRY_end"></span>
+            </div>
+
+            <div class="werbung-skyscraperbtf-container">
+                            </div>
+        
+        <div id="tm-overlay"></div>
+
+                    <div class="tm-header__box">
+                <!-- logo  -->
+                <a href="/" class="tm-header__logo" onclick="tmEvent('hauptnavi', '/', 'TM-Logo');">
+                    <img src="https://tmsi.akamaized.net/head/tm_logo_rebrush.svg"
+                         height="62"
+                         width="156"
+                         title="Transfermarkt"
+                         alt="Transfermarkt"
+                    >
+                </a>
+
+                <!-- domainswitcher  -->
+                <div class="domin-swicher">
+                    <tm-domain-switcher
+                        tld="de"
+                        translations='{&quot;chooseYourDomain&quot;:&quot;W\u00e4hle deine Domain&quot;}'></tm-domain-switcher>
+                </div>
+
+                <!-- live -->
+                <tm-live-match-count
+                    class="tm-header__live"
+                    auto-request                    content='{&quot;liveMatches&quot;:&quot;Livespiele&quot;,&quot;liveMatch&quot;:&quot;Livespiel&quot;,&quot;live&quot;:&quot;Live&quot;}'></tm-live-match-count>
+
+                <!-- Search -->
+                                    <div class="tm-header__search " id="schnellsuche-platz">
+                        <form name="schnellsuche" id="schnellsuche" class="tm-header__form" action="/schnellsuche/ergebnis/schnellsuche">
+                            <input type="text" name="query" class="tm-header__input--search-field" onClick="" placeholder="Suchbegriff eingeben (Spieler, Verein,...)" autocorrect="off" spellcheck="false" value="" />
+                            <button type="submit" value="" class="tm-header__input--search-send" alt="Suchen">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+                                    <path d="M17.825,16.847 L14.28,13.303 C17.072,9.987 16.756,5.061 13.563,2.13 C10.37,-0.8 5.435,-0.695 2.37,2.37 C-0.695,5.435 -0.8,10.37 2.13,13.563 C5.061,16.756 9.987,17.072 13.303,14.28 L16.847,17.825 C17.121,18.069 17.538,18.057 17.797,17.797 C18.057,17.538 18.069,17.121 17.825,16.847 z M1.418,8.108 C1.417,4.413 4.412,1.417 8.107,1.416 C11.802,1.415 14.798,4.411 14.799,8.106 C14.799,11.801 11.804,14.797 8.108,14.797 C4.414,14.797 1.419,11.803 1.418,8.108 z" fill="#000" />
+                                </svg>
+                            </button>
+                        </form>
+                        <a href="/detailsuche/spielerdetail/suche" title="Zur Spieler-Detailsuche" id="detailsuche-head" class="tm-header__search-detail">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0, 0, 18, 18">
+                                <path d="M3.138,3.558 C3.137,1.593 4.727,0 6.69,0 C8.652,-0 10.243,1.592 10.243,3.556 C10.243,5.521 8.653,7.113 6.69,7.113 C4.729,7.113 3.138,5.522 3.138,3.558 z M8.233,13.187 C8.261,11.778 8.861,10.442 9.893,9.486 C9.967,9.418 9.997,9.315 9.971,9.219 C9.946,9.119 9.863,9.044 9.76,9.03 C9.331,8.938 8.893,8.893 8.454,8.895 L4.906,8.895 C3.583,8.808 2.286,9.298 1.35,10.239 C0.414,11.179 -0.07,12.479 0.021,13.804 C-0.085,14.656 0.209,15.509 0.817,16.114 C1.425,16.72 2.279,17.009 3.13,16.897 L9.266,16.897 C9.372,16.895 9.467,16.831 9.508,16.732 C9.549,16.634 9.527,16.521 9.453,16.444 C8.665,15.544 8.232,14.387 8.236,13.191 z M17.805,17.804 C17.68,17.93 17.511,18 17.334,18 C17.158,18 16.989,17.93 16.864,17.804 L15.237,16.177 C13.686,17.242 11.58,16.949 10.378,15.501 C9.176,14.052 9.274,11.926 10.604,10.594 C11.934,9.263 14.058,9.165 15.505,10.368 C16.952,11.571 17.244,13.68 16.181,15.233 L17.805,16.866 C18.065,17.126 18.065,17.548 17.805,17.808 z M15.484,13.182 C15.484,11.911 14.455,10.881 13.186,10.881 C11.917,10.881 10.888,11.911 10.888,13.182 C10.888,14.452 11.917,15.482 13.186,15.482 C14.455,15.482 15.484,14.452 15.484,13.182 z" fill="#000" />
+                            </svg>
+                        </a>
+                    </div>
+                
+                <!-- login button -->
+                <div class="tm-header__login">
+                    <tm-userbox translations='{&quot;addFavorite&quot;:&quot;Diese Seite meinen Favoriten hinzuf\u00fcgen&quot;,&quot;adminArea&quot;:&quot;Adminbereich&quot;,&quot;adminTools&quot;:&quot;Admintools&quot;,&quot;allFavoriteLinkText&quot;:&quot;Zu meinen favorisierten Links&quot;,&quot;applyAsModOrDatascout&quot;:&quot;Bewirb dich als Moderator oder Datenpfleger&quot;,&quot;checkAllNews&quot;:&quot;Zu allen News&quot;,&quot;checkAllRumours&quot;:&quot;Zu allen Ger\u00fcchten&quot;,&quot;chooseYourDomain&quot;:&quot;W\u00e4hle deine Domain&quot;,&quot;clickAgain&quot;:&quot;Nochmal klicken, um den Shortlink in die Zwischenablage zu kopieren&quot;,&quot;clubBoard&quot;:&quot;Vereinsforum&quot;,&quot;copied&quot;:&quot;Copied to your clipboard&quot;,&quot;copyLink&quot;:&quot;Link kopieren&quot;,&quot;createAccount&quot;:&quot;Erstelle deinen Account&quot;,&quot;createNewMessage&quot;:&quot;Neue Nachricht verfassen&quot;,&quot;createShortlink&quot;:&quot;Shortlink erstellen&quot;,&quot;createShortNews&quot;:&quot;Kurzmeldung erstellen&quot;,&quot;dashboard&quot;:&quot;\u00dcbersicht&quot;,&quot;dataAdministration&quot;:&quot;Datenpflege&quot;,&quot;debug&quot;:&quot;Debug&quot;,&quot;deleteAll&quot;:&quot;Alle l\u00f6schen&quot;,&quot;deleteConfirm&quot;:&quot;Ja, alle l\u00f6schen.&quot;,&quot;editText&quot;:&quot;Bearbeiten&quot;,&quot;forgotPassword&quot;:&quot;Passwort vergessen?&quot;,&quot;forgotUsername&quot;:&quot;Username vergessen?&quot;,&quot;forum&quot;:&quot;forum&quot;,&quot;groundhoppingTool&quot;:&quot;Groundhopping-Tool&quot;,&quot;lastMatch&quot;:&quot;Letzte Begegnung&quot;,&quot;signin&quot;:&quot;Anmelden&quot;,&quot;login&quot;:&quot;Login&quot;,&quot;logOut&quot;:&quot;Abmelden&quot;,&quot;manageFavorites&quot;:&quot;Favoriten verwalten&quot;,&quot;marketValue&quot;:&quot;Marktwert&quot;,&quot;matchplan&quot;:&quot;Spielplan&quot;,&quot;messages&quot;:&quot;Nachrichten&quot;,&quot;myClub&quot;:&quot;Mein Verein&quot;,&quot;myClubText&quot;:&quot;Mit einem Transfermarkt-Account kannst du deinen Lieblingsverein hinterlegen und findest an dieser Stelle dann alle wichtigen Informationen zu deinem Verein (Spiele, News, Quick links).&quot;,&quot;myDreamTeam&quot;:&quot;Meine Traumelf&quot;,&quot;myFavorites&quot;:&quot;Meine Favoriten&quot;,&quot;myFavoritesText&quot;:&quot;Mit einem Transfermarkt-Account kannst du dir jede beliebige Seite als Favorit speichern und dann mit einem Klick erreichen.&quot;,&quot;myProfile&quot;:&quot;Mein Profil&quot;,&quot;news&quot;:&quot;News&quot;,&quot;newsAdministration&quot;:&quot;News-Administration&quot;,&quot;nextMatch&quot;:&quot;N\u00e4chste Begegnung&quot;,&quot;noNewNotifications&quot;:&quot;Keine neuen Benachrichtigungen&quot;,&quot;notifications&quot;:&quot;Benachrichtigungen&quot;,&quot;notificationsDeletedAutomatically&quot;:&quot;Hinweis: Notifications werden nach 30 Tagen automatisch gel\u00f6scht.&quot;,&quot;notifyDeleteMessage&quot;:&quot;Private Nachrichten, die \u00e4lter als 45 Tage sind, werden zuk\u00fcnftig von Zeit zu Zeit gel\u00f6scht.&quot;,&quot;or&quot;:&quot;oder&quot;,&quot;other&quot;:&quot;Sonstiges&quot;,&quot;overview&quot;:&quot;Zum Vereins-\u00dcberblick&quot;,&quot;password&quot;:&quot;Passwort&quot;,&quot;playerRatings&quot;:&quot;Spielernoten abgeben&quot;,&quot;playerWatchlist&quot;:&quot;Spieler-Watchlist&quot;,&quot;profile&quot;:&quot;Profil&quot;,&quot;progDebug&quot;:&quot;Prog. Debug&quot;,&quot;progProfile&quot;:&quot;Prog. Profile&quot;,&quot;registerNow&quot;:&quot;Jetzt kostenlos registrieren&quot;,&quot;rememberMe&quot;:&quot;Eingeloggt bleiben&quot;,&quot;removeFavorite&quot;:&quot;Favoriten entfernen&quot;,&quot;rumors&quot;:&quot;Ger\u00fcchte&quot;,&quot;schedule&quot;:&quot;Zum Spielplan&quot;,&quot;setting&quot;:&quot;Einstellungen&quot;,&quot;shortlink&quot;:&quot;Shortlink&quot;,&quot;shortLinkCreationError&quot;:&quot;An error occured creating the shortlink.&quot;,&quot;shortLinkHasBeenCreated&quot;:&quot;Shortlink has been created an was copied to your clipboard&quot;,&quot;shortLinkIsBeingCreated&quot;:&quot;Creating shortlink ...&quot;,&quot;showAllMessages&quot;:&quot;Alle Nachrichten anzeigen&quot;,&quot;totalMarketValue&quot;:&quot;Gesamtmarktwert&quot;,&quot;translation&quot;:&quot;Translation&quot;,&quot;username&quot;:&quot;Username&quot;,&quot;whyRegister&quot;:&quot;Warum registrieren?&quot;}' page-title="Bundesliga 25/26 | Transfermarkt" tld="de" />
+                </div>
+            </div>
+        
+        
+                        <!-- mobile end -->
+            <nav class="main-navbar">
+                                    <a href="/" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/', 'News')">
+                        News                    </a>
+                                    <a href="/navigation/transfersundgeruechte" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/transfersundgeruechte', 'Transfers & Gerüchte')">
+                        Transfers & Gerüchte                    </a>
+                                    <a href="/navigation/marktwerte" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/marktwerte', 'Marktwerte')">
+                        Marktwerte                    </a>
+                                    <a href="/navigation/wettbewerbe" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/wettbewerbe', 'Wettbewerbe')">
+                        Wettbewerbe                    </a>
+                                    <a href="/navigation/statistiken" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/statistiken', 'Statistiken')">
+                        Statistiken                    </a>
+                                    <a href="/navigation/community" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/community', 'Community')">
+                        Community                    </a>
+                                    <a href="/navigation/gaming" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/gaming', 'Gaming')">
+                        Gaming                    </a>
+                                    <a href="/fifa-klub-weltmeisterschaft/startseite/pokalwettbewerb/KLUB" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/fifa-klub-weltmeisterschaft/startseite/pokalwettbewerb/KLUB', 'Klub-WM')">
+                        Klub-WM                    </a>
+                                <div class="main-navbar__details">
+                    <div class="hamburger">
+                        <em></em>
+                    </div>
+                    <div class="dropdown-layer"></div>
+                    <div class="main-navbar__dropdown">
+                                                            <div class="recommendation">
+        
+    
+                            <div class="tm-discover__hero-container tm-discover__hero-container-grid tm-discover-container-grid">
+                    
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--two-thirds  "><span class="tm-discover__h2">Empfehlungen</span><ul class="tm-button-list"><li><a
+                        href="/fifa-klub-weltmeisterschaft/startseite/wettbewerb/KLUB"
+                        title="FIFA Klub-WM"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/fifa-klub-weltmeisterschaft/startseite/wettbewerb/KLUB' , '1_1', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/klub.png?lm=1725886600"
+                            alt="FIFA Klub-Weltmeisterschaft"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/bundesliga/startseite/wettbewerb/L1"
+                        title="Bundesliga"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/bundesliga/startseite/wettbewerb/L1' , '1_2', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/l1.png?lm=1525905518"
+                            alt="Bundesliga"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/2-bundesliga/startseite/wettbewerb/L2"
+                        title="2. Bundesliga"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/2-bundesliga/startseite/wettbewerb/L2' , '1_3', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/l2.png?lm=1525905553"
+                            alt="2. Bundesliga"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/3-liga/startseite/wettbewerb/L3"
+                        title="3. Liga"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/3-liga/startseite/wettbewerb/L3' , '1_4', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/l3.png?lm=1569702802"
+                            alt="3. Liga"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/premier-league/startseite/wettbewerb/GB1"
+                        title="Premier League"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/premier-league/startseite/wettbewerb/GB1' , '1_5', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/gb1.png?lm=1521104656"
+                            alt="Premier League"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/uefa-champions-league/startseite/pokalwettbewerb/CL"
+                        title="UEFA Champions League"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/uefa-champions-league/startseite/pokalwettbewerb/CL' , '1_6', 'buttonList');"
+                    ><img
+                            src="https://tmssl.akamaized.net//images/logo/homepageWappen150x150/cl.png?lm=1626810555"
+                            alt="UEFA Champions League"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li></ul></section>
+                                                                                
+        
+    
+                
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--one-third  tm-button-list__desktop"><span class="tm-discover__h2">Für Spielerberater</span><ul class="tm-button-list"><li><a
+                        href="/agent-support/beraterIndex/berater"
+                        title="Berater-Support"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/agent-support/beraterIndex/berater' , '2_1', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-support.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Berater-<br>Support</a></li><li><a
+                        href="/berater/beraterfirmenuebersicht/berater"
+                        title="Berater-Firmen"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/berater/beraterfirmenuebersicht/berater' , '2_2', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-statistic.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Berater-<br>Firmen</a></li><li><a
+                        href="/premium-service/berater"
+                        title="Premium Service"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/premium-service/berater' , '2_3', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/premium-service.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Premium<br>Service</a></li></ul></section>
+                                                                                
+        
+    
+                
+                                            
+<section class="tm-link-list-container tm-link-list--full ">
+        <div
+        class="tm-link-list-element"
+        role="navigation"
+        aria-label=""
+    >
+                    
+                        
+                                            <ul
+    class="tm-link-list-unordered   recommendation__links"
+>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/statistik/neuestetransfers"
+                    title="Neueste Transfers"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/statistik/neuestetransfers' , '3_1','linkList');"
+                >
+                    Neueste Transfers
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/geruchtekuche/detail/forum/154"
+                    title="Gerüchteküche"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/geruchtekuche/detail/forum/154' , '3_2','linkList');"
+                >
+                    Gerüchteküche
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/marktwertanalyse/detail/forum/67"
+                    title="Marktwert-Analyse"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/marktwertanalyse/detail/forum/67' , '3_3','linkList');"
+                >
+                    Marktwert-Analyse
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/aktuell/newsarchiv"
+                    title="Alle News"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/aktuell/newsarchiv' , '3_4','linkList');"
+                >
+                    Alle News
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/uebersicht/index/forum"
+                    title="Alle Foren"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/uebersicht/index/forum' , '3_5','linkList');"
+                >
+                    Alle Foren
+                </a>
+                    </li>
+    </ul>
+                                            <ul
+    class="tm-link-list-unordered   recommendation__links"
+>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/vereinsforen-1-liga/index/forum/3"
+                    title="Vereinsforen Bundesliga"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/vereinsforen-1-liga/index/forum/3' , '3_6','linkList');"
+                >
+                    Vereinsforen Bundesliga
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/vereinsforen-2-liga/index/forum/4"
+                    title="Vereinsforen 2. Bundesliga"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/vereinsforen-2-liga/index/forum/4' , '3_7','linkList');"
+                >
+                    Vereinsforen 2. Bundesliga
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/vereinsforen-3-liga/index/forum/158"
+                    title="Vereinsforen 3. Liga"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/vereinsforen-3-liga/index/forum/158' , '3_8','linkList');"
+                >
+                    Vereinsforen 3. Liga
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/spieler-statistik/wertvollstespieler/marktwertetop"
+                    title="Wertvollste Spieler der Welt"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/spieler-statistik/wertvollstespieler/marktwertetop' , '3_9','linkList');"
+                >
+                    Wertvollste Spieler der Welt
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/whatsMyValue"
+                    title="Marktwert-Spiel "What's my value?""
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/whatsMyValue' , '3_10','linkList');"
+                >
+                    Marktwert-Spiel "What's my value?"
+                </a>
+                    </li>
+    </ul>
+                        </div>
+
+    </section>
+                                                                        
+        
+    
+                
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--full  tm-button-list__mobile"><span class="tm-discover__h2">Für Spielerberater</span><ul class="tm-button-list"><li><a
+                        href="/agent-support/beraterIndex/berater"
+                        title="Berater-Support"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/agent-support/beraterIndex/berater' , '4_1', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-support.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Berater-<br>Support</a></li><li><a
+                        href="/berater/beraterfirmenuebersicht/berater"
+                        title="Berater-Firmen"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/berater/beraterfirmenuebersicht/berater' , '4_2', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-statistic.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Berater-<br>Firmen</a></li><li><a
+                        href="/premium-service/berater"
+                        title="Premium Service"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/premium-service/berater' , '4_3', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/premium-service.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Premium<br>Service</a></li></ul></section>
+                                                                                
+                    </div>
+        
+    </div>
+                                                </div>
+                </div>
+            </nav>
+
+            <div class="quick-select-wrapper">
+    
+    <tm-quick-select defaultCountry="40" defaultCompetition="L1" defaultClub="" defaultPlayer="" dropdown-visible="" translations='{"home":"Home","country":"Land","competition":"Wettbewerb","club":"Verein","player":"Spieler","attack":"Sturm","midfield":"Mittelfeld","defense":"Abwehr","goalkeeper":"Torwart"}'>
+    </tm-quick-select>
+</div>
+
+            
+        
+        <script type="text/javascript">//H3IXPRY("billboard")</script>
+<div class="werbung ad-placement-note werbung-billboard" data-ad-placement-note="Werbung">
+  <div id="superbanner"></div>
+</div>
+
+<span class="H3IXPRY_end"></span>
+
+
+        
+        <main id="tm-main">
+            
+<header class="data-header">
+    <div class="data-header__headline-container">
+                    <h1 class="data-header__headline-wrapper data-header__headline-wrapper--oswald">
+                Bundesliga            </h1>
+                </div>
+    <div class="data-header__box--big">
+                    <a class="data-header__box__club-link" href="/wettbewerbe/national/wettbewerbe/40">
+                                    <img src="https://tmssl.akamaized.net//images/flagge/headerRund/40.png?lm=1520612525" alt="
+                    Deutschland" height="80" width="80" class="data-header__box__flag">
+                                </a>
+                    <div class="data-header__club-info">
+            <span class="data-header__club" itemprop="affiliation">
+                <a href="/wettbewerbe/national/wettbewerbe/40">
+                    Deutschland                </a>
+            </span>
+            <span class="data-header__label">
+                Ligahöhe:                <span itemprop="dataItem" class="data-header__content">
+                    1.Liga                </span>
+            </span>
+                            <span class="data-header__label">
+                    Amtierender Meister:
+                    <span itemprop="dataItem" class="data-header__content">
+                        <a title="FC Bayern München" href="/fc-bayern-munchen/startseite/verein/27">FC Bayern München</a>                    </span>
+                </span>
+                                    <span class="data-header__label">
+                        Rekordmeister:
+                        <span itemprop="dataItem" class="data-header__content">
+                            <a title="FC Bayern München" href="/fc-bayern-munchen/startseite/verein/27">FC Bayern München</a>&nbsp;&nbsp;<span class="data-header__content">34&nbsp;</span><span class="data-header__content">mal</span>                        </span>
+                    </span>
+                                                        <span class="data-header__label">
+                        5-Jahreswertung:
+                        <span itemprop="dataItem" class="data-header__content">
+                            <a href="/uefa/5jahreswertung/statistik">4. Platz</a>&nbsp;&nbsp;<span class="data-header__content">74.545 </span><span class="data-header__content">Punkte</span>                        </span>
+                    </span>
+                                            </div>
+    </div>
+    <div class="data-header__profile-container">
+        <img src="https://tmssl.akamaized.net//images/logo/header/l1.png?lm=1525905518" title="Bundesliga" alt="Bundesliga" class="" />    </div>
+            <div class="data-header__box--small">
+            <a href="" class="data-header__market-value-wrapper">
+                4,55 <span class="waehrung">Mrd. €</span>                <p class="data-header__last-update">
+                    Gesamtmarktwert                </p>
+            </a>
+        </div>
+            <div class="data-header__info-box">
+        <div class="data-header__details">
+            <ul class="data-header__items">
+                <li class="data-header__label">
+                    Ligagröße:
+                    <span itemprop="dataItem" class="data-header__content">
+                        18 Mannschaften                    </span>
+                </li>
+                <li class="data-header__label">
+                    Spieler:
+                    <span itemprop="dataItem" class="data-header__content">
+                        554                    </span>
+                </li>
+                <li class="data-header__label">
+                    Legionäre:
+                    <span itemprop="dataItem" class="data-header__content">
+                        <a href="/bundesliga/gastarbeiter/wettbewerb/L1">312&nbsp;Spieler</a>&nbsp;&nbsp;<span class="tabellenplatz">56,3%</span>                    </span>
+                </li>
+            </ul>
+            <ul class="data-header__items">
+                <li class="data-header__label">
+                    &oslash;-Marktwert:                    <span itemprop="dataItem" class="data-header__content">
+                        8,22 Mio. €                    </span>
+                </li>
+                <li class="data-header__label">
+                                            &oslash;-Alter:
+                                            <span itemprop="dataItem" class="data-header__content">
+                        25,6                    </span>
+                </li>
+                                <li class="data-header__label">
+                    Wertvollster Spieler:
+                    <span itemprop="dataItem" class="data-header__content">
+                        <a title="Jamal Musiala" href="/jamal-musiala/profil/spieler/580195">Jamal Musiala</a>&nbsp;&nbsp;<span class="tabellenplatz">140,00 Mio. €</span>                    </span>
+                </li>
+                            </ul>
+        </div>
+
+    </div>
+</header>
+<tm-subnavigation
+    controller="wettbewerb"
+    id="L1"
+    season="2025"
+    section="wettbewerb"
+    style="display: block; margin: 0 5px;"></tm-subnavigation>
+<div id="wettbewerbsstartseite" class="row wettbewerbsstartseite">
+    <div class="large-8 columns">
+        <div class="box">
+    <h2 class="content-box-headline">Info</h2>
+    <p class="info-content">
+        Auf der Wettbewerbs-Startseite werden die teilnehmenden Mannschaften einer Saison (auswählbar im Drop-down-Menü) zunächst anhand des Gesamtmarktwertes gelistet. Neben News, einer Spieltagsübersicht und der Torschützenliste bietet die Tabelle weitere Informationen.    </p>
+    <div class="content">
+        <form action="/bundesliga/startseite/wettbewerb/L1/plus/" method="get">        <div class="row">
+            <div class="large-12 columns">
+                <table class="auflistung">
+                    <tbody>
+                    <tr>
+                        <td>Saison auswählen:</td>
+                        <td>
+                            <div class="inline-select">
+                                <select name="saison_id"
+                                        data-placeholder="Saison wählen"
+                                        class="chzn-select" tabindex="0">
+                                                                            <option
+                                             selected="selected"value="2025">25/26</option>
+                                                                                <option
+                                            value="2024">24/25</option>
+                                                                                <option
+                                            value="2023">23/24</option>
+                                                                                <option
+                                            value="2022">22/23</option>
+                                                                                <option
+                                            value="2021">21/22</option>
+                                                                                <option
+                                            value="2020">20/21</option>
+                                                                                <option
+                                            value="2019">19/20</option>
+                                                                                <option
+                                            value="2018">18/19</option>
+                                                                                <option
+                                            value="2017">17/18</option>
+                                                                                <option
+                                            value="2016">16/17</option>
+                                                                                <option
+                                            value="2015">15/16</option>
+                                                                                <option
+                                            value="2014">14/15</option>
+                                                                                <option
+                                            value="2013">13/14</option>
+                                                                                <option
+                                            value="2012">12/13</option>
+                                                                                <option
+                                            value="2011">11/12</option>
+                                                                                <option
+                                            value="2010">10/11</option>
+                                                                                <option
+                                            value="2009">09/10</option>
+                                                                                <option
+                                            value="2008">08/09</option>
+                                                                                <option
+                                            value="2007">07/08</option>
+                                                                                <option
+                                            value="2006">06/07</option>
+                                                                                <option
+                                            value="2005">05/06</option>
+                                                                                <option
+                                            value="2004">04/05</option>
+                                                                                <option
+                                            value="2003">03/04</option>
+                                                                                <option
+                                            value="2002">02/03</option>
+                                                                                <option
+                                            value="2001">01/02</option>
+                                                                                <option
+                                            value="2000">00/01</option>
+                                                                                <option
+                                            value="1999">99/00</option>
+                                                                                <option
+                                            value="1998">98/99</option>
+                                                                                <option
+                                            value="1997">97/98</option>
+                                                                                <option
+                                            value="1996">96/97</option>
+                                                                                <option
+                                            value="1995">95/96</option>
+                                                                                <option
+                                            value="1994">94/95</option>
+                                                                                <option
+                                            value="1993">93/94</option>
+                                                                                <option
+                                            value="1992">92/93</option>
+                                                                                <option
+                                            value="1991">91/92</option>
+                                                                                <option
+                                            value="1990">90/91</option>
+                                                                                <option
+                                            value="1989">89/90</option>
+                                                                                <option
+                                            value="1988">88/89</option>
+                                                                                <option
+                                            value="1987">87/88</option>
+                                                                                <option
+                                            value="1986">86/87</option>
+                                                                                <option
+                                            value="1985">85/86</option>
+                                                                                <option
+                                            value="1984">84/85</option>
+                                                                                <option
+                                            value="1983">83/84</option>
+                                                                                <option
+                                            value="1982">82/83</option>
+                                                                                <option
+                                            value="1981">81/82</option>
+                                                                                <option
+                                            value="1980">80/81</option>
+                                                                                <option
+                                            value="1979">79/80</option>
+                                                                                <option
+                                            value="1978">78/79</option>
+                                                                                <option
+                                            value="1977">77/78</option>
+                                                                                <option
+                                            value="1976">76/77</option>
+                                                                                <option
+                                            value="1975">75/76</option>
+                                                                                <option
+                                            value="1974">74/75</option>
+                                                                                <option
+                                            value="1973">73/74</option>
+                                                                                <option
+                                            value="1972">72/73</option>
+                                                                                <option
+                                            value="1971">71/72</option>
+                                                                                <option
+                                            value="1970">70/71</option>
+                                                                                <option
+                                            value="1969">69/70</option>
+                                                                                <option
+                                            value="1968">68/69</option>
+                                                                                <option
+                                            value="1967">67/68</option>
+                                                                                <option
+                                            value="1966">66/67</option>
+                                                                                <option
+                                            value="1965">65/66</option>
+                                                                                <option
+                                            value="1964">64/65</option>
+                                                                                <option
+                                            value="1963">63/64</option>
+                                                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="submit" class="small button"
+                                   value="Anzeigen">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+<div class="box">
+    <h2 class="content-box-headline">
+        Vereine - Bundesliga 25/26    </h2>
+
+    
+    <div class="show-for-small show-for-pad">
+<div class="tm-tabs">
+    <a class="tm-tab tm-tab__active--parent" href="/bundesliga/startseite/wettbewerb/L1/saison_id/2025"><div class=" tm-tab__active"><span>Kompakt</span></div></a><a class="tm-tab" href="/bundesliga/startseite/wettbewerb/L1/saison_id/2025/plus/1"><div class=""><span>Erweitert</span></div></a></div>
+</div>
+    <div class="responsive-table">
+        <div id="yw1" class="grid-view">
+<div class="summary"></div>
+<table class="items">
+<thead>
+<tr>
+<th colspan="2" id="yw1_c0">Verein</th><th class="hide" id="yw1_c1"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/name">name</a></th><th class="zentriert" id="yw1_c2"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/anzahl_spieler_hidden.desc">Kader</a></th><th class="zentriert" id="yw1_c3"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/alter_durchschnitt.desc">&oslash;-Alter</a></th><th class="zentriert" id="yw1_c4"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/legionaere.desc">Legionäre</a></th><th class="rechts" id="yw1_c5"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/marktwert_schnitt_anzeige.desc">&oslash;-Marktwert</a></th><th class="rechts" id="yw1_c6"><a class="sort-link" href="/bundesliga/startseite/wettbewerb/L1/sort/marktwert_gesamt_anzeige.desc">Gesamtmarktwert</a></th></tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">&nbsp;</td><td class="hide">&nbsp;</td><td class="zentriert">554</td><td class="zentriert">25,6 Jahre</td><td class="zentriert">312</td><td class="rechts">8,22 Mio. €</td><td class="rechts">4,55 Mrd. €</td></tr>
+</tfoot>
+<tbody>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="FC Bayern München" href="/fc-bayern-munchen/startseite/verein/27/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/27.png?lm=1729503608" title="FC Bayern München" alt="FC Bayern München" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="FC Bayern München" href="/fc-bayern-munchen/startseite/verein/27/saison_id/2025">FC Bayern München</a> <a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/10.png?lm=1520606996" title="Deutscher Meister 24/25" alt="Deutscher Meister 24/25" class="tabelle-erfolg" /></a></td><td class="zentriert"><a title="FC Bayern München" href="/fc-bayern-munchen/kader/verein/27/saison_id/2025">32</a></td><td class="zentriert">25,4</td><td class="zentriert">18</td><td class="rechts">27,88 Mio. €</td><td class="rechts"><a title="FC Bayern München" href="/fc-bayern-munchen/kader/verein/27/saison_id/2025">892,00 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="RB Leipzig" href="/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/23826.png?lm=1619431624" title="RB Leipzig" alt="RB Leipzig" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="RB Leipzig" href="/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025">RB Leipzig</a> </td><td class="zentriert"><a title="RB Leipzig" href="/rb-leipzig/kader/verein/23826/saison_id/2025">36</a></td><td class="zentriert">25,1</td><td class="zentriert">22</td><td class="rechts">14,06 Mio. €</td><td class="rechts"><a title="RB Leipzig" href="/rb-leipzig/kader/verein/23826/saison_id/2025">506,30 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="Borussia Dortmund" href="/borussia-dortmund/startseite/verein/16/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/16.png?lm=1396275280" title="Borussia Dortmund" alt="Borussia Dortmund" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="Borussia Dortmund" href="/borussia-dortmund/startseite/verein/16/saison_id/2025">Borussia Dortmund</a> </td><td class="zentriert"><a title="Borussia Dortmund" href="/borussia-dortmund/kader/verein/16/saison_id/2025">31</a></td><td class="zentriert">25,7</td><td class="zentriert">17</td><td class="rechts">15,65 Mio. €</td><td class="rechts"><a title="Borussia Dortmund" href="/borussia-dortmund/kader/verein/16/saison_id/2025">485,10 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/startseite/verein/15/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/15.png?lm=1710156317" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/startseite/verein/15/saison_id/2025">Bayer 04 Leverkusen</a> </td><td class="zentriert"><a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/kader/verein/15/saison_id/2025">25</a></td><td class="zentriert">26,0</td><td class="zentriert">22</td><td class="rechts">15,64 Mio. €</td><td class="rechts"><a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/kader/verein/15/saison_id/2025">391,05 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="Eintracht Frankfurt" href="/eintracht-frankfurt/startseite/verein/24/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/24.png?lm=1700074979" title="Eintracht Frankfurt" alt="Eintracht Frankfurt" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="Eintracht Frankfurt" href="/eintracht-frankfurt/startseite/verein/24/saison_id/2025">Eintracht Frankfurt</a> </td><td class="zentriert"><a title="Eintracht Frankfurt" href="/eintracht-frankfurt/kader/verein/24/saison_id/2025">34</a></td><td class="zentriert">25,1</td><td class="zentriert">25</td><td class="rechts">11,22 Mio. €</td><td class="rechts"><a title="Eintracht Frankfurt" href="/eintracht-frankfurt/kader/verein/24/saison_id/2025">381,60 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="VfB Stuttgart" href="/vfb-stuttgart/startseite/verein/79/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/79.png?lm=1680587427" title="VfB Stuttgart" alt="VfB Stuttgart" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="VfB Stuttgart" href="/vfb-stuttgart/startseite/verein/79/saison_id/2025">VfB Stuttgart</a> <a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/27.png?lm=1520606999" title="Deutscher Pokalsieger 24/25" alt="Deutscher Pokalsieger 24/25" class="tabelle-erfolg" /></a></td><td class="zentriert"><a title="VfB Stuttgart" href="/vfb-stuttgart/kader/verein/79/saison_id/2025">32</a></td><td class="zentriert">25,0</td><td class="zentriert">15</td><td class="rechts">10,55 Mio. €</td><td class="rechts"><a title="VfB Stuttgart" href="/vfb-stuttgart/kader/verein/79/saison_id/2025">337,63 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="VfL Wolfsburg" href="/vfl-wolfsburg/startseite/verein/82/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/82.png?lm=1503060755" title="VfL Wolfsburg" alt="VfL Wolfsburg" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="VfL Wolfsburg" href="/vfl-wolfsburg/startseite/verein/82/saison_id/2025">VfL Wolfsburg</a> </td><td class="zentriert"><a title="VfL Wolfsburg" href="/vfl-wolfsburg/kader/verein/82/saison_id/2025">32</a></td><td class="zentriert">24,9</td><td class="zentriert">23</td><td class="rechts">7,92 Mio. €</td><td class="rechts"><a title="VfL Wolfsburg" href="/vfl-wolfsburg/kader/verein/82/saison_id/2025">253,40 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="SC Freiburg" href="/sc-freiburg/startseite/verein/60/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/60.png?lm=1517249279" title="SC Freiburg" alt="SC Freiburg" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="SC Freiburg" href="/sc-freiburg/startseite/verein/60/saison_id/2025">SC Freiburg</a> </td><td class="zentriert"><a title="SC Freiburg" href="/sc-freiburg/kader/verein/60/saison_id/2025">32</a></td><td class="zentriert">26,9</td><td class="zentriert">14</td><td class="rechts">6,33 Mio. €</td><td class="rechts"><a title="SC Freiburg" href="/sc-freiburg/kader/verein/60/saison_id/2025">202,50 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/startseite/verein/39/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/39.png?lm=1564748880" title="1.FSV Mainz 05" alt="1.FSV Mainz 05" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/startseite/verein/39/saison_id/2025">1.FSV Mainz 05</a> </td><td class="zentriert"><a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/kader/verein/39/saison_id/2025">31</a></td><td class="zentriert">26,6</td><td class="zentriert">13</td><td class="rechts">5,94 Mio. €</td><td class="rechts"><a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/kader/verein/39/saison_id/2025">184,15 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/533.png?lm=1675591766" title="TSG 1899 Hoffenheim" alt="TSG 1899 Hoffenheim" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025">TSG 1899 Hoffenheim</a> </td><td class="zentriert"><a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/kader/verein/533/saison_id/2025">39</a></td><td class="zentriert">25,3</td><td class="zentriert">24</td><td class="rechts">4,62 Mio. €</td><td class="rechts"><a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/kader/verein/533/saison_id/2025">180,35 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/18.png?lm=1656585796" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18/saison_id/2025">Borussia Mönchengladbach</a> </td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/kader/verein/18/saison_id/2025">29</a></td><td class="zentriert">25,3</td><td class="zentriert">16</td><td class="rechts">5,52 Mio. €</td><td class="rechts"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/kader/verein/18/saison_id/2025">160,05 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="FC Augsburg" href="/fc-augsburg/startseite/verein/167/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="FC Augsburg" href="/fc-augsburg/startseite/verein/167/saison_id/2025">FC Augsburg</a> </td><td class="zentriert"><a title="FC Augsburg" href="/fc-augsburg/kader/verein/167/saison_id/2025">30</a></td><td class="zentriert">25,8</td><td class="zentriert">17</td><td class="rechts">4,14 Mio. €</td><td class="rechts"><a title="FC Augsburg" href="/fc-augsburg/kader/verein/167/saison_id/2025">124,08 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/startseite/verein/89/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/89.png?lm=1402956210" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/startseite/verein/89/saison_id/2025">1.FC Union Berlin</a> </td><td class="zentriert"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/kader/verein/89/saison_id/2025">30</a></td><td class="zentriert">26,4</td><td class="zentriert">16</td><td class="rechts">4,05 Mio. €</td><td class="rechts"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/kader/verein/89/saison_id/2025">121,50 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="SV Werder Bremen" href="/sv-werder-bremen/startseite/verein/86/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/86.png?lm=1403082298" title="SV Werder Bremen" alt="SV Werder Bremen" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="SV Werder Bremen" href="/sv-werder-bremen/startseite/verein/86/saison_id/2025">SV Werder Bremen</a> </td><td class="zentriert"><a title="SV Werder Bremen" href="/sv-werder-bremen/kader/verein/86/saison_id/2025">24</a></td><td class="zentriert">26,1</td><td class="zentriert">13</td><td class="rechts">4,76 Mio. €</td><td class="rechts"><a title="SV Werder Bremen" href="/sv-werder-bremen/kader/verein/86/saison_id/2025">114,30 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="1.FC Köln" href="/1-fc-koln/startseite/verein/3/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/3.png?lm=1656580823" title="1.FC Köln" alt="1.FC Köln" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="1.FC Köln" href="/1-fc-koln/startseite/verein/3/saison_id/2025">1.FC Köln</a> <a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/378.png?lm=1461847499" title="Deutscher Zweitligameister 24/25" alt="Deutscher Zweitligameister 24/25" class="tabelle-erfolg" /></a><span title="Aufstieg in die 1. Liga 24/25" class="icons_sprite icon-aufsteiger">&nbsp;</span></td><td class="zentriert"><a title="1.FC Köln" href="/1-fc-koln/kader/verein/3/saison_id/2025">30</a></td><td class="zentriert">25,2</td><td class="zentriert">12</td><td class="rechts">2,19 Mio. €</td><td class="rechts"><a title="1.FC Köln" href="/1-fc-koln/kader/verein/3/saison_id/2025">65,60 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="Hamburger SV" href="/hamburger-sv/startseite/verein/41/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="Hamburger SV" href="/hamburger-sv/startseite/verein/41/saison_id/2025">Hamburger SV</a> <span title="Aufstieg in die 1. Liga 24/25" class="icons_sprite icon-aufsteiger">&nbsp;</span></td><td class="zentriert"><a title="Hamburger SV" href="/hamburger-sv/kader/verein/41/saison_id/2025">32</a></td><td class="zentriert">25,0</td><td class="zentriert">18</td><td class="rechts">1,74 Mio. €</td><td class="rechts"><a title="Hamburger SV" href="/hamburger-sv/kader/verein/41/saison_id/2025">55,60 Mio. €</a></td></tr>
+<tr class="odd">
+<td class="zentriert no-border-rechts"><a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/2036.png?lm=1685457789" title="1.FC Heidenheim 1846" alt="1.FC Heidenheim 1846" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2025">1.FC Heidenheim 1846</a> </td><td class="zentriert"><a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/kader/verein/2036/saison_id/2025">27</a></td><td class="zentriert">26,2</td><td class="zentriert">5</td><td class="rechts">1,87 Mio. €</td><td class="rechts"><a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/kader/verein/2036/saison_id/2025">50,40 Mio. €</a></td></tr>
+<tr class="even">
+<td class="zentriert no-border-rechts"><a title="FC St. Pauli" href="/fc-st-pauli/startseite/verein/35/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="tiny_wappen" /></a></td><td class="hauptlink no-border-links"><a title="FC St. Pauli" href="/fc-st-pauli/startseite/verein/35/saison_id/2025">FC St. Pauli</a> </td><td class="zentriert"><a title="FC St. Pauli" href="/fc-st-pauli/kader/verein/35/saison_id/2025">28</a></td><td class="zentriert">25,7</td><td class="zentriert">22</td><td class="rechts">1,63 Mio. €</td><td class="rechts"><a title="FC St. Pauli" href="/fc-st-pauli/kader/verein/35/saison_id/2025">45,53 Mio. €</a></td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/bundesliga/startseite/wettbewerb/L1"><span>&lt;a title=&quot;FC Bayern München&quot; href=&quot;/fc-bayern-munchen/startseite/verein/27/saison_id/2025&quot;&gt;FC Bayern München&lt;/a&gt;</span><span>&lt;a title=&quot;RB Leipzig&quot; href=&quot;/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025&quot;&gt;RB Leipzig&lt;/a&gt;</span><span>&lt;a title=&quot;Borussia Dortmund&quot; href=&quot;/borussia-dortmund/startseite/verein/16/saison_id/2025&quot;&gt;Borussia Dortmund&lt;/a&gt;</span><span>&lt;a title=&quot;Bayer 04 Leverkusen&quot; href=&quot;/bayer-04-leverkusen/startseite/verein/15/saison_id/2025&quot;&gt;Bayer 04 Leverkusen&lt;/a&gt;</span><span>&lt;a title=&quot;Eintracht Frankfurt&quot; href=&quot;/eintracht-frankfurt/startseite/verein/24/saison_id/2025&quot;&gt;Eintracht Frankfurt&lt;/a&gt;</span><span>&lt;a title=&quot;VfB Stuttgart&quot; href=&quot;/vfb-stuttgart/startseite/verein/79/saison_id/2025&quot;&gt;VfB Stuttgart&lt;/a&gt;</span><span>&lt;a title=&quot;VfL Wolfsburg&quot; href=&quot;/vfl-wolfsburg/startseite/verein/82/saison_id/2025&quot;&gt;VfL Wolfsburg&lt;/a&gt;</span><span>&lt;a title=&quot;SC Freiburg&quot; href=&quot;/sc-freiburg/startseite/verein/60/saison_id/2025&quot;&gt;SC Freiburg&lt;/a&gt;</span><span>&lt;a title=&quot;1.FSV Mainz 05&quot; href=&quot;/1-fsv-mainz-05/startseite/verein/39/saison_id/2025&quot;&gt;1.FSV Mainz 05&lt;/a&gt;</span><span>&lt;a title=&quot;TSG 1899 Hoffenheim&quot; href=&quot;/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025&quot;&gt;TSG 1899 Hoffenheim&lt;/a&gt;</span><span>&lt;a title=&quot;Borussia Mönchengladbach&quot; href=&quot;/borussia-monchengladbach/startseite/verein/18/saison_id/2025&quot;&gt;Borussia Mönchengladbach&lt;/a&gt;</span><span>&lt;a title=&quot;FC Augsburg&quot; href=&quot;/fc-augsburg/startseite/verein/167/saison_id/2025&quot;&gt;FC Augsburg&lt;/a&gt;</span><span>&lt;a title=&quot;1.FC Union Berlin&quot; href=&quot;/1-fc-union-berlin/startseite/verein/89/saison_id/2025&quot;&gt;1.FC Union Berlin&lt;/a&gt;</span><span>&lt;a title=&quot;SV Werder Bremen&quot; href=&quot;/sv-werder-bremen/startseite/verein/86/saison_id/2025&quot;&gt;SV Werder Bremen&lt;/a&gt;</span><span>&lt;a title=&quot;1.FC Köln&quot; href=&quot;/1-fc-koln/startseite/verein/3/saison_id/2025&quot;&gt;1.FC Köln&lt;/a&gt;</span><span>&lt;a title=&quot;Hamburger SV&quot; href=&quot;/hamburger-sv/startseite/verein/41/saison_id/2025&quot;&gt;Hamburger SV&lt;/a&gt;</span><span>&lt;a title=&quot;1.FC Heidenheim 1846&quot; href=&quot;/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2025&quot;&gt;1.FC Heidenheim 1846&lt;/a&gt;</span><span>&lt;a title=&quot;FC St. Pauli&quot; href=&quot;/fc-st-pauli/startseite/verein/35/saison_id/2025&quot;&gt;FC St. Pauli&lt;/a&gt;</span></div>
+</div>    </div>
+    <div class="table-footer">
+        <a title="Zur Marktwert-Entwicklung" href="/bundesliga/marktwerteverein/wettbewerb/L1">Zur Marktwert-Entwicklung</a>    </div>
+</div>
+
+<script async src="/js/custom/tm-track-links.min.js" type="module"></script>
+
+<div class="werbung ad-placement-note werbung-inreadSpecial" data-ad-placement-note="Werbung">
+  <div id="inreadSpecial"></div>
+</div>
+
+
+
+<div id="wettbewerbSpieltagsbox"
+     class="box sptg-print swiper-container">
+    <div class="swiper-wrapper" id="spieltagstabs">
+<ul>
+<li class="two-tabs "><a href="#spieltagtabs-1">Aktueller Spieltag</a></li>
+<li class="two-tabs "><a href="#spieltagtabs-2">Nächster Spieltag</a></li>
+</ul>
+<div id="spieltagtabs-1"><div id="spieltagsbox">
+    <div class="clearfix"></div>
+        <table class="livescore">
+                    <thead>
+            <tr>
+                <th class="hide-for-small">Datum</th>
+                <th colspan="2" class="text-right hide-for-small">Heimmannschaft</th>
+                <th class="text-right show-for-small">Heimmannschaft</th>
+                <th></th>
+                <th colspan="2" class="hide-for-small">Gastmannschaft</th>
+                <th class="show-for-small">Gastmannschaft</th>
+                <th class="oddsServe-heading" data-competition="L1"></th>            </tr>
+            </thead>
+                        <tr class="begegnungZeile" id="4632805" data-id="4632805">
+                <td class="hide-for-small zeit al">
+            Fr.                    <span class="spielzeitpunkt">
+                    <a href="/aktuell/waspassiertheute/aktuell/new/datum/2025-08-22">22.08.2025</a>
+                    </span>                </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/10" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025">Bayern München</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/27.png?lm=1729503608" title="FC Bayern München" alt="FC Bayern München" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4632805"><span class="matchresult">20:30</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/23826.png?lm=1619431624" title="RB Leipzig" alt="RB Leipzig" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025">RB Leipzig</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/477" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4632805' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4633376" data-id="4633376">
+                <td class="hide-for-small zeit al">
+            Sa.                    <span class="spielzeitpunkt">
+                    <a href="/aktuell/waspassiertheute/aktuell/new/datum/2025-08-23">23.08.2025</a>
+                    </span>                </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/27" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025">E. Frankfurt</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/24.png?lm=1700074979" title="Eintracht Frankfurt" alt="Eintracht Frankfurt" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4633376"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/86.png?lm=1403082298" title="SV Werder Bremen" alt="SV Werder Bremen" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025">Werder Bremen</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/15" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4633376' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634122" data-id="4634122">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/24" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025">B. Leverkusen</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/15.png?lm=1710156317" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634122"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/533.png?lm=1675591766" title="TSG 1899 Hoffenheim" alt="TSG 1899 Hoffenheim" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025">TSG Hoffenheim</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/88" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634122' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634123" data-id="4634123">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/25" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025">SC Freiburg</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/60.png?lm=1517249279" title="SC Freiburg" alt="SC Freiburg" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634123"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025">FC Augsburg</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/73" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634123' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634124" data-id="4634124">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/32" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025">1.FSV Mainz 05</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/39.png?lm=1564748880" title="1.FSV Mainz 05" alt="1.FSV Mainz 05" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634124"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/3.png?lm=1656580823" title="1.FC Köln" alt="1.FC Köln" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025">1.FC Köln</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/26" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634124' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634125" data-id="4634125">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/21" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025">Bor. M'gladbach</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/18.png?lm=1656585796" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634125"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025">Hamburger SV</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/13" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634125' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634126" data-id="4634126">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/166" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025">Union Berlin</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/89.png?lm=1402956210" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634126"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/79.png?lm=1680587427" title="VfB Stuttgart" alt="VfB Stuttgart" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025">VfB Stuttgart</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/11" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634126' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634127" data-id="4634127">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/90" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025">FC St. Pauli</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634127"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/16.png?lm=1396275280" title="Borussia Dortmund" alt="Borussia Dortmund" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025">Bor. Dortmund</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/12" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634127' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634128" data-id="4634128">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/216" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025">1.FC Heidenheim</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/2036.png?lm=1685457789" title="1.FC Heidenheim 1846" alt="1.FC Heidenheim 1846" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634128"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/82.png?lm=1503060755" title="VfL Wolfsburg" alt="VfL Wolfsburg" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025">VfL Wolfsburg</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/17" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634128' data-gameday='1' data-competition='L1'></span>                </td>
+            </tr>
+
+                              <tr>
+                <td style="text-align: right;" colspan="12">
+              <span class="oddsServe-legal"></span>
+            </td>
+            </tr>
+                <tr>
+            <td class="text-rechts footer p0" colspan="10">
+
+</div>
+    <div class="footer-links fl">
+
+        <a title="Bundesliga" href="/bundesliga/spieltag/wettbewerb/L1/spieltag/1/saison_id/2025">Alle Spiele des 1. Spieltages</a>    </div>
+    <div class="footer-links">
+    <a title="Bundesliga" href="/bundesliga/gesamtspielplan/wettbewerb/L1/saison_id/2025">Gesamtspielplan</a></div>
+</table>
+</div>
+</div>
+<div id="spieltagtabs-2"><div id="spieltagsbox">
+    <div class="clearfix"></div>
+        <table class="livescore">
+                    <thead>
+            <tr>
+                <th class="hide-for-small">Datum</th>
+                <th colspan="2" class="text-right hide-for-small">Heimmannschaft</th>
+                <th class="text-right show-for-small">Heimmannschaft</th>
+                <th></th>
+                <th colspan="2" class="hide-for-small">Gastmannschaft</th>
+                <th class="show-for-small">Gastmannschaft</th>
+                <th class="oddsServe-heading" data-competition="L1"></th>            </tr>
+            </thead>
+                        <tr class="begegnungZeile" id="4634137" data-id="4634137">
+                <td class="hide-for-small zeit al">
+            Sa.                    <span class="spielzeitpunkt">
+                    <a href="/aktuell/waspassiertheute/aktuell/new/datum/2025-08-30">30.08.2025</a>
+                    </span>                </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/12" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025">Bor. Dortmund</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/16.png?lm=1396275280" title="Borussia Dortmund" alt="Borussia Dortmund" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634137"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/89.png?lm=1402956210" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025">Union Berlin</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/166" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634137' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634138" data-id="4634138">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/477" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025">RB Leipzig</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/23826.png?lm=1619431624" title="RB Leipzig" alt="RB Leipzig" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634138"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/2036.png?lm=1685457789" title="1.FC Heidenheim 1846" alt="1.FC Heidenheim 1846" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025">1.FC Heidenheim</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/216" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634138' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634139" data-id="4634139">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/15" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025">Werder Bremen</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/86.png?lm=1403082298" title="SV Werder Bremen" alt="SV Werder Bremen" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634139"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/15.png?lm=1710156317" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025">B. Leverkusen</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/24" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634139' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634140" data-id="4634140">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/11" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025">VfB Stuttgart</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/79.png?lm=1680587427" title="VfB Stuttgart" alt="VfB Stuttgart" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634140"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/18.png?lm=1656585796" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025">Bor. M'gladbach</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/21" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634140' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634141" data-id="4634141">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/17" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025">VfL Wolfsburg</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/82.png?lm=1503060755" title="VfL Wolfsburg" alt="VfL Wolfsburg" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634141"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/39.png?lm=1564748880" title="1.FSV Mainz 05" alt="1.FSV Mainz 05" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025">1.FSV Mainz 05</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/32" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634141' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634142" data-id="4634142">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/73" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025">FC Augsburg</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634142"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/27.png?lm=1729503608" title="FC Bayern München" alt="FC Bayern München" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025">Bayern München</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/10" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634142' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634143" data-id="4634143">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/88" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025">TSG Hoffenheim</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/533.png?lm=1675591766" title="TSG 1899 Hoffenheim" alt="TSG 1899 Hoffenheim" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634143"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/24.png?lm=1700074979" title="Eintracht Frankfurt" alt="Eintracht Frankfurt" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025">E. Frankfurt</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/27" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634143' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634144" data-id="4634144">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/26" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025">1.FC Köln</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/3.png?lm=1656580823" title="1.FC Köln" alt="1.FC Köln" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634144"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/60.png?lm=1517249279" title="SC Freiburg" alt="SC Freiburg" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025">SC Freiburg</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/25" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634144' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                        <tr class="begegnungZeile" id="4634145" data-id="4634145">
+                <td class="hide-for-small zeit al">
+                            </td>
+                <td class="spieltagsthread home-sst hide-for-small">
+                                            <a href="/forum/detail/forum/13" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+
+                                        </td>
+                <td class="verein-heim">
+                            <span class="vereinsname">
+                                <a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025">Hamburger SV</a>                            </span>
+                            <span class="vereinswappen">
+                              <a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="" /></a>                            </span>
+                </td>
+                <td class="ergebnis">
+                            <span class="ergebnis">
+                                <a title="Zum Vorbericht" href="/spielbericht/index/spielbericht/4634145"><span class="matchresult">-:-</span></a>                            </span>
+                </td>
+                <td class="verein-gast">
+                            <span class="vereinswappen">
+                                <a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/homepage/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="" /></a>                            </span>
+                            <span class="vereinsname">
+                                <a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025">FC St. Pauli</a>                            </span>
+                </td>
+                <td class="spieltagsthread hide-for-small">
+                                            <a href="/forum/detail/forum/90" title="Zum Vereinsforum">
+                            <div class="sstwrap"><span class="nosst"></span></div>
+                        </a>
+                                        </td>
+                <td class="zentriert quotenzelle hide-for-small" onclick="tmEvent('werbung','click','wettbewerbsset');">
+                    <span class='oddsServe' data-match='4634145' data-gameday='2' data-competition='L1'></span>                </td>
+            </tr>
+
+                              <tr>
+                <td style="text-align: right;" colspan="12">
+              <span class="oddsServe-legal"></span>
+            </td>
+            </tr>
+                <tr>
+            <td class="text-rechts footer p0" colspan="10">
+
+</div>
+    <div class="footer-links fl">
+
+        <a title="Bundesliga" href="/bundesliga/spieltag/wettbewerb/L1/spieltag/2/saison_id/2025">Alle Spiele des 2. Spieltages</a>    </div>
+    <div class="footer-links">
+    <a title="Bundesliga" href="/bundesliga/gesamtspielplan/wettbewerb/L1/saison_id/2025">Gesamtspielplan</a></div>
+</table>
+</div>
+</div>
+</div>
+    </div>
+<div class="box tab-print">
+    <div class="content-box-headline ">
+Tabelle Bundesliga</div>
+<div id="yw2" class="grid-view">
+<div class="summary"></div>
+<table class="items">
+<thead>
+<tr>
+<th class="rechts" id="yw2_c0">#</th><th colspan="2" id="yw2_c1">Verein</th><th class="zentriert" id="yw2_c2"><span class="icons_sprite icon-einsaetze-table-header" title="Spiele">&nbsp;</span></th><th class="zentriert" id="yw2_c3">+/-</th><th class="zentriert" id="yw2_c4">Pkt.</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="rechts hauptlink" style='background-color: #afd179'>1 </td><td class="zentriert no-border-rechts"><a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/27.png?lm=1729503608" title="FC Bayern München" alt="FC Bayern München" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="FC Bayern München" href="/fc-bayern-munchen/spielplan/verein/27/saison_id/2025">Bayern München</a><a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/10.png?lm=1520606996" title="Deutscher Meister 2025" alt="Deutscher Meister 2025" class="tabelle-erfolg" /></a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #c3dc9a'>1 </td><td class="zentriert no-border-rechts"><a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/15.png?lm=1710156317" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="Bayer 04 Leverkusen" href="/bayer-04-leverkusen/spielplan/verein/15/saison_id/2025">B. Leverkusen</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #c3dc9a'>1 </td><td class="zentriert no-border-rechts"><a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/24.png?lm=1700074979" title="Eintracht Frankfurt" alt="Eintracht Frankfurt" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="Eintracht Frankfurt" href="/eintracht-frankfurt/spielplan/verein/24/saison_id/2025">E. Frankfurt</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #c3dc9a'>1 </td><td class="zentriert no-border-rechts"><a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/16.png?lm=1396275280" title="Borussia Dortmund" alt="Borussia Dortmund" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="Borussia Dortmund" href="/borussia-dortmund/spielplan/verein/16/saison_id/2025">Bor. Dortmund</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #bdd9ef'>1 </td><td class="zentriert no-border-rechts"><a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/60.png?lm=1517249279" title="SC Freiburg" alt="SC Freiburg" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="SC Freiburg" href="/sc-freiburg/spielplan/verein/60/saison_id/2025">SC Freiburg</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #a5cce9'>1 </td><td class="zentriert no-border-rechts"><a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/39.png?lm=1564748880" title="1.FSV Mainz 05" alt="1.FSV Mainz 05" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="1.FSV Mainz 05" href="/1-fsv-mainz-05/spielplan/verein/39/saison_id/2025">1.FSV Mainz 05</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/23826.png?lm=1619431624" title="RB Leipzig" alt="RB Leipzig" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="RB Leipzig" href="/rasenballsport-leipzig/spielplan/verein/23826/saison_id/2025">RB Leipzig</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/86.png?lm=1403082298" title="SV Werder Bremen" alt="SV Werder Bremen" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="SV Werder Bremen" href="/sv-werder-bremen/spielplan/verein/86/saison_id/2025">Werder Bremen</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/79.png?lm=1680587427" title="VfB Stuttgart" alt="VfB Stuttgart" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="VfB Stuttgart" href="/vfb-stuttgart/spielplan/verein/79/saison_id/2025">VfB Stuttgart</a><a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/27.png?lm=1520606999" title="Deutscher Pokalsieger 2025" alt="Deutscher Pokalsieger 2025" class="tabelle-erfolg" /></a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/18.png?lm=1656585796" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/spielplan/verein/18/saison_id/2025">Bor. M'gladbach</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/82.png?lm=1503060755" title="VfL Wolfsburg" alt="VfL Wolfsburg" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="VfL Wolfsburg" href="/vfl-wolfsburg/spielplan/verein/82/saison_id/2025">VfL Wolfsburg</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="FC Augsburg" href="/fc-augsburg/spielplan/verein/167/saison_id/2025">FC Augsburg</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/89.png?lm=1402956210" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="1.FC Union Berlin" href="/1-fc-union-berlin/spielplan/verein/89/saison_id/2025">Union Berlin</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/35.png?lm=1521036360" title="FC St. Pauli" alt="FC St. Pauli" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="FC St. Pauli" href="/fc-st-pauli/spielplan/verein/35/saison_id/2025">FC St. Pauli</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink">1 </td><td class="zentriert no-border-rechts"><a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/533.png?lm=1675591766" title="TSG 1899 Hoffenheim" alt="TSG 1899 Hoffenheim" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="TSG 1899 Hoffenheim" href="/tsg-1899-hoffenheim/spielplan/verein/533/saison_id/2025">TSG Hoffenheim</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #f8cfcd'>1 </td><td class="zentriert no-border-rechts"><a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/2036.png?lm=1685457789" title="1.FC Heidenheim 1846" alt="1.FC Heidenheim 1846" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="1.FC Heidenheim 1846" href="/1-fc-heidenheim-1846/spielplan/verein/2036/saison_id/2025">1.FC Heidenheim</a>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #f8a7a3'>1 </td><td class="zentriert no-border-rechts"><a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/3.png?lm=1656580823" title="1.FC Köln" alt="1.FC Köln" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="1.FC Köln" href="/1-fc-koln/spielplan/verein/3/saison_id/2025">1.FC Köln</a><a href="#"><img src="https://tmssl.akamaized.net//images/erfolge/mini/378.png?lm=1461847499" title="Deutscher Zweitligameister 2025" alt="Deutscher Zweitligameister 2025" class="tabelle-erfolg" /></a><span title="Aufstieg in die 1. Liga 2025" class="icons_sprite icon-aufsteiger">&nbsp;</span>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+<tr>
+<td class="rechts hauptlink" style='background-color: #f8a7a3'>1 </td><td class="zentriert no-border-rechts"><a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025"><img src="https://tmssl.akamaized.net//images/wappen/tiny/41.png?lm=1597319274" title="Hamburger SV" alt="Hamburger SV" class="tiny_wappen" /></a></td>
+        <td class="no-border-links hauptlink">
+            <a title="Hamburger SV" href="/hamburger-sv/spielplan/verein/41/saison_id/2025">Hamburger SV</a><span title="Aufstieg in die 1. Liga 2025" class="icons_sprite icon-aufsteiger">&nbsp;</span>
+        </td><td class="zentriert">0</td><td class="zentriert">0</td><td class="zentriert">0</td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/bundesliga/startseite/wettbewerb/L1"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span></div>
+</div><div class="table-footer">
+    <a title="Zur kompletten Tabelle" href="/bundesliga/tabelle/wettbewerb/L1/saison_id/2025">Zur kompletten Tabelle</a></div>
+</div>
+<div id="recommender" class="box" >
+    <div class="OUTBRAIN" data-src="" data-widget-id="AR_1" data-ob-template="DE_Transfermarkt.de" ></div>
+    <tm-consent 
+        no-checkbox 
+        type="outbrain" 
+        embed="PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIGFzeW5jPSJhc3luYyIgc3JjPSIvL3dpZGdldHMub3V0YnJhaW4uY29tL291dGJyYWluLmpzIj48L3NjcmlwdD4=">
+    </tm-consent>
+</div>
+    </div>
+    <div class="large-4 columns">
+        <script type="text/javascript">//H3IXPRY("rectangle1")</script>
+<div class="werbung ad-placement-note werbung-rectangle1" data-ad-placement-note="Werbung">
+  <div id="mrec" style="min-height: 280px;"></div>
+</div>
+
+<span class="H3IXPRY_end"></span>
+        <tm-data-scouts-box
+            translation='{&quot;headline&quot;:{&quot;singular&quot;:&quot;Zust\u00e4ndiger Datenscout:&quot;,&quot;plural&quot;:&quot;Zust\u00e4ndige Datenscouts&quot;},&quot;wanted&quot;:{&quot;headline&quot;:&quot;Datenpfleger von&quot;,&quot;cta&quot;:&quot;Jetzt als Datenpfleger bewerben!&quot;}}'
+            competition-id="L1"
+            competition-logo="https://tmssl.akamaized.net//images/logo/medium/l1.png?lm=1525905518"
+            competition-name="Bundesliga"
+            tld="de"
+        ></tm-data-scouts-box>
+        <tm-latest-transfers 
+    link-mode="transfers" 
+    size="medium" 
+    widget-title="Die letzten Transfers"
+    competition-id="L1"
+    >
+</tm-latest-transfers>                <tm-relevant-news type="competition" id="151"></tm-relevant-news>
+                        <div class="box">
+                <tm-statistic identifier="marketvalue" translations='{&quot;headline&quot;:&quot;Die wertvollsten Spieler der Liga&quot;,&quot;playerPosition&quot;:&quot;Spieler\/Position&quot;,&quot;club&quot;:&quot;Verein&quot;,&quot;marketValue&quot;:&quot;Marktwert&quot;,&quot;link&quot;:&quot;Statistik anzeigen&quot;}' tracking="wettbewerb_startseite_desktop" competitionId="L1">
+                </tm-statistic>
+            </div>
+                <div class="box box-slider geruechte-print" style="max-height: 334px;overflow: hidden;">
+        <div class="container">
+            <span class="geruechteWettbewerbSlider-prev"></span>
+            <p class="text"><span>Top-Gerüchte</span></p>
+            <span class="geruechteWettbewerbSlider-next"></span>
+        </div>
+        <div class="clearer">
+            <ul class="geruechteWettbewerbSlider slider-list">
+                                    <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1085008">
+                        <div>
+    <div class="container-foto text-center">
+        <img src="https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1" title="Amar Selimovic" alt="Amar Selimovic" class="bilderrahmen max-medium-foto" />    </div>
+    <div class="container-inhalt">
+        <div class="container-hauptinfo">
+            <a title="Amar Selimovic" href="/amar-selimovic/profil/spieler/1241033">Amar Selimovic</a>        </div>
+        <div class="container-zusatzinfo">
+            <b>Alter:</b> 16 Jahre&nbsp;
+            <img src="https://tmssl.akamaized.net//images/flagge/tiny/127.png?lm=1520611569" title="Österreich" alt="Österreich" class="flaggenrahmen" /><br />
+            <b>Position:</b> Linksaußen<br />
+            <b>Marktwert:</b> -<br />
+        </div>
+        <div class="container-transferwappen">
+            <div class="text-center container-wappen">
+                <a title="AKA Red Bull Salzburg U16" href="/aka-red-bull-salzburg-u16/transfers/verein/42826"><img src="https://tmssl.akamaized.net//images/wappen/medium/42826.png?lm=1557737354" title="AKA Red Bull Salzburg U16" alt="AKA Red Bull Salzburg U16" class="" /></a>            </div>
+            <div class="text-center container-pfeil">
+                <span class="icons_sprite wechsel-pfeil-slider">&nbsp;</span>
+            </div>
+            <div class="text-center container-wappen">
+                <a title="FC Augsburg" href="/fc-augsburg/transfers/verein/167"><img src="https://tmssl.akamaized.net//images/wappen/medium/167.png?lm=1656582897" title="FC Augsburg" alt="FC Augsburg" class="" /></a>            </div>
+            <div class="clearer"></div>
+        </div>
+    </div>
+    <div class="clearer"></div>
+</div>
+<div class="container-footer">
+    <div class="text-center wahrscheinlichkeit">
+        <div class="wahrscheinlichkeits-text">95<span class="prozentzeichen">%<br><span class="icons_sprite wertung-steigend" title="Wertung im Vergleich zum Vortag gestiegen">&nbsp</span></span></div>
+    </div>
+    <div class="text-left container-diskussion">
+        <a onclick="tmEvent(&quot;wettbewerb&quot;, &quot;click&quot;, &quot;participate_in_rumour_discussion&quot;)" href="https://www.transfermarkt.de/amar-selimovic-zu-fc-augsburg-/thread/forum/154/thread_id/1085008/post_id/2952091#2952091">Mitdiskutieren</a><span class="mitdiskutieren">20</span>
+    </div>
+</div>
+                    </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1085138">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1080371">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1080225">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1078510">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1085000">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1069356">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1083588">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1076461">
+                                            </li>
+                                        <li class="slider-list" data-src="/bundesliga/geruechte/wettbewerbAjax/L1/board_id/154/thread_id/1080557">
+                                            </li>
+                                </ul>
+        </div>
+        <div class="footer bxPagerParent">
+            <span class="bxPagerCustomGeruechte">
+                <a title="Zur Gerüchte-Übersicht" href="/bundesliga/geruechte/wettbewerb/L1">Zur Gerüchte-Übersicht</a>            </span>
+        </div>
+    </div>
+        <section class="fav-voting">
+        <header class="fav-voting__header">
+            <h2 class="fav-voting__headline">
+                Für wen bist du?                            </h2>
+        </header>
+        <div class="fav-voting__content">
+                            <p class="fav-voting__question fav-voting__question--text-favorite">
+                    In diesem Spiel <br />bist du für...                </p>
+                
+            <div class="fav-voting__wrapper">
+                <a href="/beliebtheit/speichernVereine?verein_id_gewinner=15&verein_id_verlierer=533&kontinent=0&land=0&wettbewerb=L1&typ=verein&verein_id_1=15&lieblingsverein=0" class="fav-voting__link-club">
+                    <img src="https://tmssl.akamaized.net//images/wappen/headerRund/15.png?lm=1710156317" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="" />                    <div class="fav-voting__name">
+                        Bayer 04 Leverkusen                    </div>
+                </a>
+                <img src="https://tmssl.akamaized.net//images/beliebtheit/versus.png" alt="versus" class="fav-voting__versus-image" width="39" height="35" />
+                <a href="/beliebtheit/speichernVereine?verein_id_gewinner=533&verein_id_verlierer=15&kontinent=0&land=0&wettbewerb=L1&typ=verein&verein_id_1=15&lieblingsverein=0" class="fav-voting__link-club">
+                    <img src="https://tmssl.akamaized.net//images/wappen/headerRund/533.png?lm=1675591766" title="TSG 1899 Hoffenheim" alt="TSG 1899 Hoffenheim" class="" />                    <div class="fav-voting__name">
+                        TSG 1899 Hoffenheim                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+        </div>
+</div>
+
+<div class="werbung ad-placement-note werbung-fullsize_contentad" data-ad-placement-note="Werbung">
+  <div id="fullsize_contentad"></div>
+</div>
+
+
+        </main>
+        <footer class="tm-footer">
+               <section class="tm-footer__section-quick-links">
+        <strong class="tm-footer__headline tm-footer__headline--large">
+            Schnellzugriff        </strong>
+        <div class="tm-footer__link-wrapper">
+            <a href="/spieler-statistik/wertvollstespieler/marktwertetop"
+               onclick="tmEvent('footer', 'quick_links', '/spieler-statistik/wertvollstespieler')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Wertvollste Spieler der Welt            </a>
+            <a href="/statistik/neuestetransfers"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/neuestetransfers')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Neueste Transfers            </a>
+            <a href="/geruechte/aktuellegeruechte/statistik"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/aktuellegeruechte')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Aktuelle Gerüchte            </a>
+            <a href="/spieler-statistik/marktwertaenderungen/marktwertetop"
+                onclick="tmEvent('footer', 'quick_links', '/spieler-statistik/marktwertaenderungen/marktwertetop')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Aktuelle Marktwert-Updates            </a>
+            <a href="/statistik/weltrangliste"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/weltrangliste')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                FIFA-Weltrangliste            </a>
+                    </div>
+    </section>
+                <section class="tm-footer__section-involved">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                Mitmachen            </strong>
+            <div class="tm-footer__link-wrapper">
+                <a href="/intern/paten"
+                    onclick="tmEvent('footer', 'be_involved', 'mods_data_scouts')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Paten und Datenpfleger                </a>
+                <a href="/profil/bewerbung"
+                    onclick="tmEvent('footer', 'be_involved', 'apply_mod_datascout')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Als Pate oder Datenpfleger bewerben                </a>
+                <a href="/intern/elfGebote"
+                    onclick="tmEvent('footer', 'be_involved', '11_commandments')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    11 Gebote                </a>
+                <a href="/intern/fehlermelden"
+                    onclick="tmEvent('footer', 'be_involved', 'found_mistake')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Fehler gefunden?                </a>
+            </div>
+        </section>
+        <section class="tm-footer__section-career">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                Karriere            </strong>
+            <div class="tm-footer__link-wrapper">
+                                    <a href="/jobs"
+                       class="tm-footer__link tm-footer__link--arrow"
+                       onclick="tmEvent('footer', 'career', 'open_positions')"
+                    >
+                        Offene Stellen                    </a>
+                                <a href="/intern/tmteam"
+                   class="tm-footer__link tm-footer__link--arrow"
+                   onclick="tmEvent('footer', 'career', 'contact')"
+                >
+                    Kontakt                </a>
+            </div>
+        </section>
+        <section class="tm-footer__section-about">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                Über uns            </strong>
+            <div class="tm-footer__link-wrapper">
+                <a href="/intern/tmteam"
+                   onclick="tmEvent('footer', 'about_us', 'tm_team')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Das TM-Team                </a>
+                <a href="/intern/faq"
+                   onclick="tmEvent('footer', 'about_us', 'faq')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    FAQ                </a>
+            </div>
+        </section>
+            <section class="tm-footer__section-social">
+        <strong class="tm-footer__headline
+            ">
+            Social Media        </strong>
+        <div class="tm-footer__social-wrapper">
+                        <a href="https://www.instagram.com/transfermarkt.de/"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'instagram')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/instaRebrush.svg"
+                         alt="instagram"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.facebook.com/transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'facebook')">
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/fbRebrush.svg"
+                         alt="facebook"
+                         width="25"
+                         height="25"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://whatsapp.com/channel/0029Va1GC0s8qIzoRaZeyJ0V"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'whatsapp')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/whatsappRebrush.svg"
+                         alt="whatsapp"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://x.com/Transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'x')">
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/twitter_rebrush.svg"
+                         alt="twitter"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.threads.net/@transfermarkt.de"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'threads')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/threadsRebrush.svg"
+                         alt="threads"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.tiktok.com/@transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'tiktok')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/tiktokRebrush.svg"
+                         alt="tiktok"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.youtube.com/user/transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'youtube')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/RebrushYoutube.svg"
+                         alt="youtube"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social header__icon--youtube"
+                    >
+                </a>
+                <a href="https://www.twitch.tv/transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'twitch')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/twitchRebrush.svg"
+                         alt="youtube"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.transfermarkt.de/intern/rssguide"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'rss')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/RebrushRss.svg"
+                         alt="rss"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.linkedin.com/company/transfermarkt-gmbh-&-co-kg"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'linkedIn')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/linkedInRebrush.svg"
+                         alt="linkedIn"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                        </div>
+    </section>
+            <section class="tm-footer__section-app-links">
+            <strong class="tm-footer__headline  ">
+                Jetzt die Transfermarkt-App herunterladen            </strong>
+            <div class="tm-footer__social-wrapper">
+                <a href="https://itunes.apple.com/de/app/transfermarkt/id1239455154?mt=8"
+                   target="_blank"
+                   onclick="tmEvent('footer', 'app', 'download_app')"
+                >
+                    <img src="/images/apps/Download_on_the_App_Store_Badge_DE_Source_135x40.svg"
+                         class="store-logo"
+                         id="app-store-logo"
+                         alt="Apple-Store"
+                         height="33"
+                         width="107"
+                    >
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=de.transfermarkt.v2"
+                   target="_blank"
+                   onclick="tmEvent('footer', 'app', 'download_app')"
+                >
+                    <img src="/images/apps/google-play-badgeEEE.svg"
+                         class="store-logo"
+                         id="google-store-logo"
+                         alt="Play-Store"
+                         height="33"
+                         width="107"
+                    >
+                </a>
+            </div>
+        </section>
+                </footer>
+                <div id="menue_overlay"></div>
+    </div>
+    <section class="tm-footer__mobile tm-footer__transfermarkt-info">
+        <section class="tm-footer__section-desktop-width">
+                            <section class="tm-footer__section-company-links">
+                    <span class="tm-footer__headline tm-footer__headline--medium">
+                        Weitere Transfermarkt-Projekte                    </span>
+                    <div class="tm-footer__project-wrapper">
+                        <a href="/wahretabelle"
+                           onclick="tmEvent('footer', 'projects', 'wahretabelle')"
+                           class="tm-footer__link"
+                        >
+                            Wahretabelle                        </a>
+                        <a href="https://www.soccerdonna.de/"
+                           onclick="tmEvent('footer', 'projects', 'soccerdonna')"
+                           class="tm-footer__link"
+                        >
+                            Soccerdonna.de                        </a>
+                        <a href="https://scoutastic.com/de/"
+                           onclick="tmEvent('footer', 'projects', 'scoutastic')"
+                           class="tm-footer__link"
+                        >
+                            Scoutastic.com                        </a>
+                    </div>
+                </section>
+                        <section class="tm-footer__section-company-infos">
+                <span class="tm-footer__headline tm-footer__headline--medium">&copy; Transfermarkt <span id="currentYear">2025</span></span>
+                <div class="tm-footer__company-wrapper">
+                    <a
+                    href="/intern/impressum"
+                    class="tm-footer__link tm-footer__link--blue"
+                    onclick="tmEvent('footer', 'officials', 'impressum')"
+                    >
+                        Impressum                    </a>
+                    <a
+                        href="/intern/web/datenschutz"
+                        class="tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'data_protection')"
+                        >
+                        Datenschutz                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        class="cmp-link tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'privacy')"
+                    >
+                        Privatsphäre                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        class="revoke-tracking tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'tracking_revocation')"
+                    >
+                        Widerruf Tracking                    </a>
+                    <a
+                        href="/intern/anb"
+                        class="tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'general_conduct_of_use')"
+                        >
+                        Nutzungsbedingungen                    </a>
+                                                <a
+                                href="https://www.stroeer.de/planen-buchen/onlinewerbung/transfermarktde/"
+                                target="_blank"
+                                class="tm-footer__link tm-footer__link--blue"
+                                onclick="tmEvent('footer', 'officials', 'media')"
+                                >
+                                Media                            </a>
+                                    </div>
+            </section>
+        </section>
+    </section>
+    <script type="text/javascript">
+	if(typeof(adet) == "boolean" && adet == false){
+		img_src="/static/singlepictures/jk99hhfsdh209nbnkjldgh90sghfsdlk";
+	} else {
+		img_src="/static/singlepictures/jku90whjlkjbwbta1g4b8h89fh8sgh8d";
+	}
+	var elem = document.createElement("img");
+	document.body.appendChild(elem);
+	elem.src = img_src;
+</script>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var cnt = document.querySelectorAll('div.large-4.columns').length;
+                if (cnt == 1) {
+                    var sidebarDiv = document.querySelector('div.large-4.columns');
+                    if (sidebarDiv !== null) {
+                        var sidebar = document.getElementById('werbung_recommender_sidebar_wrapper');
+                        sidebarDiv.appendChild(sidebar);
+                        sidebar.style.display = 'block';
+                    }
+                }
+            });
+        </script>
+        <div id="werbung_recommender_sidebar_wrapper" style="display: none;">
+            <div 
+    id="recommender_sidebar" 
+    class="box"
+    >
+    <div class="OUTBRAIN" data-src="https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1" data-widget-id="SB_1" data-ob-template="DE_Transfermarkt.de"></div>
+<tm-consent 
+    no-checkbox 
+    type="outbrain" 
+    embed="PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIGFzeW5jPSJhc3luYyIgc3JjPSIvL3dpZGdldHMub3V0YnJhaW4uY29tL291dGJyYWluLmpzIj48L3NjcmlwdD4=">
+</tm-consent>
+</div>
+        </div>
+    <tm-consent type="adition" no-checkbox embed="PHNjcmlwdCBzcmM9Imh0dHBzOi8vY3JlYXRpdmUtY2RuLm9kZHNzZXJ2ZS5jb20vbG9hZGVyLmpzP3B1Ymxpc2hlcj10bSIgYXN5bmM9ImFzeW5jIj48L3NjcmlwdD4="></tm-consent>    
+        <tm-modal id="tm-modal-revoke-tracking" additionalClose="Schliessen">
+        <div class="tm-modal__headline">Widerruf Tracking</div>
+        <p class="tm-modal__text">Sie haben erfolgreich Ihre Einwilligung in die Nutzung von Transfermarkt mit Tracking und Cookies widerrufen. Sie können sich jetzt zwischen dem Contentpass-Abo und der Nutzung mit personalisierter Werbung, Cookies und Tracking entscheiden.</p>
+    </tm-modal>
+
+<tm-consent type="stroeer" no-checkbox embed="PHNjcmlwdCAgc3JjPSJodHRwczovL2Nkbi5zdHJvZWVyZGlnaXRhbGdyb3VwLmRlL21ldGF0YWcvbGl2ZS90cmFuc2Zlcm1hcmt0LmRlL21ldGFUYWcubWluLmpzIiBhc3luYz0iYXN5bmMiPjwvc2NyaXB0Pg=="></tm-consent>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/subnavigation/bundle.js"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/assets/aa69c6e9c51f1e811847082c63633956/gridview/jquery.yiigridview.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/assets/b7c5571cf8957553f95f6d9069eaed67/jui/js/jquery-ui.min.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/data-scouts/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/latest-transfers/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/relevant-news/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/statistic/bundle.js"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/custom/vendors.min.js?lm=1751537474"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/domain-switcher/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/quick-select-bar/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/userbox/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/live-match-count/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/domain-note/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/consent/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/modal/bundle.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+	var loginUrl='/profil/login';
+	var onlyDE = '1';
+	var onlyMobile = '';
+	var onlyTablet = '';
+	var getUserID = '';
+
+oddsServe("8b7ecddd3b6e5b2a65deb466d60355a7", -1);
+jQuery(function($) {
+jQuery('#yw1').yiiGridView({'ajaxUpdate':['yw1'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid\x2Dview\x2Dloading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'\x7Bpage\x7D,\x20\x7Bsort\x7D','filterSelector':'\x7Bfilter\x7D','afterAjaxUpdate':function() {window.LazyLoadInstance.update(); tmTrackingAndAds(); trackLinks(); document.dispatchEvent(new CustomEvent("tmInitTooltip"));}});
+jQuery('#spieltagstabs').tabs({'active':0});
+jQuery('#yw2').yiiGridView({'ajaxUpdate':['yw2'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid\x2Dview\x2Dloading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'\x7Bpage\x7D,\x20\x7Bsort\x7D','filterSelector':'\x7Bfilter\x7D'});
+});
+/*]]>*/
+</script>
+</body>
+
+</html>

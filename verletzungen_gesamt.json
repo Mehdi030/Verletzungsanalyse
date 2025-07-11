@@ -1,0 +1,420 @@
+{
+  "FC Bayern München": [
+    {
+      "spieler": "Alphonso Davies",
+      "alter": "24",
+      "grund": "Kreuzbandanriss",
+      "seit": "24.03.2025",
+      "bis_voraussichtlich": "30.09.2025",
+      "verpasste_spiele": "22"
+    },
+    {
+      "spieler": "Hiroki Ito",
+      "alter": "26",
+      "grund": "Mittelfußbruch",
+      "seit": "30.03.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "14"
+    },
+    {
+      "spieler": "Jamal Musiala",
+      "alter": "22",
+      "grund": "Knöchelverletzung",
+      "seit": "06.07.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    },
+    {
+      "spieler": "Leon Klanac",
+      "alter": "18",
+      "grund": "unbekannte Verletzung",
+      "seit": "10.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "Borussia Dortmund": [
+    {
+      "spieler": "Nico Schlotterbeck",
+      "alter": "25",
+      "grund": "Meniskusriss",
+      "seit": "07.04.2025",
+      "bis_voraussichtlich": "03.10.2025",
+      "verpasste_spiele": "19"
+    },
+    {
+      "spieler": "Emre Can",
+      "alter": "31",
+      "grund": "Adduktorenbeschwerden",
+      "seit": "01.07.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    },
+    {
+      "spieler": "Salih Özcan",
+      "alter": "27",
+      "grund": "Knieverletzung",
+      "seit": "01.07.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    }
+  ],
+  "RB Leipzig": [],
+  "Bayer Leverkusen": [
+    {
+      "spieler": "Martin Terrier",
+      "alter": "28",
+      "grund": "Achillessehnenriss",
+      "seit": "18.01.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "23"
+    },
+    {
+      "spieler": "Alejo Sarco",
+      "alter": "19",
+      "grund": "Muskelfaserriss",
+      "seit": "24.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "4"
+    }
+  ],
+  "VfB Stuttgart": [
+    {
+      "spieler": "Anrie Chase",
+      "alter": "21",
+      "grund": "Muskelfaserriss im Adduktorenbereich",
+      "seit": "03.03.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "12"
+    },
+    {
+      "spieler": "Leonidas Stergiou",
+      "alter": "23",
+      "grund": "Fußverletzung",
+      "seit": "30.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "4"
+    },
+    {
+      "spieler": "Finn Jeltsch",
+      "alter": "18",
+      "grund": "Entzündung",
+      "seit": "28.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    },
+    {
+      "spieler": "Silas",
+      "alter": "26",
+      "grund": "Knöchelverletzung",
+      "seit": "30.03.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    },
+    {
+      "spieler": "Juan José Perea",
+      "alter": "25",
+      "grund": "Achillessehnenriss",
+      "seit": "03.03.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "Eintracht Frankfurt": [
+    {
+      "spieler": "Arthur Theate",
+      "alter": "25",
+      "grund": "Rotsperre",
+      "seit": "31.10.2024",
+      "bis_voraussichtlich": "19.08.2025",
+      "verpasste_spiele": "2"
+    },
+    {
+      "spieler": "Krisztián Lisztes",
+      "alter": "20",
+      "grund": "muskuläre Probleme",
+      "seit": "30.01.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "20"
+    },
+    {
+      "spieler": "Kauã Santos",
+      "alter": "22",
+      "grund": "Kreuzbandriss",
+      "seit": "18.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "5"
+    },
+    {
+      "spieler": "Tuta",
+      "alter": "26",
+      "grund": "muskuläre Probleme",
+      "seit": "11.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    },
+    {
+      "spieler": "Jessic Ngankam",
+      "alter": "24",
+      "grund": "Schien- und Wadenbeinbruch",
+      "seit": "12.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "SC Freiburg": [
+    {
+      "spieler": "Daniel-Kofi Kyereh",
+      "alter": "29",
+      "grund": "Knie-OP",
+      "seit": "24.07.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "37"
+    },
+    {
+      "spieler": "Niklas Beste",
+      "alter": "26",
+      "grund": "muskuläre Probleme",
+      "seit": "09.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    },
+    {
+      "spieler": "Maximilian Philipp",
+      "alter": "31",
+      "grund": "Knieprobleme",
+      "seit": "09.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    },
+    {
+      "spieler": "Max Rosenfelder",
+      "alter": "22",
+      "grund": "Oberschenkelverletzung",
+      "seit": "25.06.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "1. FC Union Berlin": [
+    {
+      "spieler": "Robert Skov",
+      "alter": "29",
+      "grund": "Fußverletzung",
+      "seit": "16.02.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "12"
+    },
+    {
+      "spieler": "Frederik Rönnow",
+      "alter": "32",
+      "grund": "Blessur",
+      "seit": "16.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "1"
+    }
+  ],
+  "TSG Hoffenheim": [
+    {
+      "spieler": "Ozan Kabak",
+      "alter": "25",
+      "grund": "Kreuzbandriss",
+      "seit": "05.06.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "45"
+    },
+    {
+      "spieler": "Grischa Prömel",
+      "alter": "30",
+      "grund": "Kreuzbandriss",
+      "seit": "03.09.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "42"
+    }
+  ],
+  "Werder Bremen": [],
+  "VfL Wolfsburg": [
+    {
+      "spieler": "Rogério",
+      "alter": "27",
+      "grund": "Trainingsrückstand",
+      "seit": "13.03.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "9"
+    },
+    {
+      "spieler": "Mattias Svanberg",
+      "alter": "26",
+      "grund": "Muskelverletzung",
+      "seit": "20.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "4"
+    },
+    {
+      "spieler": "Kilian Fischer",
+      "alter": "24",
+      "grund": "Knieverletzung",
+      "seit": "11.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "1"
+    }
+  ],
+  "1. FSV Mainz 05": [
+    {
+      "spieler": "Dominik Kohr",
+      "alter": "31",
+      "grund": "Innenbandverletzung",
+      "seit": "04.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "3"
+    },
+    {
+      "spieler": "Maxim Dal",
+      "alter": "19",
+      "grund": "Kreuzbandriss",
+      "seit": "08.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "2"
+    }
+  ],
+  "Borussia Mönchengladbach": [
+    {
+      "spieler": "Florian Neuhaus",
+      "alter": "28",
+      "grund": "Suspendierung",
+      "seit": "02.07.2025",
+      "bis_voraussichtlich": "31.07.2025",
+      "verpasste_spiele": "0"
+    },
+    {
+      "spieler": "Charles Herrmann",
+      "alter": "19",
+      "grund": "Ellenbogenverletzung",
+      "seit": "01.07.2025",
+      "bis_voraussichtlich": "31.12.2025",
+      "verpasste_spiele": "16"
+    },
+    {
+      "spieler": "Tim Kleindienst",
+      "alter": "29",
+      "grund": "Meniskusverletzung",
+      "seit": "11.05.2025",
+      "bis_voraussichtlich": "31.10.2025",
+      "verpasste_spiele": "10"
+    },
+    {
+      "spieler": "Nathan Ngoumou",
+      "alter": "25",
+      "grund": "Achillessehnenriss",
+      "seit": "07.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "6"
+    },
+    {
+      "spieler": "Tomas Cvancara",
+      "alter": "24",
+      "grund": "Krank",
+      "seit": "06.07.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "FC Augsburg": [
+    {
+      "spieler": "Samuel Essende",
+      "alter": "27",
+      "grund": "Rotsperre",
+      "seit": "12.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "4"
+    },
+    {
+      "spieler": "Yusuf Kabadayi",
+      "alter": "21",
+      "grund": "Knie-OP",
+      "seit": "12.12.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "22"
+    },
+    {
+      "spieler": "Elias Saad",
+      "alter": "25",
+      "grund": "Muskelverletzung",
+      "seit": "04.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "1. FC Heidenheim": [
+    {
+      "spieler": "Marvin Pieringer",
+      "alter": "25",
+      "grund": "Sprunggelenksverletzung",
+      "seit": "04.06.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    },
+    {
+      "spieler": "Benedikt Gimber",
+      "alter": "28",
+      "grund": "Leistenbruch",
+      "seit": "11.06.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ],
+  "Hamburger SV": [
+    {
+      "spieler": "Immanuel Pherai",
+      "alter": "24",
+      "grund": "Sprunggelenksverletzung",
+      "seit": "16.05.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "1"
+    }
+  ],
+  "FC St. Pauli": [
+    {
+      "spieler": "Karol Mets",
+      "alter": "32",
+      "grund": "Patellasehnenprobleme",
+      "seit": "22.11.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "24"
+    },
+    {
+      "spieler": "James Sands",
+      "alter": "25",
+      "grund": "Innenbandabriss",
+      "seit": "15.02.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "13"
+    },
+    {
+      "spieler": "Jackson Irvine",
+      "alter": "32",
+      "grund": "Fußoperation",
+      "seit": "29.04.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "3"
+    }
+  ],
+  "1. FC Köln": [
+    {
+      "spieler": "Luca Kilian",
+      "alter": "25",
+      "grund": "Kreuzbandverletzung",
+      "seit": "07.12.2024",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "21"
+    },
+    {
+      "spieler": "Florian Dietz",
+      "alter": "26",
+      "grund": "Schlüsselbeinbruch",
+      "seit": "01.07.2025",
+      "bis_voraussichtlich": "",
+      "verpasste_spiele": "0"
+    }
+  ]
+}
