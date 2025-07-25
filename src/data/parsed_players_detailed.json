@@ -1,0 +1,3909 @@
+{
+  "1_fc_heidenheim": [
+    {
+      "name": "Kevin Müller",
+      "position": "Torwart",
+      "age": "15.03.1991 (34)",
+      "market_value": "700 Tsd. €",
+      "transfermarkt_id": "43824"
+    },
+    {
+      "name": "Frank Feller",
+      "position": "Torwart",
+      "age": "07.01.2004 (21)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "806948"
+    },
+    {
+      "name": "Paul Tschernuth",
+      "position": "Torwart",
+      "age": "20.01.2002 (23)",
+      "market_value": "100 Tsd. €",
+      "transfermarkt_id": "519035"
+    },
+    {
+      "name": "Benedikt Gimber",
+      "position": "Innenverteidiger",
+      "age": "19.02.1997 (28)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "227084"
+    },
+    {
+      "name": "Patrick Mainka",
+      "position": "Innenverteidiger",
+      "age": "06.11.1994 (30)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "133731"
+    },
+    {
+      "name": "Tim Siersleben",
+      "position": "Innenverteidiger",
+      "age": "09.03.2000 (25)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "337092"
+    },
+    {
+      "name": "Thomas Keller",
+      "position": "Innenverteidiger",
+      "age": "05.08.1999 (25)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "485747"
+    },
+    {
+      "name": "Adam Kölle",
+      "position": "Innenverteidiger",
+      "age": "28.04.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "921431"
+    },
+    {
+      "name": "Jonas Föhrenbach",
+      "position": "Linker Verteidiger",
+      "age": "26.01.1996 (29)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "192169"
+    },
+    {
+      "name": "Omar Traoré",
+      "position": "Rechter Verteidiger",
+      "age": "04.02.1998 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "388294"
+    },
+    {
+      "name": "Marnon Busch",
+      "position": "Rechter Verteidiger",
+      "age": "08.12.1994 (30)",
+      "market_value": "1,20 Mio. €",
+      "transfermarkt_id": "117478"
+    },
+    {
+      "name": "Niklas Dorsch",
+      "position": "Defensives Mittelfeld",
+      "age": "15.01.1998 (27)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "251302"
+    },
+    {
+      "name": "Julian Niehues",
+      "position": "Defensives Mittelfeld",
+      "age": "17.04.2001 (24)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "530173"
+    },
+    {
+      "name": "Luka Janes",
+      "position": "Defensives Mittelfeld",
+      "age": "19.01.2004 (21)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "825971"
+    },
+    {
+      "name": "Jan Schöppner",
+      "position": "Zentrales Mittelfeld",
+      "age": "12.06.1999 (26)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "581357"
+    },
+    {
+      "name": "Luca Kerber",
+      "position": "Zentrales Mittelfeld",
+      "age": "10.03.2002 (23)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "809498"
+    },
+    {
+      "name": "Nick Rothweiler",
+      "position": "Zentrales Mittelfeld",
+      "age": "16.06.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "1052350"
+    },
+    {
+      "name": "Arijon Ibrahimovic",
+      "position": "Offensives Mittelfeld",
+      "age": "11.12.2005 (19)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "744728"
+    },
+    {
+      "name": "Adrian Beck",
+      "position": "Offensives Mittelfeld",
+      "age": "09.06.1997 (28)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "273669"
+    },
+    {
+      "name": "Leo Scienza",
+      "position": "Linksaußen",
+      "age": "13.09.1998 (26)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "804219"
+    },
+    {
+      "name": "Mathias Honsak",
+      "position": "Linksaußen",
+      "age": "20.12.1996 (28)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "283497"
+    },
+    {
+      "name": "Sirlord Conteh",
+      "position": "Rechtsaußen",
+      "age": "09.07.1996 (28)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "307183"
+    },
+    {
+      "name": "Marvin Pieringer",
+      "position": "Mittelstürmer",
+      "age": "04.10.1999 (25)",
+      "market_value": "5,50 Mio. €",
+      "transfermarkt_id": "471055"
+    },
+    {
+      "name": "Budu Zivzivadze",
+      "position": "Mittelstürmer",
+      "age": "10.03.1994 (31)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "187097"
+    },
+    {
+      "name": "Maximilian Breunig",
+      "position": "Mittelstürmer",
+      "age": "14.08.2000 (24)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "584254"
+    },
+    {
+      "name": "Mikkel Kaufmann",
+      "position": "Mittelstürmer",
+      "age": "03.01.2001 (24)",
+      "market_value": "1,20 Mio. €",
+      "transfermarkt_id": "545332"
+    },
+    {
+      "name": "Stefan Schimmer",
+      "position": "Mittelstürmer",
+      "age": "28.04.1994 (31)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "394033"
+    }
+  ],
+  "1_fc_koeln": [
+    {
+      "name": "Marvin Schwäbe",
+      "position": "Torwart",
+      "age": "25.04.1995 (30)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "160929"
+    },
+    {
+      "name": "Matthias Köbbing",
+      "position": "Torwart",
+      "age": "28.05.1997 (28)",
+      "market_value": "100 Tsd. €",
+      "transfermarkt_id": "227089"
+    },
+    {
+      "name": "Timo Hübers",
+      "position": "Innenverteidiger",
+      "age": "20.07.1996 (28)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "236981"
+    },
+    {
+      "name": "Julian Pauli",
+      "position": "Innenverteidiger",
+      "age": "18.07.2005 (19)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "744558"
+    },
+    {
+      "name": "Joël Schmied",
+      "position": "Innenverteidiger",
+      "age": "23.09.1998 (26)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "322517"
+    },
+    {
+      "name": "Dominique Heintz",
+      "position": "Innenverteidiger",
+      "age": "15.08.1993 (31)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "110036"
+    },
+    {
+      "name": "Luca Kilian",
+      "position": "Innenverteidiger",
+      "age": "01.09.1999 (25)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "384553"
+    },
+    {
+      "name": "Neo Telle",
+      "position": "Innenverteidiger",
+      "age": "24.04.2005 (20)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "917792"
+    },
+    {
+      "name": "Leart Paçarada",
+      "position": "Linker Verteidiger",
+      "age": "08.10.1994 (30)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "107219"
+    },
+    {
+      "name": "Jusuf Gazibegovic",
+      "position": "Rechter Verteidiger",
+      "age": "11.03.2000 (25)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "393745"
+    },
+    {
+      "name": "Rasmus Carstensen",
+      "position": "Rechter Verteidiger",
+      "age": "10.11.2000 (24)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "542697"
+    },
+    {
+      "name": "Eric Martel",
+      "position": "Defensives Mittelfeld",
+      "age": "29.04.2002 (23)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "597000"
+    },
+    {
+      "name": "Jacob Christensen",
+      "position": "Defensives Mittelfeld",
+      "age": "25.06.2001 (24)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "515017"
+    },
+    {
+      "name": "Fayssal Harchaoui",
+      "position": "Defensives Mittelfeld",
+      "age": "15.01.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "890532"
+    },
+    {
+      "name": "Ísak Jóhannesson",
+      "position": "Zentrales Mittelfeld",
+      "age": "23.03.2003 (22)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "579565"
+    },
+    {
+      "name": "Denis Huseinbasic",
+      "position": "Zentrales Mittelfeld",
+      "age": "03.07.2001 (24)",
+      "market_value": "2,80 Mio. €",
+      "transfermarkt_id": "678479"
+    },
+    {
+      "name": "Florian Kainz",
+      "position": "Offensives Mittelfeld",
+      "age": "24.10.1992 (32)",
+      "market_value": "1,70 Mio. €",
+      "transfermarkt_id": "106270"
+    },
+    {
+      "name": "Linton Maina",
+      "position": "Linksaußen",
+      "age": "23.06.1999 (26)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "335103"
+    },
+    {
+      "name": "Said El Mala",
+      "position": "Linksaußen",
+      "age": "26.08.2006 (18)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "1168219"
+    },
+    {
+      "name": "Jan Thielmann",
+      "position": "Rechtsaußen",
+      "age": "26.05.2002 (23)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "472249"
+    },
+    {
+      "name": "Ragnar Ache",
+      "position": "Mittelstürmer",
+      "age": "28.07.1998 (26)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "416380"
+    },
+    {
+      "name": "Damion Downs",
+      "position": "Mittelstürmer",
+      "age": "06.07.2004 (20)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "820241"
+    },
+    {
+      "name": "Luca Waldschmidt",
+      "position": "Mittelstürmer",
+      "age": "19.05.1996 (29)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "196095"
+    },
+    {
+      "name": "Imad Rondic",
+      "position": "Mittelstürmer",
+      "age": "16.02.1999 (26)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "464154"
+    },
+    {
+      "name": "Steffen Tigges",
+      "position": "Mittelstürmer",
+      "age": "31.07.1998 (26)",
+      "market_value": "700 Tsd. €",
+      "transfermarkt_id": "296879"
+    },
+    {
+      "name": "Sargis Adamyan",
+      "position": "Mittelstürmer",
+      "age": "23.05.1993 (32)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "125614"
+    },
+    {
+      "name": "Jaka Cuber Potocnik",
+      "position": "Mittelstürmer",
+      "age": "17.06.2005 (20)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "940198"
+    },
+    {
+      "name": "Florian Dietz",
+      "position": "Mittelstürmer",
+      "age": "03.08.1998 (26)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "283871"
+    },
+    {
+      "name": "Malek El Mala",
+      "position": "Mittelstürmer",
+      "age": "02.04.2005 (20)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "1168222"
+    },
+    {
+      "name": "Chilohem Onuoha",
+      "position": "Mittelstürmer",
+      "age": "07.05.2005 (20)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "905013"
+    }
+  ],
+  "1_fc_union_berlin": [
+    {
+      "name": "Frederik Rönnow",
+      "position": "Torwart",
+      "age": "04.08.1992 (32)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "107775"
+    },
+    {
+      "name": "Lennart Grill",
+      "position": "Torwart",
+      "age": "25.01.1999 (26)",
+      "market_value": "450 Tsd. €",
+      "transfermarkt_id": "309397"
+    },
+    {
+      "name": "Carl Klaus",
+      "position": "Torwart",
+      "age": "16.01.1994 (31)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "161057"
+    },
+    {
+      "name": "Yannic Stein",
+      "position": "Torwart",
+      "age": "17.09.2004 (20)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "698840"
+    },
+    {
+      "name": "Diogo Leite",
+      "position": "Innenverteidiger",
+      "age": "23.01.1999 (26)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "357156"
+    },
+    {
+      "name": "Danilho Doekhi",
+      "position": "Innenverteidiger",
+      "age": "30.06.1998 (27)",
+      "market_value": "13,00 Mio. €",
+      "transfermarkt_id": "387047"
+    },
+    {
+      "name": "Leopold Querfeld",
+      "position": "Innenverteidiger",
+      "age": "20.12.2003 (21)",
+      "market_value": "13,00 Mio. €",
+      "transfermarkt_id": "597432"
+    },
+    {
+      "name": "Paul Jaeckel",
+      "position": "Innenverteidiger",
+      "age": "22.07.1998 (26)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "284248"
+    },
+    {
+      "name": "Kevin Vogt",
+      "position": "Innenverteidiger",
+      "age": "23.09.1991 (33)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "84435"
+    },
+    {
+      "name": "Oluwaseun Ogbemudia",
+      "position": "Innenverteidiger",
+      "age": "18.07.2006 (18)",
+      "market_value": "-",
+      "transfermarkt_id": "995520"
+    },
+    {
+      "name": "Tom Rothe",
+      "position": "Linker Verteidiger",
+      "age": "29.10.2004 (20)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "798043"
+    },
+    {
+      "name": "Andrik Markgraf",
+      "position": "Linker Verteidiger",
+      "age": "07.03.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "1027870"
+    },
+    {
+      "name": "Josip Juranovic",
+      "position": "Rechter Verteidiger",
+      "age": "16.08.1995 (29)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "362977"
+    },
+    {
+      "name": "Christopher Trimmel",
+      "position": "Rechter Verteidiger",
+      "age": "24.02.1987 (38)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "75921"
+    },
+    {
+      "name": "Aljoscha Kemlein",
+      "position": "Defensives Mittelfeld",
+      "age": "02.08.2004 (20)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "692737"
+    },
+    {
+      "name": "Rani Khedira",
+      "position": "Defensives Mittelfeld",
+      "age": "27.01.1994 (31)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "124410"
+    },
+    {
+      "name": "Lucas Tousart",
+      "position": "Defensives Mittelfeld",
+      "age": "29.04.1997 (28)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "353948"
+    },
+    {
+      "name": "Alex Král",
+      "position": "Zentrales Mittelfeld",
+      "age": "19.05.1998 (27)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "337333"
+    },
+    {
+      "name": "András Schäfer",
+      "position": "Zentrales Mittelfeld",
+      "age": "13.04.1999 (26)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "454863"
+    },
+    {
+      "name": "László Bénes",
+      "position": "Zentrales Mittelfeld",
+      "age": "09.09.1997 (27)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "243188"
+    },
+    {
+      "name": "Janik Haberer",
+      "position": "Zentrales Mittelfeld",
+      "age": "02.04.1994 (31)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "177779"
+    },
+    {
+      "name": "Robert Skov",
+      "position": "Linkes Mittelfeld",
+      "age": "20.05.1996 (29)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "270393"
+    },
+    {
+      "name": "Woo-yeong Jeong",
+      "position": "Offensives Mittelfeld",
+      "age": "20.09.1999 (25)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "297583"
+    },
+    {
+      "name": "Livan Burcu",
+      "position": "Linksaußen",
+      "age": "28.09.2004 (20)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "519872"
+    },
+    {
+      "name": "David Preu",
+      "position": "Linksaußen",
+      "age": "26.10.2004 (20)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "745075"
+    },
+    {
+      "name": "Tim Skarke",
+      "position": "Rechtsaußen",
+      "age": "07.09.1996 (28)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "287920"
+    },
+    {
+      "name": "Ilyas Ansah",
+      "position": "Mittelstürmer",
+      "age": "08.11.2004 (20)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "1035765"
+    },
+    {
+      "name": "Andrej Ilic",
+      "position": "Mittelstürmer",
+      "age": "03.04.2000 (25)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "583699"
+    },
+    {
+      "name": "Marin Ljubicic",
+      "position": "Mittelstürmer",
+      "age": "28.02.2002 (23)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "838236"
+    },
+    {
+      "name": "Oliver Burke",
+      "position": "Mittelstürmer",
+      "age": "07.04.1997 (28)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "341317"
+    }
+  ],
+  "1_fsv_mainz_05": [
+    {
+      "name": "Robin Zentner",
+      "position": "Torwart",
+      "age": "28.10.1994 (30)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "160963"
+    },
+    {
+      "name": "Lasse Rieß",
+      "position": "Torwart",
+      "age": "27.07.2001 (23)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "490609"
+    },
+    {
+      "name": "Daniel Batz",
+      "position": "Torwart",
+      "age": "12.01.1991 (34)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "90317"
+    },
+    {
+      "name": "Andreas Hanche-Olsen",
+      "position": "Innenverteidiger",
+      "age": "17.01.1997 (28)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "370683"
+    },
+    {
+      "name": "Dominik Kohr",
+      "position": "Innenverteidiger",
+      "age": "31.01.1994 (31)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "118847"
+    },
+    {
+      "name": "Maxim Leitsch",
+      "position": "Innenverteidiger",
+      "age": "18.05.1998 (27)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "334207"
+    },
+    {
+      "name": "Danny da Costa",
+      "position": "Innenverteidiger",
+      "age": "13.07.1993 (31)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "85906"
+    },
+    {
+      "name": "Stefan Bell",
+      "position": "Innenverteidiger",
+      "age": "24.08.1991 (33)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "82350"
+    },
+    {
+      "name": "Konstantin Schopp",
+      "position": "Innenverteidiger",
+      "age": "30.12.2005 (19)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "805123"
+    },
+    {
+      "name": "Maxim Dal",
+      "position": "Innenverteidiger",
+      "age": "26.01.2006 (19)",
+      "market_value": "150 Tsd. €",
+      "transfermarkt_id": "934317"
+    },
+    {
+      "name": "Phillipp Mwene",
+      "position": "Linker Verteidiger",
+      "age": "29.01.1994 (31)",
+      "market_value": "1,80 Mio. €",
+      "transfermarkt_id": "127573"
+    },
+    {
+      "name": "Kasey Bos",
+      "position": "Linker Verteidiger",
+      "age": "08.05.2004 (21)",
+      "market_value": "450 Tsd. €",
+      "transfermarkt_id": "1154876"
+    },
+    {
+      "name": "Anthony Caci",
+      "position": "Rechter Verteidiger",
+      "age": "01.07.1997 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "453016"
+    },
+    {
+      "name": "Nikolas Veratschnig",
+      "position": "Rechter Verteidiger",
+      "age": "24.01.2003 (22)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "601143"
+    },
+    {
+      "name": "Silvan Widmer",
+      "position": "Rechter Verteidiger",
+      "age": "05.03.1993 (32)",
+      "market_value": "1,20 Mio. €",
+      "transfermarkt_id": "168989"
+    },
+    {
+      "name": "Kaishu Sano",
+      "position": "Defensives Mittelfeld",
+      "age": "30.12.2000 (24)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "643574"
+    },
+    {
+      "name": "Lennard Maloney",
+      "position": "Defensives Mittelfeld",
+      "age": "08.10.1999 (25)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "392710"
+    },
+    {
+      "name": "Edimilson Fernandes",
+      "position": "Defensives Mittelfeld",
+      "age": "15.04.1996 (29)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "247555"
+    },
+    {
+      "name": "Niklas Tauer",
+      "position": "Defensives Mittelfeld",
+      "age": "17.02.2001 (24)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "470815"
+    },
+    {
+      "name": "Nadiem Amiri",
+      "position": "Zentrales Mittelfeld",
+      "age": "27.10.1996 (28)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "232454"
+    },
+    {
+      "name": "Tom Krauß",
+      "position": "Zentrales Mittelfeld",
+      "age": "22.06.2001 (24)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "405687"
+    },
+    {
+      "name": "Paul Nebel",
+      "position": "Offensives Mittelfeld",
+      "age": "10.10.2002 (22)",
+      "market_value": "24,00 Mio. €",
+      "transfermarkt_id": "503160"
+    },
+    {
+      "name": "Hyun-seok Hong",
+      "position": "Offensives Mittelfeld",
+      "age": "16.06.1999 (26)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "562948"
+    },
+    {
+      "name": "Jae-sung Lee",
+      "position": "Offensives Mittelfeld",
+      "age": "10.08.1992 (32)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "314398"
+    },
+    {
+      "name": "Marco Richter",
+      "position": "Offensives Mittelfeld",
+      "age": "24.11.1997 (27)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "279009"
+    },
+    {
+      "name": "Arnaud Nordin",
+      "position": "Rechtsaußen",
+      "age": "17.06.1998 (27)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "324811"
+    },
+    {
+      "name": "Armindo Sieb",
+      "position": "Hängende Spitze",
+      "age": "17.02.2003 (22)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "569033"
+    },
+    {
+      "name": "Jonathan Burkardt",
+      "position": "Mittelstürmer",
+      "age": "11.07.2000 (24)",
+      "market_value": "35,00 Mio. €",
+      "transfermarkt_id": "333647"
+    },
+    {
+      "name": "Benedict Hollerbach",
+      "position": "Mittelstürmer",
+      "age": "17.05.2001 (24)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "453870"
+    },
+    {
+      "name": "Nelson Weiper",
+      "position": "Mittelstürmer",
+      "age": "17.03.2005 (20)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "796213"
+    },
+    {
+      "name": "Ben Bobzien",
+      "position": "Mittelstürmer",
+      "age": "29.04.2003 (22)",
+      "market_value": "1,20 Mio. €",
+      "transfermarkt_id": "658116"
+    }
+  ],
+  "bayer_04_leverkusen": [
+    {
+      "name": "Mark Flekken",
+      "position": "Torwart",
+      "age": "13.06.1993 (32)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "125714"
+    },
+    {
+      "name": "Matej Kovar",
+      "position": "Torwart",
+      "age": "17.05.2000 (25)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "550829"
+    },
+    {
+      "name": "Lukas Hradecky",
+      "position": "Torwart",
+      "age": "24.11.1989 (35)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "48015"
+    },
+    {
+      "name": "Niklas Lomb",
+      "position": "Torwart",
+      "age": "28.07.1993 (31)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "85543"
+    },
+    {
+      "name": "Piero Hincapié",
+      "position": "Innenverteidiger",
+      "age": "09.01.2002 (23)",
+      "market_value": "50,00 Mio. €",
+      "transfermarkt_id": "659813"
+    },
+    {
+      "name": "Edmond Tapsoba",
+      "position": "Innenverteidiger",
+      "age": "02.02.1999 (26)",
+      "market_value": "35,00 Mio. €",
+      "transfermarkt_id": "564545"
+    },
+    {
+      "name": "Jarell Quansah",
+      "position": "Innenverteidiger",
+      "age": "29.01.2003 (22)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "632349"
+    },
+    {
+      "name": "Jeanuël Belocian",
+      "position": "Innenverteidiger",
+      "age": "17.02.2005 (20)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "919515"
+    },
+    {
+      "name": "Axel Tape",
+      "position": "Innenverteidiger",
+      "age": "10.08.2007 (17)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "1077670"
+    },
+    {
+      "name": "Abdoulaye Faye",
+      "position": "Innenverteidiger",
+      "age": "22.09.2004 (20)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "1182738"
+    },
+    {
+      "name": "Andrea Natali",
+      "position": "Innenverteidiger",
+      "age": "28.01.2008 (17)",
+      "market_value": "-",
+      "transfermarkt_id": "1058353"
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "position": "Linker Verteidiger",
+      "age": "20.09.1995 (29)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "193082"
+    },
+    {
+      "name": "Arthur",
+      "position": "Rechter Verteidiger",
+      "age": "17.03.2003 (22)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "977464"
+    },
+    {
+      "name": "Granit Xhaka",
+      "position": "Defensives Mittelfeld",
+      "age": "27.09.1992 (32)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "111455"
+    },
+    {
+      "name": "Robert Andrich",
+      "position": "Defensives Mittelfeld",
+      "age": "22.09.1994 (30)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "159088"
+    },
+    {
+      "name": "Exequiel Palacios",
+      "position": "Zentrales Mittelfeld",
+      "age": "05.10.1998 (26)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "401578"
+    },
+    {
+      "name": "Aleix García",
+      "position": "Zentrales Mittelfeld",
+      "age": "28.06.1997 (28)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "261504"
+    },
+    {
+      "name": "Nathan Tella",
+      "position": "Rechtes Mittelfeld",
+      "age": "05.07.1999 (25)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "340322"
+    },
+    {
+      "name": "Ibrahim Maza",
+      "position": "Offensives Mittelfeld",
+      "age": "24.11.2005 (19)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "905011"
+    },
+    {
+      "name": "Jonas Hofmann",
+      "position": "Offensives Mittelfeld",
+      "age": "14.07.1992 (32)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "7161"
+    },
+    {
+      "name": "Amine Adli",
+      "position": "Linksaußen",
+      "age": "10.05.2000 (25)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "532776"
+    },
+    {
+      "name": "Martin Terrier",
+      "position": "Linksaußen",
+      "age": "04.03.1997 (28)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "442891"
+    },
+    {
+      "name": "Victor Boniface",
+      "position": "Mittelstürmer",
+      "age": "23.12.2000 (24)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "656681"
+    },
+    {
+      "name": "Patrik Schick",
+      "position": "Mittelstürmer",
+      "age": "24.01.1996 (29)",
+      "market_value": "27,00 Mio. €",
+      "transfermarkt_id": "242086"
+    },
+    {
+      "name": "Alejo Sarco",
+      "position": "Mittelstürmer",
+      "age": "06.01.2006 (19)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "1000675"
+    }
+  ],
+  "borussia_dortmund": [
+    {
+      "name": "Gregor Kobel",
+      "position": "Torwart",
+      "age": "06.12.1997 (27)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "257814"
+    },
+    {
+      "name": "Diant Ramaj",
+      "position": "Torwart",
+      "age": "19.09.2001 (23)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "448705"
+    },
+    {
+      "name": "Alexander Meyer",
+      "position": "Torwart",
+      "age": "13.04.1991 (34)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "76158"
+    },
+    {
+      "name": "Patrick Drewes",
+      "position": "Torwart",
+      "age": "04.02.1993 (32)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "94192"
+    },
+    {
+      "name": "Silas Ostrzinski",
+      "position": "Torwart",
+      "age": "19.11.2003 (21)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "684116"
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "position": "Innenverteidiger",
+      "age": "01.12.1999 (25)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "388198"
+    },
+    {
+      "name": "Waldemar Anton",
+      "position": "Innenverteidiger",
+      "age": "20.07.1996 (28)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "193004"
+    },
+    {
+      "name": "Niklas Süle",
+      "position": "Innenverteidiger",
+      "age": "03.09.1995 (29)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "166601"
+    },
+    {
+      "name": "Soumaïla Coulibaly",
+      "position": "Innenverteidiger",
+      "age": "14.10.2003 (21)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "659513"
+    },
+    {
+      "name": "Filippo Mané",
+      "position": "Innenverteidiger",
+      "age": "08.03.2005 (20)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "883007"
+    },
+    {
+      "name": "Daniel Svensson",
+      "position": "Linker Verteidiger",
+      "age": "12.02.2002 (23)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "579287"
+    },
+    {
+      "name": "Ramy Bensebaini",
+      "position": "Linker Verteidiger",
+      "age": "16.04.1995 (30)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "284732"
+    },
+    {
+      "name": "Almugera Kabar",
+      "position": "Linker Verteidiger",
+      "age": "06.06.2006 (19)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "884820"
+    },
+    {
+      "name": "Yan Couto",
+      "position": "Rechter Verteidiger",
+      "age": "03.06.2002 (23)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "627228"
+    },
+    {
+      "name": "Julian Ryerson",
+      "position": "Rechter Verteidiger",
+      "age": "17.11.1997 (27)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "370789"
+    },
+    {
+      "name": "Emre Can",
+      "position": "Defensives Mittelfeld",
+      "age": "12.01.1994 (31)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "119296"
+    },
+    {
+      "name": "Salih Özcan",
+      "position": "Defensives Mittelfeld",
+      "age": "11.01.1998 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "244940"
+    },
+    {
+      "name": "Felix Nmecha",
+      "position": "Zentrales Mittelfeld",
+      "age": "10.10.2000 (24)",
+      "market_value": "28,00 Mio. €",
+      "transfermarkt_id": "406640"
+    },
+    {
+      "name": "Jobe Bellingham",
+      "position": "Zentrales Mittelfeld",
+      "age": "23.09.2005 (19)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "796297"
+    },
+    {
+      "name": "Carney Chukwuemeka",
+      "position": "Zentrales Mittelfeld",
+      "age": "20.10.2003 (21)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "659459"
+    },
+    {
+      "name": "Marcel Sabitzer",
+      "position": "Zentrales Mittelfeld",
+      "age": "17.03.1994 (31)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "106987"
+    },
+    {
+      "name": "Pascal Groß",
+      "position": "Zentrales Mittelfeld",
+      "age": "15.06.1991 (34)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "82873"
+    },
+    {
+      "name": "Julian Brandt",
+      "position": "Offensives Mittelfeld",
+      "age": "02.05.1996 (29)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "187492"
+    },
+    {
+      "name": "Giovanni Reyna",
+      "position": "Offensives Mittelfeld",
+      "age": "13.11.2002 (22)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "504215"
+    },
+    {
+      "name": "Jamie Gittens",
+      "position": "Linksaußen",
+      "age": "08.08.2004 (20)",
+      "market_value": "50,00 Mio. €",
+      "transfermarkt_id": "670882"
+    },
+    {
+      "name": "Julien Duranville",
+      "position": "Linksaußen",
+      "age": "05.05.2006 (19)",
+      "market_value": "8,50 Mio. €",
+      "transfermarkt_id": "819215"
+    },
+    {
+      "name": "Karim Adeyemi",
+      "position": "Rechtsaußen",
+      "age": "18.01.2002 (23)",
+      "market_value": "45,00 Mio. €",
+      "transfermarkt_id": "496094"
+    },
+    {
+      "name": "Cole Campbell",
+      "position": "Rechtsaußen",
+      "age": "20.02.2006 (19)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "866579"
+    },
+    {
+      "name": "Serhou Guirassy",
+      "position": "Mittelstürmer",
+      "age": "12.03.1996 (29)",
+      "market_value": "45,00 Mio. €",
+      "transfermarkt_id": "270541"
+    },
+    {
+      "name": "Maximilian Beier",
+      "position": "Mittelstürmer",
+      "age": "17.10.2002 (22)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "578392"
+    },
+    {
+      "name": "Sébastien Haller",
+      "position": "Mittelstürmer",
+      "age": "22.06.1994 (31)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "181375"
+    }
+  ],
+  "borussia_moenchengladbach": [
+    {
+      "name": "Moritz Nicolas",
+      "position": "Torwart",
+      "age": "21.10.1997 (27)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "284270"
+    },
+    {
+      "name": "Jonas Omlin",
+      "position": "Torwart",
+      "age": "10.01.1994 (31)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "247915"
+    },
+    {
+      "name": "Tiago Pereira Cardoso",
+      "position": "Torwart",
+      "age": "07.04.2006 (19)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "926301"
+    },
+    {
+      "name": "Ko Itakura",
+      "position": "Innenverteidiger",
+      "age": "27.01.1997 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "355816"
+    },
+    {
+      "name": "Nico Elvedi",
+      "position": "Innenverteidiger",
+      "age": "30.09.1996 (28)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "192635"
+    },
+    {
+      "name": "Kevin Diks",
+      "position": "Innenverteidiger",
+      "age": "06.10.1996 (28)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "335209"
+    },
+    {
+      "name": "Marvin Friedrich",
+      "position": "Innenverteidiger",
+      "age": "13.12.1995 (29)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "196231"
+    },
+    {
+      "name": "Fabio Chiarodia",
+      "position": "Innenverteidiger",
+      "age": "05.06.2005 (20)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "724104"
+    },
+    {
+      "name": "Lukas Ullrich",
+      "position": "Linker Verteidiger",
+      "age": "16.03.2004 (21)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "787151"
+    },
+    {
+      "name": "Luca Netz",
+      "position": "Linker Verteidiger",
+      "age": "15.05.2003 (22)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "524285"
+    },
+    {
+      "name": "Joe Scally",
+      "position": "Rechter Verteidiger",
+      "age": "31.12.2002 (22)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "504153"
+    },
+    {
+      "name": "Julian Weigl",
+      "position": "Defensives Mittelfeld",
+      "age": "08.09.1995 (29)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "196792"
+    },
+    {
+      "name": "Niklas Swider",
+      "position": "Defensives Mittelfeld",
+      "age": "05.01.2007 (18)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "1009463"
+    },
+    {
+      "name": "Rocco Reitz",
+      "position": "Zentrales Mittelfeld",
+      "age": "29.05.2002 (23)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "467434"
+    },
+    {
+      "name": "Jens Castrop",
+      "position": "Zentrales Mittelfeld",
+      "age": "29.07.2003 (21)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "613192"
+    },
+    {
+      "name": "Philipp Sander",
+      "position": "Zentrales Mittelfeld",
+      "age": "21.02.1998 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "388409"
+    },
+    {
+      "name": "Florian Neuhaus",
+      "position": "Zentrales Mittelfeld",
+      "age": "16.03.1997 (28)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "278332"
+    },
+    {
+      "name": "Oscar Fraulo",
+      "position": "Zentrales Mittelfeld",
+      "age": "06.12.2003 (21)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "610428"
+    },
+    {
+      "name": "Kevin Stöger",
+      "position": "Offensives Mittelfeld",
+      "age": "27.08.1993 (31)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "106872"
+    },
+    {
+      "name": "Robin Hack",
+      "position": "Linksaußen",
+      "age": "27.08.1998 (26)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "284010"
+    },
+    {
+      "name": "Yvandro Borges Sanches",
+      "position": "Linksaußen",
+      "age": "24.05.2004 (21)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "586659"
+    },
+    {
+      "name": "Franck Honorat",
+      "position": "Rechtsaußen",
+      "age": "11.08.1996 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "229006"
+    },
+    {
+      "name": "Nathan Ngoumou",
+      "position": "Rechtsaußen",
+      "age": "14.03.2000 (25)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "629588"
+    },
+    {
+      "name": "Charles Herrmann",
+      "position": "Rechtsaußen",
+      "age": "21.01.2006 (19)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "884822"
+    },
+    {
+      "name": "Tim Kleindienst",
+      "position": "Mittelstürmer",
+      "age": "31.08.1995 (29)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "193033"
+    },
+    {
+      "name": "Alassane Pléa",
+      "position": "Mittelstürmer",
+      "age": "10.03.1993 (32)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "167329"
+    },
+    {
+      "name": "Tomas Cvancara",
+      "position": "Mittelstürmer",
+      "age": "13.08.2000 (24)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "544148"
+    },
+    {
+      "name": "Shio Fukuda",
+      "position": "Mittelstürmer",
+      "age": "08.04.2004 (21)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "1073997"
+    },
+    {
+      "name": "Grant-Leon Ranos",
+      "position": "Mittelstürmer",
+      "age": "20.07.2003 (21)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "574201"
+    }
+  ],
+  "eintracht_frankfurt": [
+    {
+      "name": "Kevin Trapp",
+      "position": "Torwart",
+      "age": "08.07.1990 (34)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "45672"
+    },
+    {
+      "name": "Kauã Santos",
+      "position": "Torwart",
+      "age": "11.04.2003 (22)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "997861"
+    },
+    {
+      "name": "Jens Grahl",
+      "position": "Torwart",
+      "age": "22.09.1988 (36)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "40034"
+    },
+    {
+      "name": "Arthur Theate",
+      "position": "Innenverteidiger",
+      "age": "25.05.2000 (25)",
+      "market_value": "24,00 Mio. €",
+      "transfermarkt_id": "368891"
+    },
+    {
+      "name": "Robin Koch",
+      "position": "Innenverteidiger",
+      "age": "17.07.1996 (28)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "328784"
+    },
+    {
+      "name": "Tuta",
+      "position": "Innenverteidiger",
+      "age": "04.07.1999 (25)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "546213"
+    },
+    {
+      "name": "Nnamdi Collins",
+      "position": "Innenverteidiger",
+      "age": "10.01.2004 (21)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "684315"
+    },
+    {
+      "name": "Aurèle Amenda",
+      "position": "Innenverteidiger",
+      "age": "31.07.2003 (21)",
+      "market_value": "7,50 Mio. €",
+      "transfermarkt_id": "635645"
+    },
+    {
+      "name": "Hrvoje Smolcic",
+      "position": "Innenverteidiger",
+      "age": "17.08.2000 (24)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "571299"
+    },
+    {
+      "name": "Nathaniel Brown",
+      "position": "Linker Verteidiger",
+      "age": "16.06.2003 (22)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "691892"
+    },
+    {
+      "name": "Niels Nkounkou",
+      "position": "Linker Verteidiger",
+      "age": "01.11.2000 (24)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "591193"
+    },
+    {
+      "name": "Rasmus Kristensen",
+      "position": "Rechter Verteidiger",
+      "age": "11.07.1997 (27)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "369684"
+    },
+    {
+      "name": "Elias Baum",
+      "position": "Rechter Verteidiger",
+      "age": "26.10.2005 (19)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "744857"
+    },
+    {
+      "name": "Aurélio Buta",
+      "position": "Rechter Verteidiger",
+      "age": "10.02.1997 (28)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "258039"
+    },
+    {
+      "name": "Timothy Chandler",
+      "position": "Rechter Verteidiger",
+      "age": "29.03.1990 (35)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "49723"
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "position": "Defensives Mittelfeld",
+      "age": "10.05.1995 (30)",
+      "market_value": "7,50 Mio. €",
+      "transfermarkt_id": "290587"
+    },
+    {
+      "name": "Noah Fenyö",
+      "position": "Defensives Mittelfeld",
+      "age": "30.01.2006 (19)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "951957"
+    },
+    {
+      "name": "Hugo Larsson",
+      "position": "Zentrales Mittelfeld",
+      "age": "27.06.2004 (21)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "931838"
+    },
+    {
+      "name": "Paxten Aaronson",
+      "position": "Zentrales Mittelfeld",
+      "age": "26.08.2003 (21)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "795738"
+    },
+    {
+      "name": "Oscar Højlund",
+      "position": "Zentrales Mittelfeld",
+      "age": "04.01.2005 (20)",
+      "market_value": "7,50 Mio. €",
+      "transfermarkt_id": "846310"
+    },
+    {
+      "name": "Mahmoud Dahoud",
+      "position": "Zentrales Mittelfeld",
+      "age": "01.01.1996 (29)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "191422"
+    },
+    {
+      "name": "Junior Dina Ebimbe",
+      "position": "Rechtes Mittelfeld",
+      "age": "21.11.2000 (24)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "536482"
+    },
+    {
+      "name": "Can Uzun",
+      "position": "Offensives Mittelfeld",
+      "age": "11.11.2005 (19)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "816585"
+    },
+    {
+      "name": "Farès Chaïbi",
+      "position": "Offensives Mittelfeld",
+      "age": "28.11.2002 (22)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "855015"
+    },
+    {
+      "name": "Mario Götze",
+      "position": "Offensives Mittelfeld",
+      "age": "03.06.1992 (33)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "74842"
+    },
+    {
+      "name": "Krisztián Lisztes",
+      "position": "Offensives Mittelfeld",
+      "age": "06.05.2005 (20)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "933217"
+    },
+    {
+      "name": "Jean-Mattéo Bahoya",
+      "position": "Linksaußen",
+      "age": "07.05.2005 (20)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "939964"
+    },
+    {
+      "name": "Ansgar Knauff",
+      "position": "Rechtsaußen",
+      "age": "10.01.2002 (23)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "429874"
+    },
+    {
+      "name": "Hugo Ekitiké",
+      "position": "Mittelstürmer",
+      "age": "20.06.2002 (23)",
+      "market_value": "75,00 Mio. €",
+      "transfermarkt_id": "709726"
+    },
+    {
+      "name": "Elye Wahi",
+      "position": "Mittelstürmer",
+      "age": "02.01.2003 (22)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "659542"
+    },
+    {
+      "name": "Igor Matanovic",
+      "position": "Mittelstürmer",
+      "age": "31.03.2003 (22)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "605268"
+    },
+    {
+      "name": "Michy Batshuayi",
+      "position": "Mittelstürmer",
+      "age": "02.10.1993 (31)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "179184"
+    },
+    {
+      "name": "Nacho Ferri",
+      "position": "Mittelstürmer",
+      "age": "05.10.2004 (20)",
+      "market_value": "2,20 Mio. €",
+      "transfermarkt_id": "867357"
+    },
+    {
+      "name": "Jessic Ngankam",
+      "position": "Mittelstürmer",
+      "age": "20.07.2000 (24)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "448177"
+    }
+  ],
+  "fc_augsburg": [
+    {
+      "name": "Finn Dahmen",
+      "position": "Torwart",
+      "age": "27.03.1998 (27)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "251299"
+    },
+    {
+      "name": "Nediljko Labrovic",
+      "position": "Torwart",
+      "age": "10.10.1999 (25)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "610190"
+    },
+    {
+      "name": "Daniel Klein",
+      "position": "Torwart",
+      "age": "13.03.2001 (24)",
+      "market_value": "150 Tsd. €",
+      "transfermarkt_id": "392124"
+    },
+    {
+      "name": "Tobias Jäger",
+      "position": "Torwart",
+      "age": "01.02.2005 (20)",
+      "market_value": "100 Tsd. €",
+      "transfermarkt_id": "827980"
+    },
+    {
+      "name": "Chrislain Matsima",
+      "position": "Innenverteidiger",
+      "age": "15.05.2002 (23)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "569383"
+    },
+    {
+      "name": "Cédric Zesiger",
+      "position": "Innenverteidiger",
+      "age": "24.06.1998 (27)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "382478"
+    },
+    {
+      "name": "Keven Schlotterbeck",
+      "position": "Innenverteidiger",
+      "age": "28.04.1997 (28)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "413843"
+    },
+    {
+      "name": "Noahkai Banks",
+      "position": "Innenverteidiger",
+      "age": "01.12.2006 (18)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "923945"
+    },
+    {
+      "name": "Maximilian Bauer",
+      "position": "Innenverteidiger",
+      "age": "09.02.2000 (25)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "388363"
+    },
+    {
+      "name": "Jeffrey Gouweleeuw",
+      "position": "Innenverteidiger",
+      "age": "10.07.1991 (33)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "106405"
+    },
+    {
+      "name": "Dimitrios Giannoulis",
+      "position": "Linker Verteidiger",
+      "age": "17.10.1995 (29)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "295630"
+    },
+    {
+      "name": "Mads Pedersen",
+      "position": "Linker Verteidiger",
+      "age": "01.09.1996 (28)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "288429"
+    },
+    {
+      "name": "David Colina",
+      "position": "Linker Verteidiger",
+      "age": "19.07.2000 (24)",
+      "market_value": "850 Tsd. €",
+      "transfermarkt_id": "371000"
+    },
+    {
+      "name": "Marius Wolf",
+      "position": "Rechter Verteidiger",
+      "age": "27.05.1995 (30)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "193900"
+    },
+    {
+      "name": "Henri Koudossou",
+      "position": "Rechter Verteidiger",
+      "age": "03.09.1999 (25)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "515624"
+    },
+    {
+      "name": "Kristijan Jakic",
+      "position": "Defensives Mittelfeld",
+      "age": "14.05.1997 (28)",
+      "market_value": "6,50 Mio. €",
+      "transfermarkt_id": "374954"
+    },
+    {
+      "name": "Tim Breithaupt",
+      "position": "Defensives Mittelfeld",
+      "age": "07.02.2002 (23)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "569457"
+    },
+    {
+      "name": "Robin Fellhauer",
+      "position": "Defensives Mittelfeld",
+      "age": "21.01.1998 (27)",
+      "market_value": "1,80 Mio. €",
+      "transfermarkt_id": "264960"
+    },
+    {
+      "name": "Mahmut Kücüksahin",
+      "position": "Defensives Mittelfeld",
+      "age": "07.04.2004 (21)",
+      "market_value": "175 Tsd. €",
+      "transfermarkt_id": "730486"
+    },
+    {
+      "name": "Arne Maier",
+      "position": "Zentrales Mittelfeld",
+      "age": "08.01.1999 (26)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "296397"
+    },
+    {
+      "name": "Elvis Rexhbecaj",
+      "position": "Zentrales Mittelfeld",
+      "age": "01.11.1997 (27)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "280575"
+    },
+    {
+      "name": "Alexis Claude-Maurice",
+      "position": "Offensives Mittelfeld",
+      "age": "06.06.1998 (27)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "384593"
+    },
+    {
+      "name": "Mert Kömür",
+      "position": "Offensives Mittelfeld",
+      "age": "17.07.2005 (19)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "777005"
+    },
+    {
+      "name": "Elias Saad",
+      "position": "Linksaußen",
+      "age": "27.12.1999 (25)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "526466"
+    },
+    {
+      "name": "Yusuf Kabadayi",
+      "position": "Linksaußen",
+      "age": "02.02.2004 (21)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "604359"
+    },
+    {
+      "name": "Kyliane Dong",
+      "position": "Rechtsaußen",
+      "age": "27.09.2004 (20)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "982863"
+    },
+    {
+      "name": "Phillip Tietz",
+      "position": "Mittelstürmer",
+      "age": "09.07.1997 (27)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "288340"
+    },
+    {
+      "name": "Samuel Essende",
+      "position": "Mittelstürmer",
+      "age": "23.01.1998 (27)",
+      "market_value": "4,50 Mio. €",
+      "transfermarkt_id": "395522"
+    },
+    {
+      "name": "Dion Beljo",
+      "position": "Mittelstürmer",
+      "age": "01.03.2002 (23)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "618350"
+    },
+    {
+      "name": "Steve Mounié",
+      "position": "Mittelstürmer",
+      "age": "29.09.1994 (30)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "238639"
+    }
+  ],
+  "fc_bayern_muenchen": [
+    {
+      "name": "Jonas Urbig",
+      "position": "Torwart",
+      "age": "08.08.2003 (21)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "607720"
+    },
+    {
+      "name": "Manuel Neuer",
+      "position": "Torwart",
+      "age": "27.03.1986 (39)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "17259"
+    },
+    {
+      "name": "Daniel Peretz",
+      "position": "Torwart",
+      "age": "10.07.2000 (24)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "468539"
+    },
+    {
+      "name": "Leon Klanac",
+      "position": "Torwart",
+      "age": "01.03.2007 (18)",
+      "market_value": "-",
+      "transfermarkt_id": "1009439"
+    },
+    {
+      "name": "Dayot Upamecano",
+      "position": "Innenverteidiger",
+      "age": "27.10.1998 (26)",
+      "market_value": "50,00 Mio. €",
+      "transfermarkt_id": "344695"
+    },
+    {
+      "name": "Min-jae Kim",
+      "position": "Innenverteidiger",
+      "age": "15.11.1996 (28)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "503482"
+    },
+    {
+      "name": "Jonathan Tah",
+      "position": "Innenverteidiger",
+      "age": "11.02.1996 (29)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "196357"
+    },
+    {
+      "name": "Hiroki Ito",
+      "position": "Innenverteidiger",
+      "age": "12.05.1999 (26)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "353892"
+    },
+    {
+      "name": "Tarek Buchmann",
+      "position": "Innenverteidiger",
+      "age": "28.02.2005 (20)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "744729"
+    },
+    {
+      "name": "Alphonso Davies",
+      "position": "Linker Verteidiger",
+      "age": "02.11.2000 (24)",
+      "market_value": "50,00 Mio. €",
+      "transfermarkt_id": "424204"
+    },
+    {
+      "name": "Raphaël Guerreiro",
+      "position": "Linker Verteidiger",
+      "age": "22.12.1993 (31)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "170986"
+    },
+    {
+      "name": "Adam Aznou",
+      "position": "Linker Verteidiger",
+      "age": "02.06.2006 (19)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "938146"
+    },
+    {
+      "name": "Josip Stanisic",
+      "position": "Rechter Verteidiger",
+      "age": "02.04.2000 (25)",
+      "market_value": "32,00 Mio. €",
+      "transfermarkt_id": "483046"
+    },
+    {
+      "name": "Konrad Laimer",
+      "position": "Rechter Verteidiger",
+      "age": "27.05.1997 (28)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "223967"
+    },
+    {
+      "name": "Sacha Boey",
+      "position": "Rechter Verteidiger",
+      "age": "13.09.2000 (24)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "475413"
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "position": "Defensives Mittelfeld",
+      "age": "03.05.2004 (21)",
+      "market_value": "55,00 Mio. €",
+      "transfermarkt_id": "792380"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "position": "Defensives Mittelfeld",
+      "age": "08.02.1995 (30)",
+      "market_value": "45,00 Mio. €",
+      "transfermarkt_id": "161056"
+    },
+    {
+      "name": "João Palhinha",
+      "position": "Defensives Mittelfeld",
+      "age": "09.07.1995 (29)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "257455"
+    },
+    {
+      "name": "David Santos Daiber",
+      "position": "Defensives Mittelfeld",
+      "age": "10.01.2007 (18)",
+      "market_value": "-",
+      "transfermarkt_id": "1118495"
+    },
+    {
+      "name": "Tom Bischof",
+      "position": "Zentrales Mittelfeld",
+      "age": "28.06.2005 (20)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "822959"
+    },
+    {
+      "name": "Leon Goretzka",
+      "position": "Zentrales Mittelfeld",
+      "age": "06.02.1995 (30)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "153084"
+    },
+    {
+      "name": "Jamal Musiala",
+      "position": "Offensives Mittelfeld",
+      "age": "26.02.2003 (22)",
+      "market_value": "140,00 Mio. €",
+      "transfermarkt_id": "580195"
+    },
+    {
+      "name": "Paul Wanner",
+      "position": "Offensives Mittelfeld",
+      "age": "23.12.2005 (19)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "900909"
+    },
+    {
+      "name": "Lovro Zvonarek",
+      "position": "Offensives Mittelfeld",
+      "age": "08.05.2005 (20)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "892973"
+    },
+    {
+      "name": "Lennart Karl",
+      "position": "Offensives Mittelfeld",
+      "age": "22.02.2008 (17)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "1075147"
+    },
+    {
+      "name": "Kingsley Coman",
+      "position": "Linksaußen",
+      "age": "13.06.1996 (29)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "243714"
+    },
+    {
+      "name": "Serge Gnabry",
+      "position": "Linksaußen",
+      "age": "14.07.1995 (29)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "159471"
+    },
+    {
+      "name": "Bryan Zaragoza",
+      "position": "Linksaußen",
+      "age": "09.09.2001 (23)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "713644"
+    },
+    {
+      "name": "Michael Olise",
+      "position": "Rechtsaußen",
+      "age": "12.12.2001 (23)",
+      "market_value": "100,00 Mio. €",
+      "transfermarkt_id": "566723"
+    },
+    {
+      "name": "Thomas Müller",
+      "position": "Hängende Spitze",
+      "age": "13.09.1989 (35)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "58358"
+    },
+    {
+      "name": "Harry Kane",
+      "position": "Mittelstürmer",
+      "age": "28.07.1993 (31)",
+      "market_value": "75,00 Mio. €",
+      "transfermarkt_id": "132098"
+    },
+    {
+      "name": "Jonah Kusi-Asare",
+      "position": "Mittelstürmer",
+      "age": "04.07.2007 (17)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "1069512"
+    }
+  ],
+  "fc_st_pauli": [
+    {
+      "name": "Nikola Vasilj",
+      "position": "Torwart",
+      "age": "02.12.1995 (29)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "248454"
+    },
+    {
+      "name": "Ben Voll",
+      "position": "Torwart",
+      "age": "09.12.2000 (24)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "453742"
+    },
+    {
+      "name": "Simon Spari",
+      "position": "Torwart",
+      "age": "16.06.2002 (23)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "527597"
+    },
+    {
+      "name": "Eric Smith",
+      "position": "Innenverteidiger",
+      "age": "08.01.1997 (28)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "292534"
+    },
+    {
+      "name": "David Nemeth",
+      "position": "Innenverteidiger",
+      "age": "18.03.2001 (24)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "451906"
+    },
+    {
+      "name": "Hauke Wahl",
+      "position": "Innenverteidiger",
+      "age": "15.04.1994 (31)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "154147"
+    },
+    {
+      "name": "Karol Mets",
+      "position": "Innenverteidiger",
+      "age": "16.05.1993 (32)",
+      "market_value": "1,30 Mio. €",
+      "transfermarkt_id": "139304"
+    },
+    {
+      "name": "Adam Dzwigala",
+      "position": "Innenverteidiger",
+      "age": "25.09.1995 (29)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "236966"
+    },
+    {
+      "name": "Jannik Robatsch",
+      "position": "Innenverteidiger",
+      "age": "28.12.2004 (20)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "909860"
+    },
+    {
+      "name": "Muhammad Dahaba",
+      "position": "Innenverteidiger",
+      "age": "07.03.2005 (20)",
+      "market_value": "125 Tsd. €",
+      "transfermarkt_id": "914890"
+    },
+    {
+      "name": "Lars Ritzka",
+      "position": "Linker Verteidiger",
+      "age": "07.05.1998 (27)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "333903"
+    },
+    {
+      "name": "Manolis Saliakas",
+      "position": "Rechter Verteidiger",
+      "age": "12.09.1996 (28)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "242661"
+    },
+    {
+      "name": "Arkadiusz Pyrka",
+      "position": "Rechter Verteidiger",
+      "age": "20.09.2002 (22)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "599733"
+    },
+    {
+      "name": "Fin Stevens",
+      "position": "Rechter Verteidiger",
+      "age": "10.04.2003 (22)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "587019"
+    },
+    {
+      "name": "James Sands",
+      "position": "Defensives Mittelfeld",
+      "age": "06.07.2000 (24)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "393321"
+    },
+    {
+      "name": "Marwin Schmitz",
+      "position": "Defensives Mittelfeld",
+      "age": "07.01.2007 (18)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "1003534"
+    },
+    {
+      "name": "Joel Chima Fujita",
+      "position": "Zentrales Mittelfeld",
+      "age": "16.02.2002 (23)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "697277"
+    },
+    {
+      "name": "Connor Metcalfe",
+      "position": "Zentrales Mittelfeld",
+      "age": "05.11.1999 (25)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "522223"
+    },
+    {
+      "name": "Jackson Irvine",
+      "position": "Zentrales Mittelfeld",
+      "age": "07.03.1993 (32)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "192557"
+    },
+    {
+      "name": "Erik Ahlstrand",
+      "position": "Zentrales Mittelfeld",
+      "age": "14.10.2001 (23)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "501049"
+    },
+    {
+      "name": "Danel Sinani",
+      "position": "Offensives Mittelfeld",
+      "age": "05.04.1997 (28)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "346499"
+    },
+    {
+      "name": "Mathias Pereira Lage",
+      "position": "Linksaußen",
+      "age": "30.11.1996 (28)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "424072"
+    },
+    {
+      "name": "Romeo Aigbekaen",
+      "position": "Linksaußen",
+      "age": "22.06.2004 (21)",
+      "market_value": "100 Tsd. €",
+      "transfermarkt_id": "795387"
+    },
+    {
+      "name": "Oladapo Afolayan",
+      "position": "Rechtsaußen",
+      "age": "11.09.1997 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "487850"
+    },
+    {
+      "name": "Scott Banks",
+      "position": "Rechtsaußen",
+      "age": "26.09.2001 (23)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "596821"
+    },
+    {
+      "name": "Ricky-Jade Jones",
+      "position": "Mittelstürmer",
+      "age": "08.11.2002 (22)",
+      "market_value": "900 Tsd. €",
+      "transfermarkt_id": "677935"
+    },
+    {
+      "name": "Abdoulie Ceesay",
+      "position": "Mittelstürmer",
+      "age": "05.01.2004 (21)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "1280281"
+    },
+    {
+      "name": "Maurides",
+      "position": "Mittelstürmer",
+      "age": "10.03.1994 (31)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "227511"
+    }
+  ],
+  "hamburger_sv": [
+    {
+      "name": "Daniel Heuer Fernandes",
+      "position": "Torwart",
+      "age": "13.11.1992 (32)",
+      "market_value": "900 Tsd. €",
+      "transfermarkt_id": "84993"
+    },
+    {
+      "name": "Matheo Raab",
+      "position": "Torwart",
+      "age": "18.12.1998 (26)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "386685"
+    },
+    {
+      "name": "Hannes Hermann",
+      "position": "Torwart",
+      "age": "23.03.2005 (20)",
+      "market_value": "150 Tsd. €",
+      "transfermarkt_id": "894692"
+    },
+    {
+      "name": "Fernando Dickes",
+      "position": "Torwart",
+      "age": "13.10.2007 (17)",
+      "market_value": "-",
+      "transfermarkt_id": "1048715"
+    },
+    {
+      "name": "Jordan Torunarigha",
+      "position": "Innenverteidiger",
+      "age": "07.08.1997 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "227110"
+    },
+    {
+      "name": "Lucas Perrin",
+      "position": "Innenverteidiger",
+      "age": "19.11.1998 (26)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "352392"
+    },
+    {
+      "name": "Aboubaka Soumahoro",
+      "position": "Innenverteidiger",
+      "age": "04.02.2005 (20)",
+      "market_value": "1,80 Mio. €",
+      "transfermarkt_id": "1052420"
+    },
+    {
+      "name": "Sebastian Schonlau",
+      "position": "Innenverteidiger",
+      "age": "05.08.1994 (30)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "213751"
+    },
+    {
+      "name": "Gui Ramos",
+      "position": "Innenverteidiger",
+      "age": "11.08.1997 (27)",
+      "market_value": "700 Tsd. €",
+      "transfermarkt_id": "340521"
+    },
+    {
+      "name": "Joel Agyekum",
+      "position": "Innenverteidiger",
+      "age": "08.03.2005 (20)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "815838"
+    },
+    {
+      "name": "Miro Muheim",
+      "position": "Linker Verteidiger",
+      "age": "24.03.1998 (27)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "298603"
+    },
+    {
+      "name": "Noah Katterbach",
+      "position": "Linker Verteidiger",
+      "age": "13.04.2001 (24)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "469949"
+    },
+    {
+      "name": "William Mikelbrencis",
+      "position": "Rechter Verteidiger",
+      "age": "25.02.2004 (21)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "743500"
+    },
+    {
+      "name": "Silvan Hefti",
+      "position": "Rechter Verteidiger",
+      "age": "25.10.1997 (27)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "237666"
+    },
+    {
+      "name": "Daniel Elfadli",
+      "position": "Defensives Mittelfeld",
+      "age": "06.04.1997 (28)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "529895"
+    },
+    {
+      "name": "Jonas Meffert",
+      "position": "Defensives Mittelfeld",
+      "age": "04.09.1994 (30)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "107574"
+    },
+    {
+      "name": "Nicolai Remberg",
+      "position": "Zentrales Mittelfeld",
+      "age": "19.06.2000 (25)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "592534"
+    },
+    {
+      "name": "Lukasz Poreba",
+      "position": "Zentrales Mittelfeld",
+      "age": "13.03.2000 (25)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "532169"
+    },
+    {
+      "name": "Anssi Suhonen",
+      "position": "Zentrales Mittelfeld",
+      "age": "14.01.2001 (24)",
+      "market_value": "450 Tsd. €",
+      "transfermarkt_id": "433894"
+    },
+    {
+      "name": "Immanuel Pherai",
+      "position": "Offensives Mittelfeld",
+      "age": "25.04.2001 (24)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "412935"
+    },
+    {
+      "name": "Bilal Yalcinkaya",
+      "position": "Offensives Mittelfeld",
+      "age": "30.03.2006 (19)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "897491"
+    },
+    {
+      "name": "Jean-Luc Dompé",
+      "position": "Linksaußen",
+      "age": "12.08.1995 (29)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "291222"
+    },
+    {
+      "name": "Alexander Røssing-Lelesiit",
+      "position": "Linksaußen",
+      "age": "20.01.2007 (18)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "1213681"
+    },
+    {
+      "name": "Fabio Baldé",
+      "position": "Linksaußen",
+      "age": "20.07.2005 (19)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "910541"
+    },
+    {
+      "name": "Levin Öztunali",
+      "position": "Linksaußen",
+      "age": "15.03.1996 (29)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "168543"
+    },
+    {
+      "name": "Emir Sahiti",
+      "position": "Rechtsaußen",
+      "age": "29.11.1998 (26)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "403177"
+    },
+    {
+      "name": "Bakery Jatta",
+      "position": "Rechtsaußen",
+      "age": "06.06.1998 (27)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "415194"
+    },
+    {
+      "name": "Ransford Königsdörffer",
+      "position": "Mittelstürmer",
+      "age": "13.09.2001 (23)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "470038"
+    },
+    {
+      "name": "Rayan Philippe",
+      "position": "Mittelstürmer",
+      "age": "23.10.2000 (24)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "694507"
+    },
+    {
+      "name": "Robert Glatzel",
+      "position": "Mittelstürmer",
+      "age": "08.01.1994 (31)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "196139"
+    },
+    {
+      "name": "Otto Stange",
+      "position": "Mittelstürmer",
+      "age": "09.02.2007 (18)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "1058520"
+    }
+  ],
+  "rb_leipzig": [
+    {
+      "name": "Maarten Vandevoordt",
+      "position": "Torwart",
+      "age": "26.02.2002 (23)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "486046"
+    },
+    {
+      "name": "Péter Gulácsi",
+      "position": "Torwart",
+      "age": "06.05.1990 (35)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "57071"
+    },
+    {
+      "name": "Janis Blaswich",
+      "position": "Torwart",
+      "age": "02.05.1991 (34)",
+      "market_value": "700 Tsd. €",
+      "transfermarkt_id": "81173"
+    },
+    {
+      "name": "Leopold Zingerle",
+      "position": "Torwart",
+      "age": "10.04.1994 (31)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "160971"
+    },
+    {
+      "name": "Castello Lukeba",
+      "position": "Innenverteidiger",
+      "age": "17.12.2002 (22)",
+      "market_value": "40,00 Mio. €",
+      "transfermarkt_id": "618472"
+    },
+    {
+      "name": "El Chadaille Bitshiabu",
+      "position": "Innenverteidiger",
+      "age": "16.05.2005 (20)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "787912"
+    },
+    {
+      "name": "Willi Orbán",
+      "position": "Innenverteidiger",
+      "age": "03.11.1992 (32)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "93740"
+    },
+    {
+      "name": "Lukas Klostermann",
+      "position": "Innenverteidiger",
+      "age": "03.06.1996 (29)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "215599"
+    },
+    {
+      "name": "Frederik Jäkel",
+      "position": "Innenverteidiger",
+      "age": "07.03.2001 (24)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "405679"
+    },
+    {
+      "name": "Tim Köhler",
+      "position": "Innenverteidiger",
+      "age": "02.05.2005 (20)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "913429"
+    },
+    {
+      "name": "David Raum",
+      "position": "Linker Verteidiger",
+      "age": "22.04.1998 (27)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "318204"
+    },
+    {
+      "name": "Max Finkgräfe",
+      "position": "Linker Verteidiger",
+      "age": "27.03.2004 (21)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "810649"
+    },
+    {
+      "name": "Lutsharel Geertruida",
+      "position": "Rechter Verteidiger",
+      "age": "18.07.2000 (24)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "420210"
+    },
+    {
+      "name": "Benjamin Henrichs",
+      "position": "Rechter Verteidiger",
+      "age": "23.02.1997 (28)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "202591"
+    },
+    {
+      "name": "Ridle Baku",
+      "position": "Rechter Verteidiger",
+      "age": "08.04.1998 (27)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "327251"
+    },
+    {
+      "name": "Arthur Vermeeren",
+      "position": "Defensives Mittelfeld",
+      "age": "07.02.2005 (20)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "926694"
+    },
+    {
+      "name": "Nicolas Seiwald",
+      "position": "Zentrales Mittelfeld",
+      "age": "04.05.2001 (24)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "404950"
+    },
+    {
+      "name": "Amadou Haidara",
+      "position": "Zentrales Mittelfeld",
+      "age": "31.01.1998 (27)",
+      "market_value": "16,00 Mio. €",
+      "transfermarkt_id": "402008"
+    },
+    {
+      "name": "Ezechiel Banzuzi",
+      "position": "Zentrales Mittelfeld",
+      "age": "16.02.2005 (20)",
+      "market_value": "13,00 Mio. €",
+      "transfermarkt_id": "865682"
+    },
+    {
+      "name": "Xaver Schlager",
+      "position": "Zentrales Mittelfeld",
+      "age": "28.09.1997 (27)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "223979"
+    },
+    {
+      "name": "Assan Ouédraogo",
+      "position": "Zentrales Mittelfeld",
+      "age": "09.05.2006 (19)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "897424"
+    },
+    {
+      "name": "Kevin Kampl",
+      "position": "Zentrales Mittelfeld",
+      "age": "09.10.1990 (34)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "53418"
+    },
+    {
+      "name": "Xavi Simons",
+      "position": "Offensives Mittelfeld",
+      "age": "21.04.2003 (22)",
+      "market_value": "70,00 Mio. €",
+      "transfermarkt_id": "566931"
+    },
+    {
+      "name": "Christoph Baumgartner",
+      "position": "Offensives Mittelfeld",
+      "age": "01.08.1999 (25)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "324278"
+    },
+    {
+      "name": "Viggo Gebel",
+      "position": "Offensives Mittelfeld",
+      "age": "22.11.2007 (17)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "1074526"
+    },
+    {
+      "name": "Nuha Jatta",
+      "position": "Offensives Mittelfeld",
+      "age": "15.03.2006 (19)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "974561"
+    },
+    {
+      "name": "Antonio Nusa",
+      "position": "Linksaußen",
+      "age": "17.04.2005 (20)",
+      "market_value": "28,00 Mio. €",
+      "transfermarkt_id": "894914"
+    },
+    {
+      "name": "Eljif Elmas",
+      "position": "Linksaußen",
+      "age": "24.09.1999 (25)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "400489"
+    },
+    {
+      "name": "Timo Werner",
+      "position": "Linksaußen",
+      "age": "06.03.1996 (29)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "170527"
+    },
+    {
+      "name": "Tidiam Gomis",
+      "position": "Linksaußen",
+      "age": "08.08.2006 (18)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "955448"
+    },
+    {
+      "name": "Benjamin Sesko",
+      "position": "Mittelstürmer",
+      "age": "31.05.2003 (22)",
+      "market_value": "70,00 Mio. €",
+      "transfermarkt_id": "627442"
+    },
+    {
+      "name": "Loïs Openda",
+      "position": "Mittelstürmer",
+      "age": "16.02.2000 (25)",
+      "market_value": "50,00 Mio. €",
+      "transfermarkt_id": "368887"
+    },
+    {
+      "name": "Yussuf Poulsen",
+      "position": "Mittelstürmer",
+      "age": "15.06.1994 (31)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "157635"
+    },
+    {
+      "name": "André Silva",
+      "position": "Mittelstürmer",
+      "age": "06.11.1995 (29)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "198008"
+    },
+    {
+      "name": "Yannick Eduardo",
+      "position": "Mittelstürmer",
+      "age": "23.01.2006 (19)",
+      "market_value": "200 Tsd. €",
+      "transfermarkt_id": "930998"
+    },
+    {
+      "name": "Robert Ramsak",
+      "position": "Mittelstürmer",
+      "age": "28.10.2006 (18)",
+      "market_value": "-",
+      "transfermarkt_id": "941177"
+    }
+  ],
+  "sc_freiburg": [
+    {
+      "name": "Noah Atubolu",
+      "position": "Torwart",
+      "age": "25.05.2002 (23)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "526845"
+    },
+    {
+      "name": "Florian Müller",
+      "position": "Torwart",
+      "age": "13.11.1997 (27)",
+      "market_value": "1,20 Mio. €",
+      "transfermarkt_id": "284769"
+    },
+    {
+      "name": "Jannik Huth",
+      "position": "Torwart",
+      "age": "15.04.1994 (31)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "160954"
+    },
+    {
+      "name": "Philipp Lienhart",
+      "position": "Innenverteidiger",
+      "age": "11.07.1996 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "225657"
+    },
+    {
+      "name": "Max Rosenfelder",
+      "position": "Innenverteidiger",
+      "age": "10.02.2003 (22)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "599419"
+    },
+    {
+      "name": "Matthias Ginter",
+      "position": "Innenverteidiger",
+      "age": "19.01.1994 (31)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "124502"
+    },
+    {
+      "name": "Anthony Jung",
+      "position": "Innenverteidiger",
+      "age": "03.11.1991 (33)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "58995"
+    },
+    {
+      "name": "Bruno Ogbus",
+      "position": "Innenverteidiger",
+      "age": "17.12.2005 (19)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "863759"
+    },
+    {
+      "name": "Jordy Makengo",
+      "position": "Linker Verteidiger",
+      "age": "03.08.2001 (23)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "815078"
+    },
+    {
+      "name": "Philipp Treu",
+      "position": "Linker Verteidiger",
+      "age": "03.12.2000 (24)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "335993"
+    },
+    {
+      "name": "Christian Günter",
+      "position": "Linker Verteidiger",
+      "age": "28.02.1993 (32)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "93707"
+    },
+    {
+      "name": "Kiliann Sildillia",
+      "position": "Rechter Verteidiger",
+      "age": "16.05.2002 (23)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "548348"
+    },
+    {
+      "name": "Lukas Kübler",
+      "position": "Rechter Verteidiger",
+      "age": "30.08.1992 (32)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "93604"
+    },
+    {
+      "name": "Nicolas Höfler",
+      "position": "Defensives Mittelfeld",
+      "age": "09.03.1990 (35)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "55099"
+    },
+    {
+      "name": "Patrick Osterhage",
+      "position": "Zentrales Mittelfeld",
+      "age": "01.02.2000 (25)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "443331"
+    },
+    {
+      "name": "Maximilian Eggestein",
+      "position": "Zentrales Mittelfeld",
+      "age": "08.12.1996 (28)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "190284"
+    },
+    {
+      "name": "Johan Manzambi",
+      "position": "Zentrales Mittelfeld",
+      "age": "14.10.2005 (19)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "927353"
+    },
+    {
+      "name": "Merlin Röhl",
+      "position": "Offensives Mittelfeld",
+      "age": "05.07.2002 (22)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "608832"
+    },
+    {
+      "name": "Yuito Suzuki",
+      "position": "Offensives Mittelfeld",
+      "age": "25.10.2001 (23)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "668606"
+    },
+    {
+      "name": "Daniel-Kofi Kyereh",
+      "position": "Offensives Mittelfeld",
+      "age": "08.03.1996 (29)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "272587"
+    },
+    {
+      "name": "Niklas Beste",
+      "position": "Linksaußen",
+      "age": "04.01.1999 (26)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "342967"
+    },
+    {
+      "name": "Vincenzo Grifo",
+      "position": "Linksaußen",
+      "age": "07.04.1993 (32)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "185077"
+    },
+    {
+      "name": "Noah Weißhaupt",
+      "position": "Linksaußen",
+      "age": "20.09.2001 (23)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "392163"
+    },
+    {
+      "name": "Derry Scherhant",
+      "position": "Linksaußen",
+      "age": "10.11.2002 (22)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "820957"
+    },
+    {
+      "name": "Florent Muslija",
+      "position": "Linksaußen",
+      "age": "06.07.1998 (26)",
+      "market_value": "1,80 Mio. €",
+      "transfermarkt_id": "337036"
+    },
+    {
+      "name": "Ritsu Doan",
+      "position": "Rechtsaußen",
+      "age": "16.06.1998 (27)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "358504"
+    },
+    {
+      "name": "Eren Dinkçi",
+      "position": "Rechtsaußen",
+      "age": "13.12.2001 (23)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "645774"
+    },
+    {
+      "name": "Cyriaque Irié",
+      "position": "Rechtsaußen",
+      "age": "20.06.2005 (20)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "1145064"
+    },
+    {
+      "name": "Maximilian Philipp",
+      "position": "Hängende Spitze",
+      "age": "01.03.1994 (31)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "143891"
+    },
+    {
+      "name": "Junior Adamu",
+      "position": "Mittelstürmer",
+      "age": "06.06.2001 (24)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "452477"
+    },
+    {
+      "name": "Lucas Höler",
+      "position": "Mittelstürmer",
+      "age": "10.07.1994 (30)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "248999"
+    },
+    {
+      "name": "Michael Gregoritsch",
+      "position": "Mittelstürmer",
+      "age": "18.04.1994 (31)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "120205"
+    }
+  ],
+  "sv_werder_bremen": [
+    {
+      "name": "Michael Zetterer",
+      "position": "Torwart",
+      "age": "12.07.1995 (29)",
+      "market_value": "4,50 Mio. €",
+      "transfermarkt_id": "196813"
+    },
+    {
+      "name": "Mio Backhaus",
+      "position": "Torwart",
+      "age": "16.04.2004 (21)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "620295"
+    },
+    {
+      "name": "Markus Kolke",
+      "position": "Torwart",
+      "age": "18.08.1990 (34)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "99451"
+    },
+    {
+      "name": "Marco Friedl",
+      "position": "Innenverteidiger",
+      "age": "16.03.1998 (27)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "156990"
+    },
+    {
+      "name": "Niklas Stark",
+      "position": "Innenverteidiger",
+      "age": "14.04.1995 (30)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "162434"
+    },
+    {
+      "name": "Amos Pieper",
+      "position": "Innenverteidiger",
+      "age": "17.01.1998 (27)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "334221"
+    },
+    {
+      "name": "Julián Malatini",
+      "position": "Innenverteidiger",
+      "age": "31.05.2001 (24)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "830108"
+    },
+    {
+      "name": "Felix Agu",
+      "position": "Linker Verteidiger",
+      "age": "27.09.1999 (25)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "393512"
+    },
+    {
+      "name": "Olivier Deman",
+      "position": "Linker Verteidiger",
+      "age": "06.04.2000 (25)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "621802"
+    },
+    {
+      "name": "Mitchell Weiser",
+      "position": "Rechter Verteidiger",
+      "age": "21.04.1994 (31)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "119211"
+    },
+    {
+      "name": "Senne Lynen",
+      "position": "Defensives Mittelfeld",
+      "age": "19.02.1999 (26)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "338668"
+    },
+    {
+      "name": "Skelly Alvero",
+      "position": "Defensives Mittelfeld",
+      "age": "04.05.2002 (23)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "855134"
+    },
+    {
+      "name": "Jens Stage",
+      "position": "Zentrales Mittelfeld",
+      "age": "08.11.1996 (28)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "289835"
+    },
+    {
+      "name": "Leonardo Bittencourt",
+      "position": "Zentrales Mittelfeld",
+      "age": "19.12.1993 (31)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "93844"
+    },
+    {
+      "name": "Isak Hansen-Aarøen",
+      "position": "Zentrales Mittelfeld",
+      "age": "22.08.2004 (20)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "670116"
+    },
+    {
+      "name": "Dikeni Salifou",
+      "position": "Zentrales Mittelfeld",
+      "age": "08.06.2003 (22)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "664973"
+    },
+    {
+      "name": "Romano Schmid",
+      "position": "Offensives Mittelfeld",
+      "age": "27.01.2000 (25)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "346853"
+    },
+    {
+      "name": "Leon Opitz",
+      "position": "Offensives Mittelfeld",
+      "age": "11.04.2005 (20)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "825073"
+    },
+    {
+      "name": "Patrice Covic",
+      "position": "Offensives Mittelfeld",
+      "age": "25.06.2007 (18)",
+      "market_value": "-",
+      "transfermarkt_id": "1114155"
+    },
+    {
+      "name": "Marco Grüll",
+      "position": "Linksaußen",
+      "age": "06.07.1998 (26)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "391766"
+    },
+    {
+      "name": "Justin Njinmah",
+      "position": "Rechtsaußen",
+      "age": "15.11.2000 (24)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "596153"
+    },
+    {
+      "name": "Marvin Ducksch",
+      "position": "Mittelstürmer",
+      "age": "07.03.1994 (31)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "125103"
+    },
+    {
+      "name": "Keke Topp",
+      "position": "Mittelstürmer",
+      "age": "25.03.2004 (21)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "701757"
+    },
+    {
+      "name": "Dawid Kownacki",
+      "position": "Mittelstürmer",
+      "age": "14.03.1997 (28)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "208167"
+    }
+  ],
+  "tsg_1899_hoffenheim": [
+    {
+      "name": "Oliver Baumann",
+      "position": "Torwart",
+      "age": "02.06.1990 (35)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "55089"
+    },
+    {
+      "name": "Nahuel Noll",
+      "position": "Torwart",
+      "age": "17.03.2003 (22)",
+      "market_value": "1,80 Mio. €",
+      "transfermarkt_id": "600942"
+    },
+    {
+      "name": "Luca Philipp",
+      "position": "Torwart",
+      "age": "28.11.2000 (24)",
+      "market_value": "750 Tsd. €",
+      "transfermarkt_id": "432671"
+    },
+    {
+      "name": "Lúkas Petersson",
+      "position": "Torwart",
+      "age": "09.02.2004 (21)",
+      "market_value": "250 Tsd. €",
+      "transfermarkt_id": "718460"
+    },
+    {
+      "name": "Koki Machida",
+      "position": "Innenverteidiger",
+      "age": "25.08.1997 (27)",
+      "market_value": "11,00 Mio. €",
+      "transfermarkt_id": "415035"
+    },
+    {
+      "name": "Bernardo",
+      "position": "Innenverteidiger",
+      "age": "14.05.1995 (30)",
+      "market_value": "5,50 Mio. €",
+      "transfermarkt_id": "364258"
+    },
+    {
+      "name": "Ozan Kabak",
+      "position": "Innenverteidiger",
+      "age": "25.03.2000 (25)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "361260"
+    },
+    {
+      "name": "Arthur Chaves",
+      "position": "Innenverteidiger",
+      "age": "29.01.2001 (24)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "875332"
+    },
+    {
+      "name": "Robin Hranac",
+      "position": "Innenverteidiger",
+      "age": "29.01.2000 (25)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "620217"
+    },
+    {
+      "name": "Tim Drexler",
+      "position": "Innenverteidiger",
+      "age": "06.03.2005 (20)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "822958"
+    },
+    {
+      "name": "Kevin Akpoguma",
+      "position": "Innenverteidiger",
+      "age": "19.04.1995 (30)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "160241"
+    },
+    {
+      "name": "Stanley Nsoki",
+      "position": "Innenverteidiger",
+      "age": "09.04.1999 (26)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "371141"
+    },
+    {
+      "name": "Attila Szalai",
+      "position": "Innenverteidiger",
+      "age": "20.01.1998 (27)",
+      "market_value": "1,70 Mio. €",
+      "transfermarkt_id": "263380"
+    },
+    {
+      "name": "Alexander Prass",
+      "position": "Linker Verteidiger",
+      "age": "26.05.2001 (24)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "434116"
+    },
+    {
+      "name": "Hennes Behrens",
+      "position": "Linker Verteidiger",
+      "age": "19.01.2005 (20)",
+      "market_value": "350 Tsd. €",
+      "transfermarkt_id": "829838"
+    },
+    {
+      "name": "Valentin Gendrey",
+      "position": "Rechter Verteidiger",
+      "age": "21.06.2000 (25)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "569387"
+    },
+    {
+      "name": "Anton Stach",
+      "position": "Defensives Mittelfeld",
+      "age": "15.11.1998 (26)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "344069"
+    },
+    {
+      "name": "Leon Avdullahu",
+      "position": "Defensives Mittelfeld",
+      "age": "23.02.2004 (21)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "667457"
+    },
+    {
+      "name": "Florian Grillitsch",
+      "position": "Defensives Mittelfeld",
+      "age": "07.08.1995 (29)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "195736"
+    },
+    {
+      "name": "Luka Hyryläinen",
+      "position": "Defensives Mittelfeld",
+      "age": "25.08.2004 (20)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "716898"
+    },
+    {
+      "name": "Umut Tohumcu",
+      "position": "Zentrales Mittelfeld",
+      "age": "11.08.2004 (20)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "569031"
+    },
+    {
+      "name": "Grischa Prömel",
+      "position": "Zentrales Mittelfeld",
+      "age": "09.01.1995 (30)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "234029"
+    },
+    {
+      "name": "Dennis Geiger",
+      "position": "Zentrales Mittelfeld",
+      "age": "10.06.1998 (27)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "251309"
+    },
+    {
+      "name": "Finn Becker",
+      "position": "Zentrales Mittelfeld",
+      "age": "08.06.2000 (25)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "334999"
+    },
+    {
+      "name": "Muhammed Damar",
+      "position": "Offensives Mittelfeld",
+      "age": "09.04.2004 (21)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "789898"
+    },
+    {
+      "name": "Andrej Kramaric",
+      "position": "Offensives Mittelfeld",
+      "age": "19.06.1991 (34)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "46580"
+    },
+    {
+      "name": "Florian Micheler",
+      "position": "Offensives Mittelfeld",
+      "age": "17.05.2005 (20)",
+      "market_value": "500 Tsd. €",
+      "transfermarkt_id": "808664"
+    },
+    {
+      "name": "Bazoumana Touré",
+      "position": "Linksaußen",
+      "age": "02.03.2006 (19)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "1067904"
+    },
+    {
+      "name": "Marius Bülter",
+      "position": "Linksaußen",
+      "age": "29.03.1993 (32)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "116088"
+    },
+    {
+      "name": "Adam Hlozek",
+      "position": "Hängende Spitze",
+      "age": "25.07.2002 (22)",
+      "market_value": "18,00 Mio. €",
+      "transfermarkt_id": "552057"
+    },
+    {
+      "name": "Gift Orban",
+      "position": "Mittelstürmer",
+      "age": "17.07.2002 (22)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "1018259"
+    },
+    {
+      "name": "Fisnik Asllani",
+      "position": "Mittelstürmer",
+      "age": "08.08.2002 (22)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "524290"
+    },
+    {
+      "name": "Max Moerstedt",
+      "position": "Mittelstürmer",
+      "age": "15.01.2006 (19)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "923595"
+    },
+    {
+      "name": "Tim Lemperle",
+      "position": "Mittelstürmer",
+      "age": "05.02.2002 (23)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "553285"
+    },
+    {
+      "name": "Mergim Berisha",
+      "position": "Mittelstürmer",
+      "age": "11.05.1998 (27)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "307924"
+    },
+    {
+      "name": "Haris Tabakovic",
+      "position": "Mittelstürmer",
+      "age": "20.06.1994 (31)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "203123"
+    },
+    {
+      "name": "Erencan Yardımcı",
+      "position": "Mittelstürmer",
+      "age": "04.02.2002 (23)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "618898"
+    },
+    {
+      "name": "Ihlas Bebou",
+      "position": "Mittelstürmer",
+      "age": "23.04.1994 (31)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "237164"
+    },
+    {
+      "name": "David Mokwa",
+      "position": "Mittelstürmer",
+      "age": "03.05.2004 (21)",
+      "market_value": "1,00 Mio. €",
+      "transfermarkt_id": "974894"
+    }
+  ],
+  "vfb_stuttgart": [
+    {
+      "name": "Alexander Nübel",
+      "position": "Torwart",
+      "age": "30.09.1996 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "195778"
+    },
+    {
+      "name": "Fabian Bredlow",
+      "position": "Torwart",
+      "age": "02.03.1995 (30)",
+      "market_value": "800 Tsd. €",
+      "transfermarkt_id": "187624"
+    },
+    {
+      "name": "Stefan Drljaca",
+      "position": "Torwart",
+      "age": "20.04.1999 (26)",
+      "market_value": "325 Tsd. €",
+      "transfermarkt_id": "388067"
+    },
+    {
+      "name": "Finn Jeltsch",
+      "position": "Innenverteidiger",
+      "age": "17.07.2006 (18)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "924117"
+    },
+    {
+      "name": "Jeff Chabot",
+      "position": "Innenverteidiger",
+      "age": "12.02.1998 (27)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "303219"
+    },
+    {
+      "name": "Ameen Al-Dakhil",
+      "position": "Innenverteidiger",
+      "age": "06.03.2002 (23)",
+      "market_value": "7,50 Mio. €",
+      "transfermarkt_id": "620598"
+    },
+    {
+      "name": "Luca Jaquez",
+      "position": "Innenverteidiger",
+      "age": "02.06.2003 (22)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "539798"
+    },
+    {
+      "name": "Anrie Chase",
+      "position": "Innenverteidiger",
+      "age": "24.03.2004 (21)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "948537"
+    },
+    {
+      "name": "Dan-Axel Zagadou",
+      "position": "Innenverteidiger",
+      "age": "03.06.1999 (26)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "344598"
+    },
+    {
+      "name": "Maximilian Mittelstädt",
+      "position": "Linker Verteidiger",
+      "age": "18.03.1997 (28)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "282660"
+    },
+    {
+      "name": "Ramon Hendriks",
+      "position": "Linker Verteidiger",
+      "age": "18.07.2001 (23)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "436064"
+    },
+    {
+      "name": "Josha Vagnoman",
+      "position": "Rechter Verteidiger",
+      "age": "11.12.2000 (24)",
+      "market_value": "10,00 Mio. €",
+      "transfermarkt_id": "448258"
+    },
+    {
+      "name": "Lorenz Assignon",
+      "position": "Rechter Verteidiger",
+      "age": "22.06.2000 (25)",
+      "market_value": "9,00 Mio. €",
+      "transfermarkt_id": "711969"
+    },
+    {
+      "name": "Leonidas Stergiou",
+      "position": "Rechter Verteidiger",
+      "age": "03.03.2002 (23)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "507345"
+    },
+    {
+      "name": "Pascal Stenzel",
+      "position": "Rechter Verteidiger",
+      "age": "20.03.1996 (29)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "195246"
+    },
+    {
+      "name": "Angelo Stiller",
+      "position": "Defensives Mittelfeld",
+      "age": "04.04.2001 (24)",
+      "market_value": "45,00 Mio. €",
+      "transfermarkt_id": "443710"
+    },
+    {
+      "name": "Atakan Karazor",
+      "position": "Defensives Mittelfeld",
+      "age": "13.10.1996 (28)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "232320"
+    },
+    {
+      "name": "Yannik Keitel",
+      "position": "Defensives Mittelfeld",
+      "age": "15.02.2000 (25)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "342039"
+    },
+    {
+      "name": "Nikolas Nartey",
+      "position": "Zentrales Mittelfeld",
+      "age": "22.02.2000 (25)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "400546"
+    },
+    {
+      "name": "Enzo Millot",
+      "position": "Offensives Mittelfeld",
+      "age": "17.07.2002 (22)",
+      "market_value": "35,00 Mio. €",
+      "transfermarkt_id": "569366"
+    },
+    {
+      "name": "Noah Darvich",
+      "position": "Offensives Mittelfeld",
+      "age": "25.09.2006 (18)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "897480"
+    },
+    {
+      "name": "Chris Führich",
+      "position": "Linksaußen",
+      "age": "09.01.1998 (27)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "272278"
+    },
+    {
+      "name": "Jacob Bruun Larsen",
+      "position": "Linksaußen",
+      "age": "19.09.1998 (26)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "293281"
+    },
+    {
+      "name": "Justin Diehl",
+      "position": "Linksaußen",
+      "age": "27.11.2004 (20)",
+      "market_value": "3,00 Mio. €",
+      "transfermarkt_id": "720162"
+    },
+    {
+      "name": "Jamie Leweling",
+      "position": "Rechtsaußen",
+      "age": "26.02.2001 (24)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "518505"
+    },
+    {
+      "name": "Silas",
+      "position": "Rechtsaußen",
+      "age": "06.10.1998 (26)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "612826"
+    },
+    {
+      "name": "Nick Woltemade",
+      "position": "Hängende Spitze",
+      "age": "14.02.2002 (23)",
+      "market_value": "30,00 Mio. €",
+      "transfermarkt_id": "455661"
+    },
+    {
+      "name": "Ermedin Demirovic",
+      "position": "Mittelstürmer",
+      "age": "25.03.1998 (27)",
+      "market_value": "22,00 Mio. €",
+      "transfermarkt_id": "335457"
+    },
+    {
+      "name": "Deniz Undav",
+      "position": "Mittelstürmer",
+      "age": "19.07.1996 (28)",
+      "market_value": "20,00 Mio. €",
+      "transfermarkt_id": "339314"
+    },
+    {
+      "name": "Juan José Perea",
+      "position": "Mittelstürmer",
+      "age": "23.02.2000 (25)",
+      "market_value": "2,00 Mio. €",
+      "transfermarkt_id": "496767"
+    },
+    {
+      "name": "Wahid Faghir",
+      "position": "Mittelstürmer",
+      "age": "29.07.2003 (21)",
+      "market_value": "700 Tsd. €",
+      "transfermarkt_id": "610431"
+    },
+    {
+      "name": "Thomas Kastanaras",
+      "position": "Mittelstürmer",
+      "age": "09.01.2003 (22)",
+      "market_value": "400 Tsd. €",
+      "transfermarkt_id": "675565"
+    }
+  ],
+  "vfl_wolfsburg": [
+    {
+      "name": "Kamil Grabara",
+      "position": "Torwart",
+      "age": "08.01.1999 (26)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "346551"
+    },
+    {
+      "name": "Marius Müller",
+      "position": "Torwart",
+      "age": "12.07.1993 (31)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "118161"
+    },
+    {
+      "name": "Pavao Pervan",
+      "position": "Torwart",
+      "age": "13.11.1987 (37)",
+      "market_value": "300 Tsd. €",
+      "transfermarkt_id": "51977"
+    },
+    {
+      "name": "Jakub Zielinski",
+      "position": "Torwart",
+      "age": "21.02.2008 (17)",
+      "market_value": "-",
+      "transfermarkt_id": "1068257"
+    },
+    {
+      "name": "Konstantinos Koulierakis",
+      "position": "Innenverteidiger",
+      "age": "28.11.2003 (21)",
+      "market_value": "25,00 Mio. €",
+      "transfermarkt_id": "669380"
+    },
+    {
+      "name": "Denis Vavro",
+      "position": "Innenverteidiger",
+      "age": "10.04.1996 (29)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "239962"
+    },
+    {
+      "name": "Moritz Jenz",
+      "position": "Innenverteidiger",
+      "age": "30.04.1999 (26)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "460245"
+    },
+    {
+      "name": "David Odogu",
+      "position": "Innenverteidiger",
+      "age": "03.06.2006 (19)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "897423"
+    },
+    {
+      "name": "Mathys Angély",
+      "position": "Innenverteidiger",
+      "age": "21.04.2007 (18)",
+      "market_value": "600 Tsd. €",
+      "transfermarkt_id": "1075579"
+    },
+    {
+      "name": "Joakim Maehle",
+      "position": "Linker Verteidiger",
+      "age": "20.05.1997 (28)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "369674"
+    },
+    {
+      "name": "Nicolas Cozza",
+      "position": "Linker Verteidiger",
+      "age": "08.01.1999 (26)",
+      "market_value": "3,50 Mio. €",
+      "transfermarkt_id": "485965"
+    },
+    {
+      "name": "Rogério",
+      "position": "Linker Verteidiger",
+      "age": "13.01.1998 (27)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "401527"
+    },
+    {
+      "name": "Kilian Fischer",
+      "position": "Rechter Verteidiger",
+      "age": "12.10.2000 (24)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "435796"
+    },
+    {
+      "name": "Bartol Franjic",
+      "position": "Defensives Mittelfeld",
+      "age": "14.01.2000 (25)",
+      "market_value": "1,50 Mio. €",
+      "transfermarkt_id": "370998"
+    },
+    {
+      "name": "Mattias Svanberg",
+      "position": "Zentrales Mittelfeld",
+      "age": "05.01.1999 (26)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "342405"
+    },
+    {
+      "name": "Aster Vranckx",
+      "position": "Zentrales Mittelfeld",
+      "age": "04.10.2002 (22)",
+      "market_value": "7,00 Mio. €",
+      "transfermarkt_id": "503881"
+    },
+    {
+      "name": "Maximilian Arnold",
+      "position": "Zentrales Mittelfeld",
+      "age": "27.05.1994 (31)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "117674"
+    },
+    {
+      "name": "Yannick Gerhardt",
+      "position": "Zentrales Mittelfeld",
+      "age": "13.03.1994 (31)",
+      "market_value": "2,50 Mio. €",
+      "transfermarkt_id": "119277"
+    },
+    {
+      "name": "Kevin Paredes",
+      "position": "Linkes Mittelfeld",
+      "age": "07.05.2003 (22)",
+      "market_value": "7,50 Mio. €",
+      "transfermarkt_id": "711517"
+    },
+    {
+      "name": "Aaron Zehnter",
+      "position": "Linkes Mittelfeld",
+      "age": "31.10.2004 (20)",
+      "market_value": "6,00 Mio. €",
+      "transfermarkt_id": "730484"
+    },
+    {
+      "name": "Lovro Majer",
+      "position": "Offensives Mittelfeld",
+      "age": "17.01.1998 (27)",
+      "market_value": "17,00 Mio. €",
+      "transfermarkt_id": "387106"
+    },
+    {
+      "name": "Bence Dárdai",
+      "position": "Offensives Mittelfeld",
+      "age": "24.01.2006 (19)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "789252"
+    },
+    {
+      "name": "David Leal Costa",
+      "position": "Offensives Mittelfeld",
+      "age": "24.01.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "910588"
+    },
+    {
+      "name": "Jakub Kaminski",
+      "position": "Linksaußen",
+      "age": "05.06.2002 (23)",
+      "market_value": "5,00 Mio. €",
+      "transfermarkt_id": "407098"
+    },
+    {
+      "name": "Patrick Wimmer",
+      "position": "Rechtsaußen",
+      "age": "30.05.2001 (24)",
+      "market_value": "15,00 Mio. €",
+      "transfermarkt_id": "533295"
+    },
+    {
+      "name": "Andreas Skov Olsen",
+      "position": "Rechtsaußen",
+      "age": "29.12.1999 (25)",
+      "market_value": "14,00 Mio. €",
+      "transfermarkt_id": "432982"
+    },
+    {
+      "name": "Vaclav Cerny",
+      "position": "Rechtsaußen",
+      "age": "17.10.1997 (27)",
+      "market_value": "8,00 Mio. €",
+      "transfermarkt_id": "242063"
+    },
+    {
+      "name": "Mohamed Amoura",
+      "position": "Mittelstürmer",
+      "age": "09.05.2000 (25)",
+      "market_value": "32,00 Mio. €",
+      "transfermarkt_id": "746910"
+    },
+    {
+      "name": "Tiago Tomás",
+      "position": "Mittelstürmer",
+      "age": "16.06.2002 (23)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "616344"
+    },
+    {
+      "name": "Jonas Wind",
+      "position": "Mittelstürmer",
+      "age": "07.02.1999 (26)",
+      "market_value": "12,00 Mio. €",
+      "transfermarkt_id": "391004"
+    },
+    {
+      "name": "Dzenan Pejcinovic",
+      "position": "Mittelstürmer",
+      "age": "15.02.2005 (20)",
+      "market_value": "4,00 Mio. €",
+      "transfermarkt_id": "819636"
+    },
+    {
+      "name": "Jonathan Akaegbobi",
+      "position": "Mittelstürmer",
+      "age": "25.04.2006 (19)",
+      "market_value": "-",
+      "transfermarkt_id": "905404"
+    }
+  ]
+}

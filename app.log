@@ -1,0 +1,81 @@
+2025-07-24 14:55:33,072 - matplotlib.font_manager - INFO - generated new fontManager
+2025-07-24 14:57:06,963 - __main__ - INFO - ML-Komponenten erfolgreich geladen
+2025-07-24 14:57:07,067 - __main__ - INFO - Crawler-Komponenten erfolgreich geladen
+2025-07-24 14:57:07,067 - __main__ - INFO - Starte Verletzungsanalyse Pipeline mit Aktion: run
+2025-07-24 14:57:07,067 - __main__ - INFO - Starte vollständige Pipeline...
+2025-07-24 14:57:07,068 - __main__ - INFO - Starte Daten-Crawling...
+2025-07-24 14:57:57,603 - __main__ - ERROR - Fehler beim Crawlen der Daten: 'Spieler'
+2025-07-24 14:57:57,603 - __main__ - WARNING - Daten-Crawling fehlgeschlagen, fahre mit vorhandenen Daten fort
+2025-07-24 14:57:57,603 - __main__ - INFO - Starte ML-Training...
+2025-07-24 14:57:57,604 - __main__ - ERROR - Fehler beim Training des ML-Modells
+2025-07-24 14:57:57,604 - __main__ - WARNING - ML-Training fehlgeschlagen, fahre mit Server-Start fort
+2025-07-24 14:57:57,604 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:09:17,564 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:09:17,589 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.198:5000
+2025-07-24 15:09:17,589 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:09:17,591 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:09:18,862 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:09:18,873 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:09:18,875 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:09:25,295 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:25] "GET / HTTP/1.1" 200 -
+2025-07-24 15:09:25,386 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:25] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 15:09:25,850 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:25] "GET /api/analysis/teams HTTP/1.1" 200 -
+2025-07-24 15:09:25,851 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:25] "GET /api/analysis/players HTTP/1.1" 200 -
+2025-07-24 15:09:25,870 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:25] "GET /favicon.ico HTTP/1.1" 200 -
+2025-07-24 15:09:27,287 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:27] "GET /api/analysis/overview HTTP/1.1" 200 -
+2025-07-24 15:09:32,278 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:32] "GET /api/analysis/overview HTTP/1.1" 200 -
+2025-07-24 15:09:34,987 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:34] "GET /api/analysis/team/FC%20Bayern%20München HTTP/1.1" 200 -
+2025-07-24 15:09:46,164 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 15:09:46] "POST /api/analysis/compare/teams HTTP/1.1" 200 -
+2025-07-24 15:10:35,219 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:10:35,239 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.198:5000
+2025-07-24 15:10:35,240 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:10:35,240 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:10:36,395 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:10:36,405 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:10:36,407 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:12:41,484 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:12:41,502 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.198:5000
+2025-07-24 15:12:41,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:12:41,502 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:12:42,676 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:12:42,687 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:12:42,689 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:13:44,673 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\OneDrive\\Uni\\4. Semester\\Unternehmenssoftware\\Projekt\\Verletzungsanalyse_v4\\src\\main.py', reloading
+2025-07-24 15:13:44,820 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:13:46,115 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:13:46,125 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:13:46,127 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:14:08,554 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:14:08,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.198:5000
+2025-07-24 15:14:08,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:14:08,574 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:14:09,807 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:14:09,817 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:14:09,819 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:14:32,849 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\OneDrive\\Uni\\4. Semester\\Unternehmenssoftware\\Projekt\\Verletzungsanalyse_v4\\src\\main.py', reloading
+2025-07-24 15:14:32,999 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:14:34,255 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:14:34,264 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:14:34,266 - werkzeug - INFO -  * Debugger PIN: 526-543-526
+2025-07-24 15:21:35,308 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:21:35,327 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.198:5000
+2025-07-24 15:21:35,327 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:21:35,329 - werkzeug - INFO -  * Restarting with stat
+2025-07-24 15:21:36,531 - __main__ - INFO - Starte Server auf 0.0.0.0:5000...
+2025-07-24 15:21:36,541 - werkzeug - WARNING -  * Debugger is active!
+2025-07-24 15:21:36,543 - werkzeug - INFO -  * Debugger PIN: 526-543-526
