@@ -426,4 +426,3 @@ async function comparePlayers() {
         resultsDiv.innerHTML = '<div class="error">Fehler beim Vergleichen der Spieler: ' + error.message + '</div>';
     }
 }
-

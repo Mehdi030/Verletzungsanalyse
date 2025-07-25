@@ -22,3 +22,4 @@ print(df.isna().sum())
 # Beispielausgabe
 print("\n👀 Beispiel-Einträge:")
 print(df.head(5))
+

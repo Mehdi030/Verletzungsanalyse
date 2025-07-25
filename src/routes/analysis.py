@@ -598,4 +598,4 @@ def get_model_metrics():
         
     except Exception as e:
         print(f"Fehler beim Abrufen der Metriken: {e}")
-        return jsonify({"error": str(e)}), 500
+        return (jsonify({"error": str(e)}), 500)

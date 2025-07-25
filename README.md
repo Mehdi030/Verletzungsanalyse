@@ -2,8 +2,8 @@
 
 ## 1. Gruppenmitglieder, Gruppennummer, Projekttitel
 
-**Gruppenmitglieder:** Team Verletzungsanalyse  
-**Gruppennummer:** G7  
+**Gruppenmitglieder:** Mehdi Barnat, Bilal Yildiz, Enes Aslantas, Ivan Brozincevic       
+**Gruppennummer:** Gruppe 27            
 **Projekttitel:** Prädiktive Analyse von Verletzungsrisiken im Profifußball
 
 ## 2. Business Understanding
